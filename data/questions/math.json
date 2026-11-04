@@ -562,5 +562,86 @@
       ]
     },
     "created_at": "2026-11-04"
+  },
+  {
+    "id": "math-bank-a-019",
+    "subject": "math",
+    "unit": "三角形・合同",
+    "grade": "中学2年",
+    "difficulty": 2,
+    "prompt": "三角形ABCと三角形DEFで、AB=DE、BC=EF、∠B=∠Eである。この2つの三角形が合同であるといえる理由を、合同条件を使って答えなさい。",
+    "answer": "2組の辺とその間の角がそれぞれ等しいから。",
+    "explanation": "ABとDE、BCとEFの2組の辺がそれぞれ等しく、その間の角である∠Bと∠Eも等しい。したがって、2組の辺とその間の角がそれぞれ等しいという合同条件に当てはまる。",
+    "status": "review",
+    "verification": {
+      "answer_status": "independently_verified",
+      "checked_by": [
+        "対応する2辺を確認",
+        "その間の角であることを確認",
+        "合同条件と照合"
+      ]
+    },
+    "created_at": "2026-11-04"
+  },
+  {
+    "id": "math-bank-a-020",
+    "subject": "math",
+    "unit": "比例・反比例",
+    "grade": "中学1年",
+    "difficulty": 2,
+    "prompt": "反比例 y=a/x のグラフが点(4,-6)を通る。aの値を求めなさい。",
+    "answer": "-24",
+    "explanation": "点(4,-6)をy=a/xに代入すると-6=a/4。両辺に4をかけてa=-24。",
+    "status": "review",
+    "verification": {
+      "answer_status": "independently_verified",
+      "checked_by": [
+        "座標を式に代入",
+        "両辺に4をかける",
+        "y=-24/xに点を代入して確認"
+      ]
+    },
+    "created_at": "2026-11-04"
+  },
+  {
+    "id": "math-bank-a-021",
+    "subject": "math",
+    "unit": "円・円周角",
+    "grade": "中学3年",
+    "difficulty": 2,
+    "prompt": "円Oで、弧ABに対する中心角∠AOBが124°である。同じ弧ABに対する円周角∠ACBの大きさを求めなさい。",
+    "answer": "62°",
+    "explanation": "同じ弧に対する円周角は中心角の半分である。したがって124°÷2=62°。",
+    "status": "review",
+    "verification": {
+      "answer_status": "independently_verified",
+      "checked_by": [
+        "円周角と中心角の関係を適用",
+        "124÷2を計算",
+        "中心角の半分であることを確認"
+      ]
+    },
+    "created_at": "2026-11-04"
+  },
+  {
+    "id": "math-bank-a-022",
+    "subject": "math",
+    "unit": "二次方程式・図形",
+    "grade": "中学3年",
+    "difficulty": 3,
+    "prompt": "縦がx cm、横が(x+2)cmの長方形がある。縦を2cm長くし、横を1cm短くした長方形の面積は、もとの面積より15cm²大きくなった。もとの縦と横の長さを求めなさい。",
+    "answer": "縦13cm、横15cm",
+    "explanation": "もとの面積はx(x+2)。変形後は(x+2)(x+1)。差が15なので (x+2)(x+1)-x(x+2)=15。左辺を展開するとx²+3x+2-(x²+2x)=x+2。よってx+2=15、x=13となる。したがって縦13cm、横15cm。",
+    "status": "review",
+    "verification": {
+      "answer_status": "independently_verified",
+      "checked_by": [
+        "変形前後の面積を式にする",
+        "差の式を整理",
+        "x=13を元の条件で確認"
+      ],
+      "notes": "正答は縦13cm、横15cm。設問の答え欄と解説はこの値で一致。"
+    },
+    "created_at": "2026-11-04"
   }
 ]
