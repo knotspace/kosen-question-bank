@@ -422,5 +422,85 @@
       ]
     },
     "created_at": "2026-11-04"
+  },
+  {
+    "id": "math-bank-a-011",
+    "subject": "math",
+    "unit": "連立方程式・速さ",
+    "grade": "中学2年",
+    "difficulty": 3,
+    "prompt": "Aさんは家から学校まで毎分60mで歩き、Bさんは同じ道を毎分80mで歩く。BさんがAさんより5分遅れて家を出たところ、Aさんが出発してから15分後にBさんが追いついた。家から追いついた地点までの距離を求めなさい。",
+    "answer": "900m",
+    "explanation": "Aさんは15分歩くので距離は60×15=900m。Bさんは10分歩き、80×10=800mとなるが一致しないため、条件を再確認する。Aが15分後に追いつかれるなら、Aの距離は900m、Bの歩行時間は10分で800mとなり矛盾する。したがってこの条件では追いつけない。",
+    "status": "review",
+    "verification": {
+      "answer_status": "unresolved",
+      "checked_by": [
+        "追いつく時刻と歩行時間を整理",
+        "両者の移動距離を比較"
+      ],
+      "notes": "条件に矛盾があるため、出題不可。改稿待ち。"
+    },
+    "created_at": "2026-11-04"
+  },
+  {
+    "id": "math-bank-a-012",
+    "subject": "math",
+    "unit": "データの活用・平均値",
+    "grade": "中学1年",
+    "difficulty": 2,
+    "prompt": "6人の数学の点数の平均は72点だった。そこに1人加わると7人の平均は74点になった。新しく加わった人の点数を求めなさい。",
+    "answer": "86点",
+    "explanation": "最初の6人の合計は6×72=432点。7人の合計は7×74=518点。新しく加わった人の点数は518-432=86点。",
+    "status": "review",
+    "verification": {
+      "answer_status": "independently_verified",
+      "checked_by": [
+        "6人の合計を計算",
+        "7人の合計を計算",
+        "差86点を確認"
+      ]
+    },
+    "created_at": "2026-11-04"
+  },
+  {
+    "id": "math-bank-a-013",
+    "subject": "math",
+    "unit": "三平方の定理・座標",
+    "grade": "中学3年",
+    "difficulty": 2,
+    "prompt": "座標平面上の2点A(-2,1)、B(4,9)の間の距離を求めなさい。",
+    "answer": "10",
+    "explanation": "横の差は4-(-2)=6、縦の差は9-1=8。2点を結ぶ線分を斜辺とする直角三角形を考えると、距離²=6²+8²=100。よって距離は10。",
+    "status": "review",
+    "verification": {
+      "answer_status": "independently_verified",
+      "checked_by": [
+        "座標の差を計算",
+        "三平方の定理を適用",
+        "6・8・10の関係を確認"
+      ]
+    },
+    "created_at": "2026-11-04"
+  },
+  {
+    "id": "math-bank-a-014",
+    "subject": "math",
+    "unit": "式の計算・因数分解",
+    "grade": "中学3年",
+    "difficulty": 2,
+    "prompt": "x²+6x+9-y²を因数分解しなさい。",
+    "answer": "(x+3-y)(x+3+y)",
+    "explanation": "x²+6x+9=(x+3)²なので、与式は(x+3)²-y²。平方の差を使うと(x+3-y)(x+3+y)。",
+    "status": "review",
+    "verification": {
+      "answer_status": "independently_verified",
+      "checked_by": [
+        "前半を平方完成の形に整理",
+        "平方の差の公式を適用",
+        "展開して元の式と一致することを確認"
+      ]
+    },
+    "created_at": "2026-11-04"
   }
 ]
