@@ -1,1 +1,150 @@
-[]
+[
+  {
+    "id": "sci-original-001",
+    "subject": "science",
+    "unit": "植物の光合成",
+    "grade": "中学3年",
+    "difficulty": 2,
+    "prompt": "同じ大きさの葉を2枚用意し、一方を日光に当て、もう一方をアルミニウムはくで包んで暗所に置いた。数時間後、それぞれの葉をエタノールで脱色してヨウ素液をかけたところ、日光に当てた葉だけが青紫色に変化した。この実験からわかることとして最も適切なものを選びなさい。",
+    "choices": [
+      {
+        "id": "ア",
+        "text": "光が当たると、葉の中でデンプンがつくられる。"
+      },
+      {
+        "id": "イ",
+        "text": "光が当たらないと、葉は水を吸収できない。"
+      },
+      {
+        "id": "ウ",
+        "text": "葉は暗所では二酸化炭素を取り込まない。"
+      },
+      {
+        "id": "エ",
+        "text": "葉の色素は光によってデンプンに変化する。"
+      }
+    ],
+    "answer": "ア",
+    "explanation": "ヨウ素液が青紫色に変化したことは、葉にデンプンが存在することを示す。光を当てた葉だけでデンプンが確認できたので、光合成によってデンプンがつくられたと考えられる。",
+    "scoring": "正しい選択肢を1つ選ぶ。",
+    "source_refs": [
+      {
+        "year": 2026,
+        "subject": "science",
+        "question_no": "大問3",
+        "relationship": "同じ学習分野を扱う独立作成問題。原問の文章・条件・選択肢は使用していない。"
+      }
+    ],
+    "status": "review",
+    "verification": {
+      "answer_status": "independently_verified",
+      "checked_by": [
+        "作成時の解答検算"
+      ],
+      "notes": "過去問の出題分野を参考にした独立作成問題。"
+    },
+    "created_at": "2026-11-04"
+  },
+  {
+    "id": "sci-original-002",
+    "subject": "science",
+    "unit": "電流と電圧",
+    "grade": "中学2年",
+    "difficulty": 2,
+    "prompt": "抵抗器A（10Ω）と抵抗器B（20Ω）を直列につなぎ、電源電圧を6Vにした。回路に流れる電流は何Aか。",
+    "answer": "0.2A",
+    "explanation": "直列回路全体の抵抗は10+20=30Ω。オームの法則より電流=電圧÷抵抗=6÷30=0.2A。",
+    "scoring": "単位Aを付けて答える。",
+    "source_refs": [
+      {
+        "year": 2026,
+        "subject": "science",
+        "question_no": "大問2",
+        "relationship": "電気分野の学習目標を参考にした独立作成問題。"
+      }
+    ],
+    "status": "review",
+    "verification": {
+      "answer_status": "independently_verified",
+      "checked_by": [
+        "オームの法則で再計算"
+      ],
+      "notes": "中学範囲の直列回路・オームの法則。"
+    },
+    "created_at": "2026-11-04"
+  },
+  {
+    "id": "sci-original-003",
+    "subject": "science",
+    "unit": "酸・アルカリと中和",
+    "grade": "中学3年",
+    "difficulty": 3,
+    "prompt": "うすい塩酸20cm³に、うすい水酸化ナトリウム水溶液を少しずつ加えた。塩酸と水酸化ナトリウムが過不足なく反応したとき、ビーカー内の水溶液に含まれるものとして適切な組み合わせを答えなさい。",
+    "choices": [
+      {
+        "id": "ア",
+        "text": "水と塩化ナトリウム"
+      },
+      {
+        "id": "イ",
+        "text": "水と塩酸だけ"
+      },
+      {
+        "id": "ウ",
+        "text": "水酸化ナトリウムと水素"
+      },
+      {
+        "id": "エ",
+        "text": "塩素と酸素"
+      }
+    ],
+    "answer": "ア",
+    "explanation": "塩酸中の水素イオンと水酸化ナトリウム中の水酸化物イオンが結びついて水ができる。また、残った塩化物イオンとナトリウムイオンから塩化ナトリウムが生じる。",
+    "scoring": "正しい選択肢を1つ選ぶ。",
+    "source_refs": [
+      {
+        "year": 2026,
+        "subject": "science",
+        "question_no": "大問4",
+        "relationship": "中和分野を参考にした独立作成問題。"
+      }
+    ],
+    "status": "review",
+    "verification": {
+      "answer_status": "independently_verified",
+      "checked_by": [
+        "中和反応式で確認"
+      ],
+      "notes": "反応式 HCl + NaOH → NaCl + H2O に基づく。"
+    },
+    "created_at": "2026-11-04"
+  },
+  {
+    "id": "sci-original-004",
+    "subject": "science",
+    "unit": "地震のゆれの伝わり方",
+    "grade": "中学1年",
+    "difficulty": 3,
+    "prompt": "ある地震で、震源から30km離れた観測点には地震発生から5秒後にP波が、地震発生から11秒後にS波が到着した。P波とS波の到着時刻の差は何秒か。また、この差が生じる主な理由を簡潔に答えなさい。",
+    "answer": "6秒。P波のほうがS波より速く伝わるため。",
+    "explanation": "到着時刻の差は11−5=6秒。地震のゆれは速いP波が先に到着し、その後に遅いS波が到着する。",
+    "scoring": "差の6秒と、P波のほうが速いことの両方を含める。",
+    "source_refs": [
+      {
+        "year": 2026,
+        "subject": "science",
+        "question_no": "大問5",
+        "relationship": "地震分野を参考にした独立作成問題。数値・問い方は独自設定。"
+      }
+    ],
+    "status": "review",
+    "verification": {
+      "answer_status": "independently_verified",
+      "checked_by": [
+        "時刻差を再計算"
+      ],
+      "notes": "到着時刻差のみを問う独立問題。"
+    },
+    "created_at": "2026-11-04"
+  }
+]
