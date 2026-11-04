@@ -262,5 +262,85 @@
       "notes": "中学2年の連立方程式の範囲。"
     },
     "created_at": "2026-11-04"
+  },
+  {
+    "id": "math-bank-a-003",
+    "subject": "math",
+    "unit": "一次関数・変化の割合",
+    "grade": "中学2年",
+    "difficulty": 2,
+    "prompt": "一次関数 y=ax-4 のグラフが点(3,5)を通る。aの値を求めなさい。",
+    "answer": "3",
+    "explanation": "点(3,5)を代入すると5=3a-4。よって3a=9、a=3。",
+    "status": "review",
+    "verification": {
+      "answer_status": "independently_verified",
+      "checked_by": [
+        "座標を式に代入",
+        "一次方程式を解く",
+        "得られた式に代入して確認"
+      ]
+    },
+    "created_at": "2026-11-04"
+  },
+  {
+    "id": "math-bank-a-004",
+    "subject": "math",
+    "unit": "円・おうぎ形",
+    "grade": "中学1年",
+    "difficulty": 2,
+    "prompt": "半径9cm、中心角80°のおうぎ形の弧の長さをπを使って表しなさい。",
+    "answer": "4πcm",
+    "explanation": "円周は18πcm。弧の長さは円周の80/360=2/9なので、18π×2/9=4πcm。",
+    "status": "review",
+    "verification": {
+      "answer_status": "independently_verified",
+      "checked_by": [
+        "円周を計算",
+        "中心角の割合を約分",
+        "弧の長さを再計算"
+      ]
+    },
+    "created_at": "2026-11-04"
+  },
+  {
+    "id": "math-bank-a-005",
+    "subject": "math",
+    "unit": "相似・面積比",
+    "grade": "中学3年",
+    "difficulty": 2,
+    "prompt": "相似比が小さい三角形:大きい三角形=2:3である。小さい三角形の面積が24cm²のとき、大きい三角形の面積を求めなさい。",
+    "answer": "54cm²",
+    "explanation": "面積比は相似比の2乗なので4:9。24÷4×9=54。",
+    "status": "review",
+    "verification": {
+      "answer_status": "independently_verified",
+      "checked_by": [
+        "相似比を2乗",
+        "面積比4:9を確認",
+        "24÷4×9を再計算"
+      ]
+    },
+    "created_at": "2026-11-04"
+  },
+  {
+    "id": "math-bank-a-006",
+    "subject": "math",
+    "unit": "二次方程式・整数",
+    "grade": "中学3年",
+    "difficulty": 3,
+    "prompt": "連続する2つの正の整数があり、その2つの整数の2乗の和は365である。この2つの整数を求めなさい。",
+    "answer": "13と14",
+    "explanation": "小さい方をxとするとx²+(x+1)²=365。整理してx²+x-182=0、(x+14)(x-13)=0。正の整数なのでx=13。よって13と14。",
+    "status": "review",
+    "verification": {
+      "answer_status": "independently_verified",
+      "checked_by": [
+        "13²+14²=365を確認",
+        "二次方程式を因数分解",
+        "負の解を条件で除外"
+      ]
+    },
+    "created_at": "2026-11-04"
   }
 ]
