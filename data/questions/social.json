@@ -1,1 +1,150 @@
-[]
+[
+  {
+    "id": "soc-original-001",
+    "subject": "social",
+    "unit": "世界の気候と農業",
+    "grade": "中学1年",
+    "difficulty": 2,
+    "prompt": "次の説明に当てはまる気候帯を答えなさい。年間を通して気温が高く、雨季と乾季がはっきり分かれる地域が多い。サバナと呼ばれる草原が広がることもある。",
+    "answer": "熱帯",
+    "explanation": "熱帯には一年中高温で、雨季と乾季がある地域が見られる。サバナは熱帯に広がる草原の一つである。",
+    "scoring": "「熱帯」と答える。",
+    "source_refs": [
+      {
+        "year": 2026,
+        "subject": "social",
+        "question_no": "大問1",
+        "relationship": "気候帯の学習分野を参考にした独立作成問題。"
+      }
+    ],
+    "status": "review",
+    "verification": {
+      "answer_status": "independently_verified",
+      "checked_by": [
+        "中学地理の標準的な気候区分で確認"
+      ],
+      "notes": "特定の過去問の文章・資料は使用していない。"
+    },
+    "created_at": "2026-11-04"
+  },
+  {
+    "id": "soc-original-002",
+    "subject": "social",
+    "unit": "日本の農業と地形",
+    "grade": "中学2年",
+    "difficulty": 2,
+    "prompt": "日本の平野で、広い水田が見られ、稲作がさかんな地域が多い理由として最も適切なものを選びなさい。",
+    "choices": [
+      {
+        "id": "ア",
+        "text": "平らな土地が広がり、水を得やすいから。"
+      },
+      {
+        "id": "イ",
+        "text": "一年中気温が一定で、雨が降らないから。"
+      },
+      {
+        "id": "ウ",
+        "text": "火山灰が必ず厚く積もっているから。"
+      },
+      {
+        "id": "エ",
+        "text": "山地が多く、大規模な農地をつくれないから。"
+      }
+    ],
+    "answer": "ア",
+    "explanation": "平野は比較的平らな土地が広がり、河川や用水路から水を得やすい場所も多いため、水田を利用した稲作が行われやすい。",
+    "scoring": "正しい選択肢を1つ選ぶ。",
+    "source_refs": [
+      {
+        "year": 2025,
+        "subject": "social",
+        "question_no": "大問2",
+        "relationship": "日本の農業・地形の学習分野を参考にした独立作成問題。"
+      }
+    ],
+    "status": "review",
+    "verification": {
+      "answer_status": "independently_verified",
+      "checked_by": [
+        "地理的条件を確認"
+      ],
+      "notes": "地域固有の統計や原資料は使用していない。"
+    },
+    "created_at": "2026-11-04"
+  },
+  {
+    "id": "soc-original-003",
+    "subject": "social",
+    "unit": "日本国憲法と国会",
+    "grade": "中学3年",
+    "difficulty": 2,
+    "prompt": "日本の国会について述べた文として正しいものを選びなさい。",
+    "choices": [
+      {
+        "id": "ア",
+        "text": "国会は国の唯一の立法機関である。"
+      },
+      {
+        "id": "イ",
+        "text": "国会議員はすべて内閣が任命する。"
+      },
+      {
+        "id": "ウ",
+        "text": "国会は裁判を行い、法律違反を判断する。"
+      },
+      {
+        "id": "エ",
+        "text": "国会は衆議院だけで構成される。"
+      }
+    ],
+    "answer": "ア",
+    "explanation": "日本国憲法第41条で、国会は国権の最高機関であり、国の唯一の立法機関と定められている。国会は衆議院と参議院で構成される。",
+    "scoring": "正しい選択肢を1つ選ぶ。",
+    "source_refs": [
+      {
+        "year": 2026,
+        "subject": "social",
+        "question_no": "大問7",
+        "relationship": "国会・司法分野の学習目標を参考にした独立作成問題。"
+      }
+    ],
+    "status": "review",
+    "verification": {
+      "answer_status": "independently_verified",
+      "checked_by": [
+        "日本国憲法第41条・第42条で確認"
+      ],
+      "notes": "憲法条文に基づく独立作成問題。"
+    },
+    "created_at": "2026-11-04"
+  },
+  {
+    "id": "soc-original-004",
+    "subject": "social",
+    "unit": "価格と需要・供給",
+    "grade": "中学3年",
+    "difficulty": 3,
+    "prompt": "ある商品の需要量が増えた一方で、供給量が変わらなかった。このとき、ほかの条件が同じなら、一般に市場価格はどうなると考えられるか。理由も含めて答えなさい。",
+    "answer": "上がる。商品を買いたい人や量が増える一方、供給量が変わらないため、商品が不足しやすくなるから。",
+    "explanation": "需要が供給に比べて大きくなると、商品を手に入れようとする競争が強まり、一般に価格は上昇する。",
+    "scoring": "価格が上がることと、需要が供給に対して増える理由を説明する。",
+    "source_refs": [
+      {
+        "year": 2026,
+        "subject": "social",
+        "question_no": "大問8",
+        "relationship": "流通・経済分野を参考にした独立作成問題。"
+      }
+    ],
+    "status": "review",
+    "verification": {
+      "answer_status": "independently_verified",
+      "checked_by": [
+        "需要・供給の基本関係で確認"
+      ],
+      "notes": "特定の過去問の設定や資料は使用していない。"
+    },
+    "created_at": "2026-11-04"
+  }
+]
