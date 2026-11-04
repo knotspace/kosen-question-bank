@@ -218,5 +218,27 @@
       "notes": "正答はノート140円、ペン100円。answer欄も同じ値に設定。"
     },
     "created_at": "2026-11-04"
+  },
+  {
+    "id": "math-bank-a-001",
+    "subject": "math",
+    "unit": "正負の数・四則計算",
+    "grade": "中学1年",
+    "difficulty": 1,
+    "prompt": "(-8)+3×(-4)を計算しなさい。",
+    "answer": "-20",
+    "explanation": "先に3×(-4)=-12を計算する。(-8)+(-12)=-20。",
+    "scoring": "正答で満点。",
+    "status": "review",
+    "verification": {
+      "answer_status": "independently_verified",
+      "checked_by": [
+        "乗法を先に計算",
+        "符号を確認",
+        "元の式で再確認"
+      ],
+      "notes": "中学1年の正負の数の範囲。"
+    },
+    "created_at": "2026-11-04"
   }
 ]
