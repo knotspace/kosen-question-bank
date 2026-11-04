@@ -138,5 +138,85 @@
       "notes": "中学3年の三平方の定理のみで解ける。"
     },
     "created_at": "2026-11-04"
+  },
+  {
+    "id": "math-linear-functions-intersection-area-002",
+    "subject": "math",
+    "unit": "一次関数・交点と面積",
+    "grade": "中学3年",
+    "difficulty": 3,
+    "prompt": "座標平面上に2直線 y=-2x+10、y=x+1 がある。この2直線の交点をPとし、それぞれの直線とx軸との交点をA、Bとする。三角形PABの面積を求めなさい。",
+    "answer": "12",
+    "explanation": "交点Pは -2x+10=x+1 より x=3、y=4 なので P(3,4)。x軸との交点は、y=-2x+10 から A(5,0)、y=x+1 から B(-1,0)。底辺ABは6、高さは4だから、面積は6×4÷2=12。",
+    "status": "review",
+    "verification": {
+      "answer_status": "independently_verified",
+      "checked_by": [
+        "連立方程式による交点計算",
+        "x切片と三角形の面積の再計算"
+      ],
+      "notes": "一次関数・連立方程式・三角形の面積で解ける。"
+    },
+    "created_at": "2026-11-04"
+  },
+  {
+    "id": "math-probability-two-dice-sum-008-001",
+    "subject": "math",
+    "unit": "確率・さいころ",
+    "grade": "中学2年",
+    "difficulty": 2,
+    "prompt": "大小2個のさいころを同時に投げる。出た目の和が8になる確率を求めなさい。ただし、2個のさいころはどちらも1から6までの目が同じ確からしさで出るものとする。",
+    "answer": "5/36",
+    "explanation": "大小2個のさいころの出方は、順序を区別すると全部で6×6=36通り。和が8になるのは (2,6)、(3,5)、(4,4)、(5,3)、(6,2) の5通り。したがって確率は5/36。",
+    "status": "review",
+    "verification": {
+      "answer_status": "independently_verified",
+      "checked_by": [
+        "36通りの全事象を確認",
+        "和が8になる組を列挙"
+      ],
+      "notes": "順序を区別して数える中学2年の確率。"
+    },
+    "created_at": "2026-11-04"
+  },
+  {
+    "id": "math-quadratic-consecutive-integers-001",
+    "subject": "math",
+    "unit": "二次方程式・整数の文章題",
+    "grade": "中学3年",
+    "difficulty": 3,
+    "prompt": "連続する2つの正の整数がある。この2つの整数の積は182である。2つの整数を求めなさい。",
+    "answer": "13と14",
+    "explanation": "小さい方の整数をxとすると、大きい方はx+1。積が182なので x(x+1)=182、すなわち x²+x-182=0。因数分解すると (x-13)(x+14)=0。xは正の整数だから x=13。したがって2つの整数は13と14。",
+    "status": "review",
+    "verification": {
+      "answer_status": "independently_verified",
+      "checked_by": [
+        "二次方程式を因数分解",
+        "13×14=182を代入確認"
+      ],
+      "notes": "中学3年の二次方程式で解ける。"
+    },
+    "created_at": "2026-11-04"
+  },
+  {
+    "id": "math-simultaneous-equations-stationery-001",
+    "subject": "math",
+    "unit": "連立方程式・代金の文章題",
+    "grade": "中学2年",
+    "difficulty": 2,
+    "prompt": "ノート3冊とペン2本を買うと合計620円、ノート2冊とペン3本を買うと合計580円だった。ノート1冊とペン1本の値段をそれぞれ求めなさい。ただし、同じ種類の商品はすべて同じ値段とする。",
+    "answer": "ノート140円、ペン100円",
+    "explanation": "ノート1冊をx円、ペン1本をy円とすると、3x+2y=620、2x+3y=580。1つ目を3倍して9x+6y=1860、2つ目を2倍して4x+6y=1160。引き算して5x=700よりx=140円。これを3x+2y=620に代入すると420+2y=620、y=100円。よってノート140円、ペン100円。",
+    "status": "review",
+    "verification": {
+      "answer_status": "independently_verified",
+      "checked_by": [
+        "加減法で連立方程式を解く",
+        "元の2条件に代入して合計金額を確認"
+      ],
+      "notes": "正答はノート140円、ペン100円。answer欄も同じ値に設定。"
+    },
+    "created_at": "2026-11-04"
   }
 ]
