@@ -1,0 +1,156 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/knotspace/kosen-question-bank/blob/main/data/schemas/question.schema.json",
+  "title": "KOSEN Original Question",
+  "type": "object",
+  "required": [
+    "id",
+    "subject",
+    "unit",
+    "prompt",
+    "answer",
+    "explanation",
+    "status",
+    "verification",
+    "created_at"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9][a-z0-9-]+$"
+    },
+    "subject": {
+      "type": "string",
+      "enum": [
+        "math",
+        "science",
+        "social",
+        "english",
+        "japanese"
+      ]
+    },
+    "unit": {
+      "type": "string",
+      "minLength": 1
+    },
+    "grade": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "difficulty": {
+      "type": [
+        "integer",
+        "null"
+      ],
+      "minimum": 1,
+      "maximum": 5
+    },
+    "prompt": {
+      "type": "string",
+      "minLength": 1
+    },
+    "choices": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "text"
+        ],
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "text": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "answer": {
+      "type": "string",
+      "minLength": 1
+    },
+    "explanation": {
+      "type": "string",
+      "minLength": 1
+    },
+    "scoring": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "source_refs": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "year",
+          "subject",
+          "question_no"
+        ],
+        "properties": {
+          "year": {
+            "type": "integer"
+          },
+          "subject": {
+            "type": "string"
+          },
+          "question_no": {
+            "type": "string"
+          },
+          "relationship": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "draft",
+        "review",
+        "verified",
+        "retired"
+      ]
+    },
+    "verification": {
+      "type": "object",
+      "required": [
+        "answer_status"
+      ],
+      "properties": {
+        "answer_status": {
+          "type": "string",
+          "enum": [
+            "official",
+            "independently_verified",
+            "provisional",
+            "unresolved"
+          ]
+        },
+        "checked_by": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "notes": {
+          "type": "string"
+        }
+      }
+    },
+    "created_at": {
+      "type": "string",
+      "format": "date"
+    },
+    "updated_at": {
+      "type": "string",
+      "format": "date"
+    }
+  },
+  "additionalProperties": false
+}
