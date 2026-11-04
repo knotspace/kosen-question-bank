@@ -1,11 +1,25 @@
 # データカタログ
 
-- `questions/math.json`: 数学のオリジナル問題
-- `questions/science.json`: 理科のオリジナル問題
-- `questions/social.json`: 社会のオリジナル問題
-- `past-exams/ledger.json`: 過去問の設問台帳。年度・科目・大問・配点・出題分野・正解照合状態・出典を記録し、設問本文・図版は原則保存しない
-- `analysis/math-r7-r8.json`: 数学の年度別設問分析
-- `../docs/analysis/science-r7-r8.md`: 理科の令和7・8年度過去問分析
-- `../docs/analysis/social-r7-r8.md`: 社会の令和7・8年度過去問分析
+## オリジナル演習問題
 
-過去問台帳は、問題PDFと公式正解表を確認できた範囲で登録する。公式正解未確認の設問は空欄とし、推測で補わない。問題データは `data/schemas/question.schema.json` に従う。未検証データを公開用問題として混在させない。
+- `questions/math.json`: 数学 36問
+- `questions/science.json`: 理科 4問
+- `questions/social.json`: 社会 4問
+
+2026-11-04時点で、上記44問はすべて `status: review`。正答欄に独立検証済みの記録があっても、問題文・条件・選択肢・解説を含む公開品質監査が完了したことを意味しない。監査完了前に `verified` へ一括変更しない。
+
+## 過去問分析・設問台帳
+
+- `past-exams/ledger.json`: 年度・科目・大問・配点・出題分野・正解照合状態・出典を記録する設問台帳。問題本文・図版は原則保存しない
+- `analysis/math-r7-r8.json`: 数学の令和7・8年度、計43設問の分析メタデータ
+- `../docs/analysis/science-r7-r8.md`: 理科の令和7・8年度分析
+- `../docs/analysis/social-r7-r8.md`: 社会の令和7・8年度分析
+
+台帳上、社会は令和7・8年度それぞれ8大問、理科は令和8年度6大問が登録されている。社会・令和8年度は公式正解未登録。理科・令和7年度はOCR・設問照合待ち。数学・令和8年度には未確定項目が残る。詳細は `../docs/reports/2026-11-04-database-audit.md` を参照。
+
+## 運用上の注意
+
+- 公式正解未確認の設問は空欄または `unresolved` とし、推測で補わない。
+- `review` は確認中を意味し、公開品質が確定した状態ではない。
+- 問題データは `schemas/question.schema.json` に従う。
+- 過去問PDF等の第三者資料を公開リポジトリに置く場合は、公開・再配布の権利と条件を別途確認する。
