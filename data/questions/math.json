@@ -58,5 +58,85 @@
       "notes": "3通りの候補は193、241、265の平方根。最小値は√193。直方体の辺の組合せを全て比較した。"
     },
     "created_at": "2026-11-04"
+  },
+  {
+    "id": "math-linear-functions-triangle-area-001",
+    "subject": "math",
+    "unit": "一次関数・座標と面積",
+    "grade": "中学3年",
+    "difficulty": 3,
+    "prompt": "座標平面上に、2直線 y=2x+4 と y=-x+7 がある。この2直線の交点をPとする。また、それぞれの直線とx軸との交点をA、Bとする。三角形PABの面積を求めなさい。",
+    "answer": "27",
+    "explanation": "交点Pは 2x+4=-x+7 より x=1、y=6 なので P(1,6)。x軸との交点は、y=0として、y=2x+4からA(-2,0)、y=-x+7からB(7,0)。ABの長さは7-(-2)=9、Pからx軸までの高さは6。したがって面積は9×6÷2=27。",
+    "status": "review",
+    "verification": {
+      "answer_status": "independently_verified",
+      "checked_by": [
+        "連立方程式で交点を計算",
+        "各直線のx切片と三角形の面積を再確認"
+      ],
+      "notes": "一次関数の式、連立方程式、三角形の面積のみを使用。"
+    },
+    "created_at": "2026-11-04"
+  },
+  {
+    "id": "math-similarity-shadow-height-001",
+    "subject": "math",
+    "unit": "相似・平行線と比",
+    "grade": "中学3年",
+    "difficulty": 2,
+    "prompt": "同じ時刻に、地面に垂直に立てた高さ4.5mの木の影の長さを測ると3mだった。その近くにある旗ざおの影の長さは2mだった。旗ざおの高さを求めなさい。ただし、地面は水平で、木と旗ざおは地面に垂直に立っているものとする。",
+    "answer": "3m",
+    "explanation": "太陽の光は平行とみなせるので、木と旗ざおについてできる直角三角形は相似である。旗ざおの高さをx mとすると、x:4.5=2:3。よって x=4.5×2÷3=3。したがって旗ざおの高さは3m。",
+    "status": "review",
+    "verification": {
+      "answer_status": "independently_verified",
+      "checked_by": [
+        "相似な三角形の対応する辺の比",
+        "比例式への代入確認"
+      ],
+      "notes": "相似の基本と比例式のみで解ける。"
+    },
+    "created_at": "2026-11-04"
+  },
+  {
+    "id": "math-data-mean-median-001",
+    "subject": "math",
+    "unit": "データの活用・平均値と中央値",
+    "grade": "中学2年",
+    "difficulty": 2,
+    "prompt": "ある生徒の数学の小テスト5回分の点数は、62点、70点、74点、x点、90点である。5回の平均点が76点だったとき、xの値と5回分の点数の中央値をそれぞれ求めなさい。",
+    "answer": "x=84点、中央値は74点",
+    "explanation": "平均が76点なので、5回分の合計は76×5=380点。したがって x=380-(62+70+74+90)=84点。点数を小さい順に並べると62、70、74、84、90となる。5個のデータの中央にある3番目の値は74なので、中央値は74点。",
+    "status": "review",
+    "verification": {
+      "answer_status": "independently_verified",
+      "checked_by": [
+        "平均値から合計を逆算",
+        "昇順に並べ中央値を確認"
+      ],
+      "notes": "中学数学の平均値・中央値の範囲。"
+    },
+    "created_at": "2026-11-04"
+  },
+  {
+    "id": "math-pythagorean-ladder-wall-001",
+    "subject": "math",
+    "unit": "三平方の定理・日常生活への活用",
+    "grade": "中学3年",
+    "difficulty": 2,
+    "prompt": "長さ10mのはしごを、垂直な壁に立てかけた。はしごの下端は壁から6m離れた地面にあり、地面とはしごは直角三角形をつくっている。はしごの上端は地面から何mの高さにあるか求めなさい。",
+    "answer": "8m",
+    "explanation": "壁、地面、はしごでできる直角三角形に三平方の定理を使う。高さをx mとすると、x²+6²=10²。よって x²=100-36=64。高さは正なので x=8。したがって8m。",
+    "status": "review",
+    "verification": {
+      "answer_status": "independently_verified",
+      "checked_by": [
+        "三平方の定理で計算",
+        "6・8・10の直角三角形で確認"
+      ],
+      "notes": "中学3年の三平方の定理のみで解ける。"
+    },
+    "created_at": "2026-11-04"
   }
 ]
