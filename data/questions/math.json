@@ -342,5 +342,85 @@
       ]
     },
     "created_at": "2026-11-04"
+  },
+  {
+    "id": "math-bank-a-007",
+    "subject": "math",
+    "unit": "一次方程式・割合",
+    "grade": "中学1年",
+    "difficulty": 2,
+    "prompt": "ある品物を定価の15%引きで買ったところ、代金は1700円だった。定価を求めなさい。",
+    "answer": "2000円",
+    "explanation": "定価をx円とすると、15%引きの代金は0.85x円。0.85x=1700よりx=1700÷0.85=2000円。",
+    "status": "review",
+    "verification": {
+      "answer_status": "independently_verified",
+      "checked_by": [
+        "割引後は定価の85%と確認",
+        "方程式を解く",
+        "2000×0.85=1700を確認"
+      ]
+    },
+    "created_at": "2026-11-04"
+  },
+  {
+    "id": "math-bank-a-008",
+    "subject": "math",
+    "unit": "空間図形・円柱の表面積",
+    "grade": "中学1年",
+    "difficulty": 2,
+    "prompt": "底面の半径が3cm、高さが5cmの円柱の表面積をπを使って表しなさい。",
+    "answer": "48πcm²",
+    "explanation": "上下の底面積の和は2×π×3²=18πcm²。側面積は底面の円周2π×3に高さ5をかけて30πcm²。合計48πcm²。",
+    "status": "review",
+    "verification": {
+      "answer_status": "independently_verified",
+      "checked_by": [
+        "底面2枚の面積を計算",
+        "側面積を円周×高さで計算",
+        "合計を確認"
+      ]
+    },
+    "created_at": "2026-11-04"
+  },
+  {
+    "id": "math-bank-a-009",
+    "subject": "math",
+    "unit": "二次方程式・平方根",
+    "grade": "中学3年",
+    "difficulty": 2,
+    "prompt": "方程式 (x-3)²=20 を解きなさい。",
+    "answer": "x=3±2√5",
+    "explanation": "両辺の平方根を考えるとx-3=±√20。√20=2√5なのでx=3±2√5。",
+    "status": "review",
+    "verification": {
+      "answer_status": "independently_verified",
+      "checked_by": [
+        "平方根を両辺に適用",
+        "√20を簡単にする",
+        "2つの解を元の式で確認"
+      ]
+    },
+    "created_at": "2026-11-04"
+  },
+  {
+    "id": "math-bank-a-010",
+    "subject": "math",
+    "unit": "確率・さいころ",
+    "grade": "中学2年",
+    "difficulty": 2,
+    "prompt": "大小2個のさいころを同時に投げる。出た目の積が偶数になる確率を求めなさい。",
+    "answer": "3/4",
+    "explanation": "積が奇数になるのは、2個とも奇数のときだけ。奇数は各さいころに3通りずつあるので、奇数×奇数は3×3=9通り。全体36通りより、積が偶数は36-9=27通り。確率は27/36=3/4。",
+    "status": "review",
+    "verification": {
+      "answer_status": "independently_verified",
+      "checked_by": [
+        "全事象36通りを確認",
+        "余事象の奇数×奇数を9通りと確認",
+        "27/36を約分"
+      ]
+    },
+    "created_at": "2026-11-04"
   }
 ]
