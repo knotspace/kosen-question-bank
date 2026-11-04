@@ -482,5 +482,85 @@
       ]
     },
     "created_at": "2026-11-04"
+  },
+  {
+    "id": "math-bank-a-015",
+    "subject": "math",
+    "unit": "一次関数・水量",
+    "grade": "中学2年",
+    "difficulty": 3,
+    "prompt": "空の水そうに毎分一定の割合で水を入れる。入れ始めて4分後の水量は18L、10分後の水量は45Lだった。水を入れ始めてから7分後の水量を求めなさい。",
+    "answer": "31.5L",
+    "explanation": "4分から10分の6分間で27L増えるので、毎分の増加量は27÷6=4.5L。4分後から7分後までは3分あるため、18+4.5×3=31.5L。",
+    "status": "review",
+    "verification": {
+      "answer_status": "independently_verified",
+      "checked_by": [
+        "2点間の変化量を計算",
+        "毎分の増加量を求める",
+        "7分後の量を計算"
+      ]
+    },
+    "created_at": "2026-11-04"
+  },
+  {
+    "id": "math-bank-a-016",
+    "subject": "math",
+    "unit": "円・接線",
+    "grade": "中学3年",
+    "difficulty": 3,
+    "prompt": "円Oの半径OAは5cmである。円周上の点Aにおける接線上に点Pがあり、OP=13cmである。APの長さを求めなさい。",
+    "answer": "12cm",
+    "explanation": "半径と接線は接点で垂直に交わるので、三角形OAPはAを直角とする。三平方の定理よりAP²=OP²-OA²=13²-5²=169-25=144。AP=12cm。",
+    "status": "review",
+    "verification": {
+      "answer_status": "independently_verified",
+      "checked_by": [
+        "半径と接線の垂直を確認",
+        "三平方の定理を適用",
+        "5・12・13で確認"
+      ]
+    },
+    "created_at": "2026-11-04"
+  },
+  {
+    "id": "math-bank-a-017",
+    "subject": "math",
+    "unit": "連立方程式・個数",
+    "grade": "中学2年",
+    "difficulty": 2,
+    "prompt": "50円切手と80円切手を合わせて10枚買い、代金は680円だった。50円切手と80円切手をそれぞれ何枚買ったか求めなさい。",
+    "answer": "50円切手4枚、80円切手6枚",
+    "explanation": "50円切手をx枚、80円切手をy枚とするとx+y=10、50x+80y=680。x=10-yを代入すると500-50y+80y=680、30y=180よりy=6。x=4。",
+    "status": "review",
+    "verification": {
+      "answer_status": "independently_verified",
+      "checked_by": [
+        "枚数の合計を式にする",
+        "代金の式に代入",
+        "4枚と6枚で合計680円を確認"
+      ]
+    },
+    "created_at": "2026-11-04"
+  },
+  {
+    "id": "math-bank-a-018",
+    "subject": "math",
+    "unit": "平方根・整数",
+    "grade": "中学3年",
+    "difficulty": 2,
+    "prompt": "√45+√20を最も簡単な形にしなさい。",
+    "answer": "5√5",
+    "explanation": "√45=3√5、√20=2√5。したがって3√5+2√5=5√5。",
+    "status": "review",
+    "verification": {
+      "answer_status": "independently_verified",
+      "checked_by": [
+        "それぞれの根号を簡単にする",
+        "同類項をまとめる",
+        "近似値でも大小を確認"
+      ]
+    },
+    "created_at": "2026-11-04"
   }
 ]
