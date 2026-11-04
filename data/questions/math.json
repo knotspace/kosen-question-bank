@@ -643,5 +643,85 @@
       "notes": "正答は縦13cm、横15cm。設問の答え欄と解説はこの値で一致。"
     },
     "created_at": "2026-11-04"
+  },
+  {
+    "id": "math-bank-a-023",
+    "subject": "math",
+    "unit": "一次関数・交点",
+    "grade": "中学2年",
+    "difficulty": 3,
+    "prompt": "2直線 y=2x+1 と y=-x+7 の交点の座標を求めなさい。",
+    "answer": "(2,5)",
+    "explanation": "交点では2x+1=-x+7。3x=6よりx=2。y=2×2+1=5。したがって交点は(2,5)。",
+    "status": "review",
+    "verification": {
+      "answer_status": "independently_verified",
+      "checked_by": [
+        "2式を等しいとおく",
+        "x=2を求める",
+        "両方の式でy=5を確認"
+      ]
+    },
+    "created_at": "2026-11-04"
+  },
+  {
+    "id": "math-bank-a-024",
+    "subject": "math",
+    "unit": "確率・カード",
+    "grade": "中学2年",
+    "difficulty": 2,
+    "prompt": "1から9までの整数が1つずつ書かれたカードから1枚を引く。引いた数が2の倍数または3の倍数である確率を求めなさい。",
+    "answer": "2/3",
+    "explanation": "2の倍数は2、4、6、8の4枚。3の倍数は3、6、9の3枚。6は重複するので、条件に合うカードは4+3-1=6枚。全体9枚なので確率は6/9=2/3。",
+    "status": "review",
+    "verification": {
+      "answer_status": "independently_verified",
+      "checked_by": [
+        "2の倍数を列挙",
+        "3の倍数を列挙",
+        "重複する6を1回だけ数える"
+      ]
+    },
+    "created_at": "2026-11-04"
+  },
+  {
+    "id": "math-bank-a-025",
+    "subject": "math",
+    "unit": "相似・体積比",
+    "grade": "中学3年",
+    "difficulty": 3,
+    "prompt": "相似な2つの立体の相似比が小さい立体:大きい立体=2:3である。小さい立体の体積が40cm³のとき、大きい立体の体積を求めなさい。",
+    "answer": "135cm³",
+    "explanation": "相似な立体の体積比は相似比の3乗なので8:27。40cm³が8に当たるので、1に当たる体積は5cm³。大きい立体は27×5=135cm³。",
+    "status": "review",
+    "verification": {
+      "answer_status": "independently_verified",
+      "checked_by": [
+        "相似比を3乗して体積比を求める",
+        "40÷8×27を計算",
+        "比40:135=8:27を確認"
+      ]
+    },
+    "created_at": "2026-11-04"
+  },
+  {
+    "id": "math-bank-a-026",
+    "subject": "math",
+    "unit": "二次方程式・整数",
+    "grade": "中学3年",
+    "difficulty": 3,
+    "prompt": "ある正の整数を2乗した数から、その整数の5倍を引くと24になる。この正の整数を求めなさい。",
+    "answer": "8",
+    "explanation": "整数をxとするとx²-5x=24。移項してx²-5x-24=0。(x-8)(x+3)=0。正の整数なのでx=8。",
+    "status": "review",
+    "verification": {
+      "answer_status": "independently_verified",
+      "checked_by": [
+        "条件から二次方程式を立てる",
+        "因数分解",
+        "8²-5×8=24を確認"
+      ]
+    },
+    "created_at": "2026-11-04"
   }
 ]
