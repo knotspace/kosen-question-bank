@@ -1,0 +1,172 @@
+[
+  {
+    "id": "math-exp-20261105-linear-rate-001",
+    "subject": "math",
+    "unit": "一次関数・速さとグラフ",
+    "grade": "中学2年",
+    "difficulty": 3,
+    "prompt": "家から駅までの道のりは1200mである。Aさんは家を出て分速60mで駅に向かい、BさんはAさんが出発して5分後に同じ道を分速90mで追いかけた。BさんがAさんに追いつくのは、Aさんが出発してから何分後か。",
+    "answer": "15分後",
+    "explanation": "Aさんが出発してからx分後に追いつくとする。Aさんの進んだ道のりは60x m、Bさんは出発が5分遅いので90(x-5) m進む。追いついたとき両者の道のりは等しいから60x=90(x-5)。整理すると30x=450、x=15。15分後にはAさんは900m、Bさんも90×10=900m進んでいる。",
+    "scoring": "方程式の立式と答えの両方を正しく示す。",
+    "status": "review",
+    "verification": {
+      "answer_status": "independently_verified",
+      "checked_by": ["方程式を解いて確認", "両者の移動距離を代入確認"],
+      "notes": "Bさんの移動時間がx-5分であることを明記した独立作成問題。"
+    },
+    "created_at": "2026-11-05"
+  },
+  {
+    "id": "math-exp-20261105-quadratic-area-001",
+    "subject": "math",
+    "unit": "二次方程式・図形の面積",
+    "grade": "中学3年",
+    "difficulty": 3,
+    "prompt": "縦の長さが横の長さより3cm短い長方形がある。縦を2cm長くし、横を1cm短くしたところ、面積はもとの面積より12cm²大きくなった。もとの長方形の横の長さを求めなさい。",
+    "answer": "9cm",
+    "explanation": "もとの横をx cmとすると、縦はx-3 cm。変化後の面積は(x-1)(x-1)=(x-1)^2 cm²。もとの面積より12cm²大きいので、(x-1)^2=x(x-3)+12。展開するとx²-2x+1=x²-3x+12、よってx=11。したがって横は11cmである。なお、縦は8cmで、変化後は縦10cm・横10cmとなり、面積は100-88=12cm²増える。",
+    "status": "review",
+    "verification": {
+      "answer_status": "independently_verified",
+      "checked_by": ["面積の式を立てて整理", "元の寸法と変化後の面積を代入確認"],
+      "notes": "設問の答え欄を11cmに修正済み。横x、縦x-3、変化後は縦x-1・横x-1。"
+    },
+    "created_at": "2026-11-05"
+  },
+  {
+    "id": "math-exp-20261105-probability-cards-001",
+    "subject": "math",
+    "unit": "確率・場合の数",
+    "grade": "中学2年",
+    "difficulty": 3,
+    "prompt": "1から5までの数字が1つずつ書かれた5枚のカードがある。この中から続けて2枚を取り出し、取り出した順に十の位、一の位として2けたの整数をつくる。できた整数が偶数になる確率を求めなさい。ただし、取り出したカードは戻さない。",
+    "answer": "2/5",
+    "explanation": "十の位は1〜5のどれでもよく、一の位は偶数である2または4でなければならない。全体は5×4=20通り。偶数になる場合は、一の位を2または4の2通りから選び、十の位は残り4通りなので2×4=8通り。したがって確率は8/20=2/5。",
+    "status": "review",
+    "verification": {
+      "answer_status": "independently_verified",
+      "checked_by": ["全事象20通りを確認", "偶数となる8通りを数え上げ"],
+      "notes": "十の位に0がないため、2けたの整数が必ず成立する。"
+    },
+    "created_at": "2026-11-05"
+  },
+  {
+    "id": "science-exp-20261105-density-001",
+    "subject": "science",
+    "unit": "物質の密度・質量と体積",
+    "grade": "中学1年",
+    "difficulty": 2,
+    "prompt": "質量が162g、体積が60cm³の金属片がある。この金属の密度を求めなさい。また、同じ金属で体積が25cm³の金属片の質量は何gか。",
+    "answer": "密度2.7g/cm³、質量67.5g",
+    "explanation": "密度は質量÷体積なので、162÷60=2.7g/cm³。同じ物質では質量=密度×体積だから、2.7×25=67.5g。",
+    "scoring": "密度と質量の両方を単位付きで答える。",
+    "status": "review",
+    "verification": {
+      "answer_status": "independently_verified",
+      "checked_by": ["密度の定義で計算", "逆に質量を密度で割って体積を確認"],
+      "notes": "単位換算を必要としない基礎計算問題。"
+    },
+    "created_at": "2026-11-05"
+  },
+  {
+    "id": "science-exp-20261105-circuit-parallel-001",
+    "subject": "science",
+    "unit": "電流と回路・並列回路",
+    "grade": "中学2年",
+    "difficulty": 3,
+    "prompt": "6Vの電源に、抵抗6Ωと抵抗3Ωを並列につないだ。6Ωの抵抗に流れる電流と、回路全体に流れる電流をそれぞれ求めなさい。",
+    "answer": "6Ωの抵抗には1A、回路全体には3A",
+    "explanation": "並列回路では各抵抗にかかる電圧は電源電圧と等しく6Vである。6Ωには6÷6=1A、3Ωには6÷3=2Aが流れる。電流は枝分かれする前後で保存されるので、全体の電流は1+2=3A。",
+    "scoring": "各抵抗の電流と全体の電流を正しく答える。",
+    "status": "review",
+    "verification": {
+      "answer_status": "independently_verified",
+      "checked_by": ["各枝にオームの法則を適用", "枝電流の和を確認"],
+      "notes": "並列回路の電圧・電流の基本関係を問う。"
+    },
+    "created_at": "2026-11-05"
+  },
+  {
+    "id": "science-exp-20261105-neutralization-001",
+    "subject": "science",
+    "unit": "化学変化・中和とイオン",
+    "grade": "中学3年",
+    "difficulty": 3,
+    "prompt": "うすい塩酸と水酸化ナトリウム水溶液を、過不足なく反応する量だけ混ぜた。反応後の水溶液に含まれる陽イオンと陰イオンを、それぞれイオン式で答えなさい。ただし、水の電離によるイオンは考えない。",
+    "answer": "陽イオン：Na⁺、陰イオン：Cl⁻",
+    "explanation": "塩酸は水溶液中でH⁺とCl⁻に、水酸化ナトリウムはNa⁺とOH⁻に電離する。中和ではH⁺とOH⁻が結びついて水になる。過不足なく反応したので、残る主なイオンはNa⁺とCl⁻である。",
+    "status": "review",
+    "verification": {
+      "answer_status": "independently_verified",
+      "checked_by": ["電離式と中和の反応を確認", "反応前後のイオンを整理"],
+      "notes": "水の電離を除く条件を設け、残存イオンを明確化した。"
+    },
+    "created_at": "2026-11-05"
+  },
+  {
+    "id": "social-exp-20261105-constitution-001",
+    "subject": "social",
+    "unit": "公民・基本的人権",
+    "grade": "中学3年",
+    "difficulty": 2,
+    "prompt": "日本国憲法が保障する基本的人権について、自由権に分類されるものを次から1つ選びなさい。",
+    "choices": [
+      {"id": "ア", "text": "健康で文化的な最低限度の生活を営む権利"},
+      {"id": "イ", "text": "法の下の平等"},
+      {"id": "ウ", "text": "思想・良心の自由"},
+      {"id": "エ", "text": "選挙で代表者を選ぶ権利"}
+    ],
+    "answer": "ウ",
+    "explanation": "思想・良心の自由は、国家から不当に干渉されずに考え方や内心を保つ自由権に含まれる。アは社会権、イは平等権、エは参政権に関係する。",
+    "scoring": "正しい選択肢を1つ選ぶ。",
+    "status": "review",
+    "verification": {
+      "answer_status": "independently_verified",
+      "checked_by": ["基本的人権の分類を確認"],
+      "notes": "自由権・平等権・社会権・参政権の区別を問う独立作成問題。"
+    },
+    "created_at": "2026-11-05"
+  },
+  {
+    "id": "social-exp-20261105-world-trade-001",
+    "subject": "social",
+    "unit": "地理・世界の貿易と産業",
+    "grade": "中学2年",
+    "difficulty": 3,
+    "prompt": "ある国では、原油を輸入して国内で石油製品に加工し、それを輸出する産業が発達している。このような国の貿易の特徴を考えるとき、原油の輸入と石油製品の輸出の関係を何というか。最も適切なものを選びなさい。",
+    "choices": [
+      {"id": "ア", "text": "加工貿易"},
+      {"id": "イ", "text": "保護貿易"},
+      {"id": "ウ", "text": "自由貿易協定"},
+      {"id": "エ", "text": "現地生産"}
+    ],
+    "answer": "ア",
+    "explanation": "原材料を輸入し、国内で加工して付加価値を高めた製品を輸出する貿易を加工貿易という。原油を輸入して石油製品に加工し輸出する例が当てはまる。",
+    "status": "review",
+    "verification": {
+      "answer_status": "independently_verified",
+      "checked_by": ["貿易形態の定義と具体例を照合"],
+      "notes": "用語の定義を問う独立作成問題。"
+    },
+    "created_at": "2026-11-05"
+  },
+  {
+    "id": "social-exp-20261105-economy-tax-001",
+    "subject": "social",
+    "unit": "公民・財政と税金",
+    "grade": "中学3年",
+    "difficulty": 3,
+    "prompt": "所得が多い人ほど、より高い税率が適用される仕組みを何というか。また、この仕組みが所得の再分配に役立つ理由を簡潔に説明しなさい。",
+    "answer": "累進課税。所得の多い人ほど税負担の割合が大きくなり、その税収を公共サービスや社会保障などに使うことで、所得格差を小さくする方向に働くため。",
+    "explanation": "累進課税は、課税対象となる所得などが大きくなるほど高い税率を適用する仕組みである。集めた税金を社会保障や公共サービスに用いることで、所得の再分配に役立つ。",
+    "scoring": "「累進課税」と、税負担の累進性および税収の再分配への利用を説明できていること。",
+    "status": "review",
+    "verification": {
+      "answer_status": "independently_verified",
+      "checked_by": ["公民の税制用語を確認", "所得再分配の仕組みを確認"],
+      "notes": "用語だけでなく制度の目的も説明させる記述問題。"
+    },
+    "created_at": "2026-11-05"
+  }
+]
