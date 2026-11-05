@@ -12,7 +12,10 @@
     "status": "review",
     "verification": {
       "answer_status": "independently_verified",
-      "checked_by": ["方程式を解いて確認", "両者の移動距離を代入確認"],
+      "checked_by": [
+        "方程式を解いて確認",
+        "両者の移動距離を代入確認"
+      ],
       "notes": "Bさんの移動時間がx-5分であることを明記した独立作成問題。"
     },
     "created_at": "2026-11-05"
@@ -24,12 +27,15 @@
     "grade": "中学3年",
     "difficulty": 3,
     "prompt": "縦の長さが横の長さより3cm短い長方形がある。縦を2cm長くし、横を1cm短くしたところ、面積はもとの面積より12cm²大きくなった。もとの長方形の横の長さを求めなさい。",
-    "answer": "9cm",
+    "answer": "11cm",
     "explanation": "もとの横をx cmとすると、縦はx-3 cm。変化後の面積は(x-1)(x-1)=(x-1)^2 cm²。もとの面積より12cm²大きいので、(x-1)^2=x(x-3)+12。展開するとx²-2x+1=x²-3x+12、よってx=11。したがって横は11cmである。なお、縦は8cmで、変化後は縦10cm・横10cmとなり、面積は100-88=12cm²増える。",
     "status": "review",
     "verification": {
       "answer_status": "independently_verified",
-      "checked_by": ["面積の式を立てて整理", "元の寸法と変化後の面積を代入確認"],
+      "checked_by": [
+        "面積の式を立てて整理",
+        "元の寸法と変化後の面積を代入確認"
+      ],
       "notes": "設問の答え欄を11cmに修正済み。横x、縦x-3、変化後は縦x-1・横x-1。"
     },
     "created_at": "2026-11-05"
@@ -46,7 +52,10 @@
     "status": "review",
     "verification": {
       "answer_status": "independently_verified",
-      "checked_by": ["全事象20通りを確認", "偶数となる8通りを数え上げ"],
+      "checked_by": [
+        "全事象20通りを確認",
+        "偶数となる8通りを数え上げ"
+      ],
       "notes": "十の位に0がないため、2けたの整数が必ず成立する。"
     },
     "created_at": "2026-11-05"
@@ -64,7 +73,10 @@
     "status": "review",
     "verification": {
       "answer_status": "independently_verified",
-      "checked_by": ["密度の定義で計算", "逆に質量を密度で割って体積を確認"],
+      "checked_by": [
+        "密度の定義で計算",
+        "逆に質量を密度で割って体積を確認"
+      ],
       "notes": "単位換算を必要としない基礎計算問題。"
     },
     "created_at": "2026-11-05"
@@ -82,7 +94,10 @@
     "status": "review",
     "verification": {
       "answer_status": "independently_verified",
-      "checked_by": ["各枝にオームの法則を適用", "枝電流の和を確認"],
+      "checked_by": [
+        "各枝にオームの法則を適用",
+        "枝電流の和を確認"
+      ],
       "notes": "並列回路の電圧・電流の基本関係を問う。"
     },
     "created_at": "2026-11-05"
@@ -99,7 +114,10 @@
     "status": "review",
     "verification": {
       "answer_status": "independently_verified",
-      "checked_by": ["電離式と中和の反応を確認", "反応前後のイオンを整理"],
+      "checked_by": [
+        "電離式と中和の反応を確認",
+        "反応前後のイオンを整理"
+      ],
       "notes": "水の電離を除く条件を設け、残存イオンを明確化した。"
     },
     "created_at": "2026-11-05"
@@ -112,10 +130,22 @@
     "difficulty": 2,
     "prompt": "日本国憲法が保障する基本的人権について、自由権に分類されるものを次から1つ選びなさい。",
     "choices": [
-      {"id": "ア", "text": "健康で文化的な最低限度の生活を営む権利"},
-      {"id": "イ", "text": "法の下の平等"},
-      {"id": "ウ", "text": "思想・良心の自由"},
-      {"id": "エ", "text": "選挙で代表者を選ぶ権利"}
+      {
+        "id": "ア",
+        "text": "健康で文化的な最低限度の生活を営む権利"
+      },
+      {
+        "id": "イ",
+        "text": "法の下の平等"
+      },
+      {
+        "id": "ウ",
+        "text": "思想・良心の自由"
+      },
+      {
+        "id": "エ",
+        "text": "選挙で代表者を選ぶ権利"
+      }
     ],
     "answer": "ウ",
     "explanation": "思想・良心の自由は、国家から不当に干渉されずに考え方や内心を保つ自由権に含まれる。アは社会権、イは平等権、エは参政権に関係する。",
@@ -123,7 +153,9 @@
     "status": "review",
     "verification": {
       "answer_status": "independently_verified",
-      "checked_by": ["基本的人権の分類を確認"],
+      "checked_by": [
+        "基本的人権の分類を確認"
+      ],
       "notes": "自由権・平等権・社会権・参政権の区別を問う独立作成問題。"
     },
     "created_at": "2026-11-05"
@@ -136,17 +168,31 @@
     "difficulty": 3,
     "prompt": "ある国では、原油を輸入して国内で石油製品に加工し、それを輸出する産業が発達している。このような国の貿易の特徴を考えるとき、原油の輸入と石油製品の輸出の関係を何というか。最も適切なものを選びなさい。",
     "choices": [
-      {"id": "ア", "text": "加工貿易"},
-      {"id": "イ", "text": "保護貿易"},
-      {"id": "ウ", "text": "自由貿易協定"},
-      {"id": "エ", "text": "現地生産"}
+      {
+        "id": "ア",
+        "text": "加工貿易"
+      },
+      {
+        "id": "イ",
+        "text": "保護貿易"
+      },
+      {
+        "id": "ウ",
+        "text": "自由貿易協定"
+      },
+      {
+        "id": "エ",
+        "text": "現地生産"
+      }
     ],
     "answer": "ア",
     "explanation": "原材料を輸入し、国内で加工して付加価値を高めた製品を輸出する貿易を加工貿易という。原油を輸入して石油製品に加工し輸出する例が当てはまる。",
     "status": "review",
     "verification": {
       "answer_status": "independently_verified",
-      "checked_by": ["貿易形態の定義と具体例を照合"],
+      "checked_by": [
+        "貿易形態の定義と具体例を照合"
+      ],
       "notes": "用語の定義を問う独立作成問題。"
     },
     "created_at": "2026-11-05"
@@ -164,7 +210,10 @@
     "status": "review",
     "verification": {
       "answer_status": "independently_verified",
-      "checked_by": ["公民の税制用語を確認", "所得再分配の仕組みを確認"],
+      "checked_by": [
+        "公民の税制用語を確認",
+        "所得再分配の仕組みを確認"
+      ],
       "notes": "用語だけでなく制度の目的も説明させる記述問題。"
     },
     "created_at": "2026-11-05"
