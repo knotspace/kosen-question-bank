@@ -48,7 +48,7 @@ scripts/           # データ検証スクリプト
 
 ## 更新履歴・開発ログ
 
-変更内容とデータベース整備の記録は [docs/RELEASE_NOTES.md](docs/RELEASE_NOTES.md) にまとめています。ここはWebサイトではなく問題データのリポジトリのため、サイト内ポップアップではなくGitHub上の開発ログとして管理します。
+変更内容とデータベース整備の記録は [docs/RELEASE_NOTES.md](docs/RELEASE_NOTES.md) にまとめています。ここはWebサイトではなく問題データのリポジトリのため、サイト内ポップアップではなくGitHub上の開発ログとして管理します。 初回の問題監査結果は [2026-11-05問題データ初回監査レポート](docs/reports/2026-11-05-question-audit.md) を参照してください。
 
 ## 検証
 
