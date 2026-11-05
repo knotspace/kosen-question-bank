@@ -57,3 +57,27 @@ scripts/           # データ検証スクリプト
 ## ライセンス・権利
 
 このリポジトリのオリジナル文章・解説・構造化データは、別途明示するまで権利放棄を意味しません。第三者の過去問本文・図版・解答解説は、利用許諾や別の適法な利用根拠を確認せずに公開・配布しないでください。公開リポジトリに置かれたファイルは第三者が閲覧・取得できるため、公開前に必ず権利と公開条件を確認してください。
+
+
+## Studyリポジトリから集約した既存データ（2026-11-05）
+
+以下の7ファイルは `knotspace/knotspace.github.io` の `src/data/study/` から、元のJSON構造・ID・正解・解説を保持して集約しています。
+
+| ファイル | 登録件数 |
+|---|---:|
+| `data/questions/private-math-beta.json` | 13 |
+| `data/questions/private-past-bank.json` | 114 |
+| `data/questions/private-practice-bank.json` | 267 |
+| `data/questions/study-foundation.json` | 455 |
+| `data/questions/public-exam.json` | 200 |
+| `data/questions/public-exam-upgrade.json` | 14 |
+| `data/questions/study-questions.json` | 1,044 |
+| **合計（ファイル内レコード数）** | **2,107** |
+
+この合計はファイルごとのレコード数の単純合算で、ファイル間の重複を除いたユニーク問題数ではありません。元データの互換性を優先して、重複削除・スキーマ変換は行っていません。
+
+関連資料も移行しています。
+- `data/analysis/math-r7-r8.json`: 数学の年度別分析データ
+- `data/past-exams/study-source-ledger.json`: Study側の出典・確認状況台帳
+
+移行元のサイトリポジトリは削除・変更していません。原本PDFや第三者の問題文・図版はこの移行に含めていません。
