@@ -1,0 +1,345 @@
+[
+  {
+    "id": "math-exp-20261108-linear-function-001",
+    "subject": "math",
+    "unit": "一次関数・変化の割合",
+    "grade": "中学2年",
+    "difficulty": 2,
+    "prompt": "一次関数 y=ax+3 のグラフが点 (2, 7) を通る。aの値と、この直線がx軸と交わる点のx座標を求めなさい。",
+    "answer": "a=2、x軸との交点のx座標は−3/2。",
+    "explanation": "点(2,7)を代入すると7=2a+3よりa=2。x軸上ではy=0なので0=2x+3、x=−3/2。",
+    "scoring": "aとx軸との交点の両方を正しく答える。",
+    "status": "review",
+    "verification": {
+      "answer_status": "independently_verified",
+      "checked_by": [
+        "点の座標を式に代入",
+        "y=0として交点を計算"
+      ],
+      "notes": "一次関数の基本計算。"
+    },
+    "created_at": "2026-11-08"
+  },
+  {
+    "id": "math-exp-20261108-quadratic-001",
+    "subject": "math",
+    "unit": "二次方程式・因数分解",
+    "grade": "中学3年",
+    "difficulty": 2,
+    "prompt": "二次方程式 x²−7x+12=0 を解きなさい。",
+    "answer": "x=3、4。",
+    "explanation": "積が12、和が−7になる2数は−3と−4なので、x²−7x+12=(x−3)(x−4)。よってx=3またはx=4。",
+    "scoring": "2つの解を両方答える。",
+    "status": "review",
+    "verification": {
+      "answer_status": "independently_verified",
+      "checked_by": [
+        "因数分解",
+        "元の式への代入"
+      ],
+      "notes": "中学3年の基本問題。"
+    },
+    "created_at": "2026-11-08"
+  },
+  {
+    "id": "math-exp-20261108-probability-001",
+    "subject": "math",
+    "unit": "確率・さいころ",
+    "grade": "中学2年",
+    "difficulty": 2,
+    "prompt": "大小2個のさいころを同時に投げる。出た目の積が6になる確率を求めなさい。",
+    "answer": "1/9。",
+    "explanation": "大小を区別した全事象は6×6=36通り。積が6になるのは(1,6)、(2,3)、(3,2)、(6,1)の4通り。したがって4/36=1/9。",
+    "scoring": "確率を最も簡単な分数で答える。",
+    "status": "review",
+    "verification": {
+      "answer_status": "independently_verified",
+      "checked_by": [
+        "全36通りを確認",
+        "積が6となる組を列挙"
+      ],
+      "notes": "大小のさいころを区別する。"
+    },
+    "created_at": "2026-11-08"
+  },
+  {
+    "id": "math-exp-20261108-similarity-001",
+    "subject": "math",
+    "unit": "相似・面積比",
+    "grade": "中学3年",
+    "difficulty": 3,
+    "prompt": "相似な2つの三角形の対応する辺の長さの比が3:5である。小さい三角形の面積が27cm²のとき、大きい三角形の面積を求めなさい。",
+    "answer": "75cm²。",
+    "explanation": "相似な図形の面積比は、対応する辺の比の2乗なので3²:5²=9:25。大きい三角形の面積をSとすると27:S=9:25。S=27×25÷9=75。",
+    "scoring": "面積比を用いて単位付きで答える。",
+    "status": "review",
+    "verification": {
+      "answer_status": "independently_verified",
+      "checked_by": [
+        "相似比を2乗",
+        "比例式で計算"
+      ],
+      "notes": "面積比と相似比の関係を確認。"
+    },
+    "created_at": "2026-11-08"
+  },
+  {
+    "id": "math-exp-20261108-statistics-001",
+    "subject": "math",
+    "unit": "データの活用・中央値",
+    "grade": "中学2年",
+    "difficulty": 1,
+    "prompt": "5人の小テストの点数は、8点、6点、10点、7点、9点だった。中央値を求めなさい。",
+    "answer": "8点。",
+    "explanation": "小さい順に並べると6、7、8、9、10。5個のデータでは中央の3番目が中央値なので8点。",
+    "scoring": "中央値を答える。",
+    "status": "review",
+    "verification": {
+      "answer_status": "independently_verified",
+      "checked_by": [
+        "データを昇順に並べて中央を確認"
+      ],
+      "notes": "中央値の基礎問題。"
+    },
+    "created_at": "2026-11-08"
+  },
+  {
+    "id": "sci-exp-20261108-density-001",
+    "subject": "science",
+    "unit": "物質の密度",
+    "grade": "中学1年",
+    "difficulty": 2,
+    "prompt": "質量が78g、体積が10cm³の金属の密度を求めなさい。",
+    "answer": "7.8g/cm³。",
+    "explanation": "密度=質量÷体積なので、78÷10=7.8。単位を付けて7.8g/cm³。",
+    "scoring": "数値と単位を正しく答える。",
+    "status": "review",
+    "verification": {
+      "answer_status": "independently_verified",
+      "checked_by": [
+        "密度の公式で計算"
+      ],
+      "notes": "単位を含めて確認。"
+    },
+    "created_at": "2026-11-08"
+  },
+  {
+    "id": "sci-exp-20261108-force-001",
+    "subject": "science",
+    "unit": "力・圧力",
+    "grade": "中学1年",
+    "difficulty": 2,
+    "prompt": "面積0.02m²の面を垂直に押す力が100Nである。面に加わる圧力を求めなさい。",
+    "answer": "5000Pa。",
+    "explanation": "圧力=力÷面積。100N÷0.02m²=5000N/m²。1N/m²=1Paなので5000Pa。",
+    "scoring": "Paを付けて答える。",
+    "status": "review",
+    "verification": {
+      "answer_status": "independently_verified",
+      "checked_by": [
+        "圧力の定義で計算",
+        "単位換算を確認"
+      ],
+      "notes": "面積の単位はm²で与えている。"
+    },
+    "created_at": "2026-11-08"
+  },
+  {
+    "id": "sci-exp-20261108-neutralization-001",
+    "subject": "science",
+    "unit": "化学変化・中和",
+    "grade": "中学3年",
+    "difficulty": 2,
+    "prompt": "塩酸と水酸化ナトリウム水溶液が中和するとき、互いに結びついて水になるイオンをそれぞれイオン式で答えなさい。",
+    "answer": "水素イオン H⁺ と水酸化物イオン OH⁻。",
+    "explanation": "塩酸から生じる水素イオンH⁺と、水酸化ナトリウムから生じる水酸化物イオンOH⁻が結びつき、水H₂Oになる。",
+    "scoring": "H⁺とOH⁻の両方を答える。",
+    "status": "review",
+    "verification": {
+      "answer_status": "independently_verified",
+      "checked_by": [
+        "中和のイオン反応式 H⁺+OH⁻→H₂O を確認"
+      ],
+      "notes": "中和の基本事項。"
+    },
+    "created_at": "2026-11-08"
+  },
+  {
+    "id": "sci-exp-20261108-genetics-001",
+    "subject": "science",
+    "unit": "生物の成長と遺伝",
+    "grade": "中学3年",
+    "difficulty": 2,
+    "prompt": "親の形質を子に伝えるもとになる、細胞の核の中にあるものを何というか。",
+    "answer": "遺伝子。",
+    "explanation": "遺伝子は親から子へ形質を伝えるもとになる情報で、DNAの特定の部分にあたる。中学理科では核の中の染色体に含まれるものとして学ぶ。",
+    "scoring": "「遺伝子」と答える。",
+    "status": "review",
+    "verification": {
+      "answer_status": "independently_verified",
+      "checked_by": [
+        "中学校理科の遺伝分野の定義を確認"
+      ],
+      "notes": "遺伝子とDNA・染色体の関係を混同しない説明にした。"
+    },
+    "created_at": "2026-11-08"
+  },
+  {
+    "id": "sci-exp-20261108-earthquake-001",
+    "subject": "science",
+    "unit": "地震・地震の伝わり方",
+    "grade": "中学1年",
+    "difficulty": 2,
+    "prompt": "地震のとき、初めに到着する小さな揺れを起こす波と、その後に到着する大きな揺れを起こす波をそれぞれ何というか。",
+    "answer": "初めの小さな揺れ：P波。後の大きな揺れ：S波。",
+    "explanation": "P波は速く伝わり、初期微動を起こす。S波はP波より遅く伝わり、主要動を起こす。",
+    "scoring": "P波とS波を正しく対応させる。",
+    "status": "review",
+    "verification": {
+      "answer_status": "independently_verified",
+      "checked_by": [
+        "地震波の伝わる速さと揺れの特徴を確認"
+      ],
+      "notes": "P波・S波と初期微動・主要動の対応を確認。"
+    },
+    "created_at": "2026-11-08"
+  },
+  {
+    "id": "sci-exp-20261108-electricity-001",
+    "subject": "science",
+    "unit": "電流・電力",
+    "grade": "中学2年",
+    "difficulty": 2,
+    "prompt": "6Vの電圧を加えた電熱線に0.5Aの電流が流れた。この電熱線の電力を求めなさい。",
+    "answer": "3W。",
+    "explanation": "電力=電圧×電流なので、6V×0.5A=3W。",
+    "scoring": "Wを付けて答える。",
+    "status": "review",
+    "verification": {
+      "answer_status": "independently_verified",
+      "checked_by": [
+        "電力の公式で計算"
+      ],
+      "notes": "中学理科の電力計算。"
+    },
+    "created_at": "2026-11-08"
+  },
+  {
+    "id": "soc-exp-20261108-geography-climate-001",
+    "subject": "social",
+    "unit": "地理・雨温図と気候",
+    "grade": "中学1年",
+    "difficulty": 2,
+    "prompt": "一年を通して気温が高く、降水量が少ない乾季と多い雨季が見られる気候帯として最も適切なものを選びなさい。",
+    "choices": [
+      {
+        "id": "ア",
+        "text": "熱帯"
+      },
+      {
+        "id": "イ",
+        "text": "冷帯（亜寒帯）"
+      },
+      {
+        "id": "ウ",
+        "text": "寒帯"
+      },
+      {
+        "id": "エ",
+        "text": "高山気候"
+      }
+    ],
+    "answer": "ア",
+    "explanation": "熱帯には一年中高温で、雨季と乾季がはっきりする地域がある。冷帯は冬の寒さが厳しく、寒帯は一年の大部分が低温である。",
+    "scoring": "正しい選択肢を1つ選ぶ。",
+    "status": "review",
+    "verification": {
+      "answer_status": "independently_verified",
+      "checked_by": [
+        "各気候帯の気温・降水の特徴を照合"
+      ],
+      "notes": "熱帯の雨季・乾季の特徴を問う。"
+    },
+    "created_at": "2026-11-08"
+  },
+  {
+    "id": "soc-exp-20261108-history-meiji-001",
+    "subject": "social",
+    "unit": "歴史・明治維新",
+    "grade": "中学2年",
+    "difficulty": 2,
+    "prompt": "明治政府が1871年に藩を廃止して府県を置いた改革を何というか。",
+    "answer": "廃藩置県。",
+    "explanation": "1871年、明治政府は藩を廃止し、全国に府県を置く廃藩置県を行った。これにより中央政府が地方を直接治める仕組みを整えた。",
+    "scoring": "「廃藩置県」と答える。",
+    "status": "review",
+    "verification": {
+      "answer_status": "independently_verified",
+      "checked_by": [
+        "明治政府の改革と実施年を確認"
+      ],
+      "notes": "1871年の重要事項。"
+    },
+    "created_at": "2026-11-08"
+  },
+  {
+    "id": "soc-exp-20261108-civics-diet-001",
+    "subject": "social",
+    "unit": "公民・国会のしくみ",
+    "grade": "中学3年",
+    "difficulty": 2,
+    "prompt": "日本の国会を構成する2つの議院を答えなさい。",
+    "answer": "衆議院と参議院。",
+    "explanation": "日本の国会は衆議院と参議院の二院で構成される。この仕組みを二院制という。",
+    "scoring": "2つの議院を両方答える。",
+    "status": "review",
+    "verification": {
+      "answer_status": "independently_verified",
+      "checked_by": [
+        "日本国憲法第42条を確認"
+      ],
+      "notes": "国会の二院制に関する基本問題。"
+    },
+    "created_at": "2026-11-08"
+  },
+  {
+    "id": "soc-exp-20261108-economy-tax-001",
+    "subject": "social",
+    "unit": "公民・税金のしくみ",
+    "grade": "中学3年",
+    "difficulty": 2,
+    "prompt": "商品やサービスを購入したときに、消費者が負担する税を何というか。",
+    "answer": "消費税。",
+    "explanation": "消費税は、商品やサービスの販売などに対して課される税で、最終的には消費者が負担する形になる。",
+    "scoring": "「消費税」と答える。",
+    "status": "review",
+    "verification": {
+      "answer_status": "independently_verified",
+      "checked_by": [
+        "税の種類と負担の基本を確認"
+      ],
+      "notes": "消費税の基本問題。"
+    },
+    "created_at": "2026-11-08"
+  },
+  {
+    "id": "soc-exp-20261108-history-constitution-001",
+    "subject": "social",
+    "unit": "歴史・日本国憲法",
+    "grade": "中学3年",
+    "difficulty": 2,
+    "prompt": "日本国憲法が施行された年月日を答えなさい。",
+    "answer": "1947年5月3日。",
+    "explanation": "日本国憲法は1946年11月3日に公布され、1947年5月3日に施行された。公布日と施行日を区別する。",
+    "scoring": "年・月・日を正しく答える。",
+    "status": "review",
+    "verification": {
+      "answer_status": "independently_verified",
+      "checked_by": [
+        "公布日と施行日の区別を確認"
+      ],
+      "notes": "日本国憲法の公布・施行の基本事項。"
+    },
+    "created_at": "2026-11-08"
+  }
+]
