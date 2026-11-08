@@ -1,0 +1,1052 @@
+[
+  {
+    "id": "daily-20261108-c-m-001",
+    "subject": "math",
+    "unit": "数列・等差数列",
+    "grade": "中学3年〜高校基礎",
+    "difficulty": 3,
+    "prompt": "初項5、公差3の等差数列の第18項を求めなさい。",
+    "answer": "56",
+    "explanation": "第n項は a_n=a_1+(n−1)d。5+17×3=56。",
+    "scoring": "正答に加え、計算問題は式と途中過程、説明問題は根拠となる用語・理由を示すこと。",
+    "status": "review",
+    "verification": {
+      "answer_status": "independently_verified",
+      "checked_by": [
+        "設問と正答の対応確認",
+        "計算・定義・制度の根拠確認"
+      ],
+      "notes": "独自作成。解答・解説を確認済み。公開承認ではなくreview。"
+    },
+    "created_at": "2026-11-08"
+  },
+  {
+    "id": "daily-20261108-c-m-002",
+    "subject": "math",
+    "unit": "数列・等差数列の和",
+    "grade": "中学3年〜高校基礎",
+    "difficulty": 4,
+    "prompt": "初項2、公差4、項数12の等差数列の和を求めなさい。",
+    "answer": "288",
+    "explanation": "末項は2+11×4=46。和は12(2+46)/2=288。",
+    "scoring": "正答に加え、計算問題は式と途中過程、説明問題は根拠となる用語・理由を示すこと。",
+    "status": "review",
+    "verification": {
+      "answer_status": "independently_verified",
+      "checked_by": [
+        "設問と正答の対応確認",
+        "計算・定義・制度の根拠確認"
+      ],
+      "notes": "独自作成。解答・解説を確認済み。公開承認ではなくreview。"
+    },
+    "created_at": "2026-11-08"
+  },
+  {
+    "id": "daily-20261108-c-m-003",
+    "subject": "math",
+    "unit": "二次関数・平方完成",
+    "grade": "中学3年〜高校基礎",
+    "difficulty": 3,
+    "prompt": "y=2x²−8x+3 の頂点の座標を求めなさい。",
+    "answer": "(2,−5)",
+    "explanation": "y=2(x²−4x)+3=2(x−2)²−5。頂点は(2,−5)。",
+    "scoring": "正答に加え、計算問題は式と途中過程、説明問題は根拠となる用語・理由を示すこと。",
+    "status": "review",
+    "verification": {
+      "answer_status": "independently_verified",
+      "checked_by": [
+        "設問と正答の対応確認",
+        "計算・定義・制度の根拠確認"
+      ],
+      "notes": "独自作成。解答・解説を確認済み。公開承認ではなくreview。"
+    },
+    "created_at": "2026-11-08"
+  },
+  {
+    "id": "daily-20261108-c-m-004",
+    "subject": "math",
+    "unit": "二次関数・最大最小",
+    "grade": "中学3年〜高校基礎",
+    "difficulty": 3,
+    "prompt": "0≦x≦4で y=−x²+4x+1 の最大値を求めなさい。",
+    "answer": "5",
+    "explanation": "y=−(x−2)²+5。頂点x=2は区間内なので最大値5。",
+    "scoring": "正答に加え、計算問題は式と途中過程、説明問題は根拠となる用語・理由を示すこと。",
+    "status": "review",
+    "verification": {
+      "answer_status": "independently_verified",
+      "checked_by": [
+        "設問と正答の対応確認",
+        "計算・定義・制度の根拠確認"
+      ],
+      "notes": "独自作成。解答・解説を確認済み。公開承認ではなくreview。"
+    },
+    "created_at": "2026-11-08"
+  },
+  {
+    "id": "daily-20261108-c-m-005",
+    "subject": "math",
+    "unit": "場合の数・順列",
+    "grade": "中学3年〜高校基礎",
+    "difficulty": 3,
+    "prompt": "異なる7冊から3冊を選び、順番に並べる方法は何通りか。",
+    "answer": "210通り",
+    "explanation": "7P3=7×6×5=210。選ぶだけでなく順序も区別する。",
+    "scoring": "正答に加え、計算問題は式と途中過程、説明問題は根拠となる用語・理由を示すこと。",
+    "status": "review",
+    "verification": {
+      "answer_status": "independently_verified",
+      "checked_by": [
+        "設問と正答の対応確認",
+        "計算・定義・制度の根拠確認"
+      ],
+      "notes": "独自作成。解答・解説を確認済み。公開承認ではなくreview。"
+    },
+    "created_at": "2026-11-08"
+  },
+  {
+    "id": "daily-20261108-c-m-006",
+    "subject": "math",
+    "unit": "場合の数・組合せ",
+    "grade": "中学3年〜高校基礎",
+    "difficulty": 3,
+    "prompt": "異なる8人から委員を3人選ぶ方法は何通りか。",
+    "answer": "56通り",
+    "explanation": "8C3=8×7×6÷(3×2×1)=56。",
+    "scoring": "正答に加え、計算問題は式と途中過程、説明問題は根拠となる用語・理由を示すこと。",
+    "status": "review",
+    "verification": {
+      "answer_status": "independently_verified",
+      "checked_by": [
+        "設問と正答の対応確認",
+        "計算・定義・制度の根拠確認"
+      ],
+      "notes": "独自作成。解答・解説を確認済み。公開承認ではなくreview。"
+    },
+    "created_at": "2026-11-08"
+  },
+  {
+    "id": "daily-20261108-c-m-007",
+    "subject": "math",
+    "unit": "確率・反復試行",
+    "grade": "中学3年〜高校基礎",
+    "difficulty": 3,
+    "prompt": "赤玉3個、白玉2個から同時に2個取り出す。2個とも赤となる確率を求めなさい。",
+    "answer": "3/10",
+    "explanation": "全組合せは5C2=10、赤2個は3C2=3。よって3/10。",
+    "scoring": "正答に加え、計算問題は式と途中過程、説明問題は根拠となる用語・理由を示すこと。",
+    "status": "review",
+    "verification": {
+      "answer_status": "independently_verified",
+      "checked_by": [
+        "設問と正答の対応確認",
+        "計算・定義・制度の根拠確認"
+      ],
+      "notes": "独自作成。解答・解説を確認済み。公開承認ではなくreview。"
+    },
+    "created_at": "2026-11-08"
+  },
+  {
+    "id": "daily-20261108-c-m-008",
+    "subject": "math",
+    "unit": "三角比・直角三角形",
+    "grade": "中学3年〜高校基礎",
+    "difficulty": 3,
+    "prompt": "直角三角形で、ある鋭角θの向かい側が6、斜辺が10である。sinθを求めなさい。",
+    "answer": "3/5",
+    "explanation": "sinθ=向かい側/斜辺=6/10=3/5。",
+    "scoring": "正答に加え、計算問題は式と途中過程、説明問題は根拠となる用語・理由を示すこと。",
+    "status": "review",
+    "verification": {
+      "answer_status": "independently_verified",
+      "checked_by": [
+        "設問と正答の対応確認",
+        "計算・定義・制度の根拠確認"
+      ],
+      "notes": "独自作成。解答・解説を確認済み。公開承認ではなくreview。"
+    },
+    "created_at": "2026-11-08"
+  },
+  {
+    "id": "daily-20261108-c-m-009",
+    "subject": "math",
+    "unit": "三角比・辺の長さ",
+    "grade": "中学3年〜高校基礎",
+    "difficulty": 3,
+    "prompt": "直角三角形で斜辺が13、角θに隣り合う辺が5である。cosθを求めなさい。",
+    "answer": "5/13",
+    "explanation": "cosθ=隣辺/斜辺=5/13。",
+    "scoring": "正答に加え、計算問題は式と途中過程、説明問題は根拠となる用語・理由を示すこと。",
+    "status": "review",
+    "verification": {
+      "answer_status": "independently_verified",
+      "checked_by": [
+        "設問と正答の対応確認",
+        "計算・定義・制度の根拠確認"
+      ],
+      "notes": "独自作成。解答・解説を確認済み。公開承認ではなくreview。"
+    },
+    "created_at": "2026-11-08"
+  },
+  {
+    "id": "daily-20261108-c-m-010",
+    "subject": "math",
+    "unit": "図形と方程式・中点",
+    "grade": "中学3年〜高校基礎",
+    "difficulty": 3,
+    "prompt": "A(−2,5)、B(6,−1)の中点の座標を求めなさい。",
+    "answer": "(2,2)",
+    "explanation": "中点は((−2+6)/2,(5−1)/2)=(2,2)。",
+    "scoring": "正答に加え、計算問題は式と途中過程、説明問題は根拠となる用語・理由を示すこと。",
+    "status": "review",
+    "verification": {
+      "answer_status": "independently_verified",
+      "checked_by": [
+        "設問と正答の対応確認",
+        "計算・定義・制度の根拠確認"
+      ],
+      "notes": "独自作成。解答・解説を確認済み。公開承認ではなくreview。"
+    },
+    "created_at": "2026-11-08"
+  },
+  {
+    "id": "daily-20261108-c-m-011",
+    "subject": "math",
+    "unit": "図形と方程式・距離",
+    "grade": "中学3年〜高校基礎",
+    "difficulty": 3,
+    "prompt": "点P(1,2)とQ(4,6)の距離を求めなさい。",
+    "answer": "5",
+    "explanation": "距離は√((4−1)²+(6−2)²)=√(9+16)=5。",
+    "scoring": "正答に加え、計算問題は式と途中過程、説明問題は根拠となる用語・理由を示すこと。",
+    "status": "review",
+    "verification": {
+      "answer_status": "independently_verified",
+      "checked_by": [
+        "設問と正答の対応確認",
+        "計算・定義・制度の根拠確認"
+      ],
+      "notes": "独自作成。解答・解説を確認済み。公開承認ではなくreview。"
+    },
+    "created_at": "2026-11-08"
+  },
+  {
+    "id": "daily-20261108-c-m-012",
+    "subject": "math",
+    "unit": "指数法則",
+    "grade": "中学3年〜高校基礎",
+    "difficulty": 2,
+    "prompt": "2³×2⁵÷2⁴ を計算しなさい。",
+    "answer": "16",
+    "explanation": "同じ底の積は指数を足し、商は引く。2^(3+5−4)=2⁴=16。",
+    "scoring": "正答に加え、計算問題は式と途中過程、説明問題は根拠となる用語・理由を示すこと。",
+    "status": "review",
+    "verification": {
+      "answer_status": "independently_verified",
+      "checked_by": [
+        "設問と正答の対応確認",
+        "計算・定義・制度の根拠確認"
+      ],
+      "notes": "独自作成。解答・解説を確認済み。公開承認ではなくreview。"
+    },
+    "created_at": "2026-11-08"
+  },
+  {
+    "id": "daily-20261108-c-m-013",
+    "subject": "math",
+    "unit": "対数・定義",
+    "grade": "中学3年〜高校基礎",
+    "difficulty": 4,
+    "prompt": "log₂8 の値を求めなさい。",
+    "answer": "3",
+    "explanation": "2を何乗すると8になるかを考える。2³=8なので3。",
+    "scoring": "正答に加え、計算問題は式と途中過程、説明問題は根拠となる用語・理由を示すこと。",
+    "status": "review",
+    "verification": {
+      "answer_status": "independently_verified",
+      "checked_by": [
+        "設問と正答の対応確認",
+        "計算・定義・制度の根拠確認"
+      ],
+      "notes": "独自作成。解答・解説を確認済み。公開承認ではなくreview。"
+    },
+    "created_at": "2026-11-08"
+  },
+  {
+    "id": "daily-20261108-c-m-014",
+    "subject": "math",
+    "unit": "微分・多項式",
+    "grade": "中学3年〜高校基礎",
+    "difficulty": 4,
+    "prompt": "関数 f(x)=3x²−4x+7 の導関数を求めなさい。",
+    "answer": "f'(x)=6x−4",
+    "explanation": "x^nの微分はnx^(n−1)。定数項の微分は0。",
+    "scoring": "正答に加え、計算問題は式と途中過程、説明問題は根拠となる用語・理由を示すこと。",
+    "status": "review",
+    "verification": {
+      "answer_status": "independently_verified",
+      "checked_by": [
+        "設問と正答の対応確認",
+        "計算・定義・制度の根拠確認"
+      ],
+      "notes": "独自作成。解答・解説を確認済み。公開承認ではなくreview。"
+    },
+    "created_at": "2026-11-08"
+  },
+  {
+    "id": "daily-20261108-c-m-015",
+    "subject": "math",
+    "unit": "微分・接線の傾き",
+    "grade": "中学3年〜高校基礎",
+    "difficulty": 4,
+    "prompt": "f(x)=x²+2x のとき、x=3における接線の傾きを求めなさい。",
+    "answer": "8",
+    "explanation": "f'(x)=2x+2。x=3を代入して8。",
+    "scoring": "正答に加え、計算問題は式と途中過程、説明問題は根拠となる用語・理由を示すこと。",
+    "status": "review",
+    "verification": {
+      "answer_status": "independently_verified",
+      "checked_by": [
+        "設問と正答の対応確認",
+        "計算・定義・制度の根拠確認"
+      ],
+      "notes": "独自作成。解答・解説を確認済み。公開承認ではなくreview。"
+    },
+    "created_at": "2026-11-08"
+  },
+  {
+    "id": "daily-20261108-c-m-016",
+    "subject": "math",
+    "unit": "ベクトル・成分",
+    "grade": "中学3年〜高校基礎",
+    "difficulty": 4,
+    "prompt": "a=(2,−3)、b=(−1,4)のとき、a+bを求めなさい。",
+    "answer": "(1,1)",
+    "explanation": "成分ごとに加える。(2−1,−3+4)=(1,1)。",
+    "scoring": "正答に加え、計算問題は式と途中過程、説明問題は根拠となる用語・理由を示すこと。",
+    "status": "review",
+    "verification": {
+      "answer_status": "independently_verified",
+      "checked_by": [
+        "設問と正答の対応確認",
+        "計算・定義・制度の根拠確認"
+      ],
+      "notes": "独自作成。解答・解説を確認済み。公開承認ではなくreview。"
+    },
+    "created_at": "2026-11-08"
+  },
+  {
+    "id": "daily-20261108-c-m-017",
+    "subject": "math",
+    "unit": "複素数・計算",
+    "grade": "中学3年〜高校基礎",
+    "difficulty": 4,
+    "prompt": "(3+2i)+(1−5i)を計算しなさい。",
+    "answer": "4−3i",
+    "explanation": "実部どうし、虚部どうしをそれぞれ加える。",
+    "scoring": "正答に加え、計算問題は式と途中過程、説明問題は根拠となる用語・理由を示すこと。",
+    "status": "review",
+    "verification": {
+      "answer_status": "independently_verified",
+      "checked_by": [
+        "設問と正答の対応確認",
+        "計算・定義・制度の根拠確認"
+      ],
+      "notes": "独自作成。解答・解説を確認済み。公開承認ではなくreview。"
+    },
+    "created_at": "2026-11-08"
+  },
+  {
+    "id": "daily-20261108-c-m-018",
+    "subject": "math",
+    "unit": "不等式・一次不等式",
+    "grade": "中学3年〜高校基礎",
+    "difficulty": 2,
+    "prompt": "3(2x−1)≦5x+7を解きなさい。",
+    "answer": "x≦10",
+    "explanation": "6x−3≦5x+7よりx≦10。",
+    "scoring": "正答に加え、計算問題は式と途中過程、説明問題は根拠となる用語・理由を示すこと。",
+    "status": "review",
+    "verification": {
+      "answer_status": "independently_verified",
+      "checked_by": [
+        "設問と正答の対応確認",
+        "計算・定義・制度の根拠確認"
+      ],
+      "notes": "独自作成。解答・解説を確認済み。公開承認ではなくreview。"
+    },
+    "created_at": "2026-11-08"
+  },
+  {
+    "id": "daily-20261108-c-m-019",
+    "subject": "math",
+    "unit": "関数・反比例",
+    "grade": "中学3年〜高校基礎",
+    "difficulty": 2,
+    "prompt": "y=k/x が点(−4,6)を通る。kを求めなさい。",
+    "answer": "−24",
+    "explanation": "k=xy=(−4)×6=−24。",
+    "scoring": "正答に加え、計算問題は式と途中過程、説明問題は根拠となる用語・理由を示すこと。",
+    "status": "review",
+    "verification": {
+      "answer_status": "independently_verified",
+      "checked_by": [
+        "設問と正答の対応確認",
+        "計算・定義・制度の根拠確認"
+      ],
+      "notes": "独自作成。解答・解説を確認済み。公開承認ではなくreview。"
+    },
+    "created_at": "2026-11-08"
+  },
+  {
+    "id": "daily-20261108-c-m-020",
+    "subject": "math",
+    "unit": "統計・分散",
+    "grade": "中学3年〜高校基礎",
+    "difficulty": 4,
+    "prompt": "データ1,3,5の平均値と分散を求めなさい。",
+    "answer": "平均3、分散8/3",
+    "explanation": "平均は3。偏差平方は4,0,4で、その平均は8/3。",
+    "scoring": "正答に加え、計算問題は式と途中過程、説明問題は根拠となる用語・理由を示すこと。",
+    "status": "review",
+    "verification": {
+      "answer_status": "independently_verified",
+      "checked_by": [
+        "設問と正答の対応確認",
+        "計算・定義・制度の根拠確認"
+      ],
+      "notes": "独自作成。解答・解説を確認済み。公開承認ではなくreview。"
+    },
+    "created_at": "2026-11-08"
+  },
+  {
+    "id": "daily-20261108-c-s-001",
+    "subject": "science",
+    "unit": "物理・等加速度運動",
+    "grade": "中学1〜3年・高校基礎",
+    "difficulty": 3,
+    "prompt": "静止していた物体が一定の加速度2.5m/s²で4秒間運動した。速さを求めなさい。",
+    "answer": "10m/s",
+    "explanation": "v=v₀+at。初速0なのでv=0+2.5×4=10m/s。",
+    "scoring": "正答に加え、計算問題は式・単位、説明問題は現象の因果関係を示すこと。",
+    "status": "review",
+    "verification": {
+      "answer_status": "independently_verified",
+      "checked_by": [
+        "設問と正答の対応確認",
+        "計算・定義の根拠確認"
+      ],
+      "notes": "独自作成。解答・解説を確認済み。公開承認ではなくreview。"
+    },
+    "created_at": "2026-11-08"
+  },
+  {
+    "id": "daily-20261108-c-s-002",
+    "subject": "science",
+    "unit": "物理・運動方程式",
+    "grade": "中学1〜3年・高校基礎",
+    "difficulty": 3,
+    "prompt": "質量3kgの物体に合力12Nがはたらく。加速度を求めなさい。",
+    "answer": "4m/s²",
+    "explanation": "運動方程式F=maよりa=F/m=12/3=4m/s²。",
+    "scoring": "正答に加え、計算問題は式・単位、説明問題は現象の因果関係を示すこと。",
+    "status": "review",
+    "verification": {
+      "answer_status": "independently_verified",
+      "checked_by": [
+        "設問と正答の対応確認",
+        "計算・定義の根拠確認"
+      ],
+      "notes": "独自作成。解答・解説を確認済み。公開承認ではなくreview。"
+    },
+    "created_at": "2026-11-08"
+  },
+  {
+    "id": "daily-20261108-c-s-003",
+    "subject": "science",
+    "unit": "物理・仕事",
+    "grade": "中学1〜3年・高校基礎",
+    "difficulty": 3,
+    "prompt": "物体を一定の力20Nで力の向きに3m動かした。仕事を求めなさい。",
+    "answer": "60J",
+    "explanation": "仕事W=Fs=20×3=60J。",
+    "scoring": "正答に加え、計算問題は式・単位、説明問題は現象の因果関係を示すこと。",
+    "status": "review",
+    "verification": {
+      "answer_status": "independently_verified",
+      "checked_by": [
+        "設問と正答の対応確認",
+        "計算・定義の根拠確認"
+      ],
+      "notes": "独自作成。解答・解説を確認済み。公開承認ではなくreview。"
+    },
+    "created_at": "2026-11-08"
+  },
+  {
+    "id": "daily-20261108-c-s-004",
+    "subject": "science",
+    "unit": "物理・仕事率",
+    "grade": "中学1〜3年・高校基礎",
+    "difficulty": 3,
+    "prompt": "180Jの仕事を6秒で行った。仕事率を求めなさい。",
+    "answer": "30W",
+    "explanation": "仕事率P=W/t=180/6=30W。",
+    "scoring": "正答に加え、計算問題は式・単位、説明問題は現象の因果関係を示すこと。",
+    "status": "review",
+    "verification": {
+      "answer_status": "independently_verified",
+      "checked_by": [
+        "設問と正答の対応確認",
+        "計算・定義の根拠確認"
+      ],
+      "notes": "独自作成。解答・解説を確認済み。公開承認ではなくreview。"
+    },
+    "created_at": "2026-11-08"
+  },
+  {
+    "id": "daily-20261108-c-s-005",
+    "subject": "science",
+    "unit": "物理・直列回路",
+    "grade": "中学1〜3年・高校基礎",
+    "difficulty": 3,
+    "prompt": "抵抗4Ωと6Ωを直列につないだ合成抵抗を求めなさい。",
+    "answer": "10Ω",
+    "explanation": "直列回路の合成抵抗は和なので4+6=10Ω。",
+    "scoring": "正答に加え、計算問題は式・単位、説明問題は現象の因果関係を示すこと。",
+    "status": "review",
+    "verification": {
+      "answer_status": "independently_verified",
+      "checked_by": [
+        "設問と正答の対応確認",
+        "計算・定義の根拠確認"
+      ],
+      "notes": "独自作成。解答・解説を確認済み。公開承認ではなくreview。"
+    },
+    "created_at": "2026-11-08"
+  },
+  {
+    "id": "daily-20261108-c-s-006",
+    "subject": "science",
+    "unit": "物理・並列回路",
+    "grade": "中学1〜3年・高校基礎",
+    "difficulty": 4,
+    "prompt": "抵抗6Ωと3Ωを並列につないだ合成抵抗を求めなさい。",
+    "answer": "2Ω",
+    "explanation": "1/R=1/6+1/3=3/6=1/2よりR=2Ω。",
+    "scoring": "正答に加え、計算問題は式・単位、説明問題は現象の因果関係を示すこと。",
+    "status": "review",
+    "verification": {
+      "answer_status": "independently_verified",
+      "checked_by": [
+        "設問と正答の対応確認",
+        "計算・定義の根拠確認"
+      ],
+      "notes": "独自作成。解答・解説を確認済み。公開承認ではなくreview。"
+    },
+    "created_at": "2026-11-08"
+  },
+  {
+    "id": "daily-20261108-c-s-007",
+    "subject": "science",
+    "unit": "物理・波の速さ",
+    "grade": "中学1〜3年・高校基礎",
+    "difficulty": 3,
+    "prompt": "振動数50Hz、波長0.8mの波の速さを求めなさい。",
+    "answer": "40m/s",
+    "explanation": "波の速さv=fλ=50×0.8=40m/s。",
+    "scoring": "正答に加え、計算問題は式・単位、説明問題は現象の因果関係を示すこと。",
+    "status": "review",
+    "verification": {
+      "answer_status": "independently_verified",
+      "checked_by": [
+        "設問と正答の対応確認",
+        "計算・定義の根拠確認"
+      ],
+      "notes": "独自作成。解答・解説を確認済み。公開承認ではなくreview。"
+    },
+    "created_at": "2026-11-08"
+  },
+  {
+    "id": "daily-20261108-c-s-008",
+    "subject": "science",
+    "unit": "化学・物質量",
+    "grade": "中学1〜3年・高校基礎",
+    "difficulty": 4,
+    "prompt": "水H₂O 36gは何molか。H=1、O=16とする。",
+    "answer": "2mol",
+    "explanation": "水のモル質量は18g/mol。36÷18=2mol。",
+    "scoring": "正答に加え、計算問題は式・単位、説明問題は現象の因果関係を示すこと。",
+    "status": "review",
+    "verification": {
+      "answer_status": "independently_verified",
+      "checked_by": [
+        "設問と正答の対応確認",
+        "計算・定義の根拠確認"
+      ],
+      "notes": "独自作成。解答・解説を確認済み。公開承認ではなくreview。"
+    },
+    "created_at": "2026-11-08"
+  },
+  {
+    "id": "daily-20261108-c-s-009",
+    "subject": "science",
+    "unit": "化学・化学反応式",
+    "grade": "中学1〜3年・高校基礎",
+    "difficulty": 3,
+    "prompt": "水素と酸素から水ができる反応を、係数を最小整数比にして表しなさい。",
+    "answer": "2H₂+O₂→2H₂O",
+    "explanation": "左右の原子数をそろえる。水を2分子にするとHが4個、Oが2個となる。",
+    "scoring": "正答に加え、計算問題は式・単位、説明問題は現象の因果関係を示すこと。",
+    "status": "review",
+    "verification": {
+      "answer_status": "independently_verified",
+      "checked_by": [
+        "設問と正答の対応確認",
+        "計算・定義の根拠確認"
+      ],
+      "notes": "独自作成。解答・解説を確認済み。公開承認ではなくreview。"
+    },
+    "created_at": "2026-11-08"
+  },
+  {
+    "id": "daily-20261108-c-s-010",
+    "subject": "science",
+    "unit": "化学・濃度",
+    "grade": "中学1〜3年・高校基礎",
+    "difficulty": 2,
+    "prompt": "食塩12gを水108gに溶かした。質量パーセント濃度を求めなさい。",
+    "answer": "10%",
+    "explanation": "溶液の質量は120g。12÷120×100=10%。",
+    "scoring": "正答に加え、計算問題は式・単位、説明問題は現象の因果関係を示すこと。",
+    "status": "review",
+    "verification": {
+      "answer_status": "independently_verified",
+      "checked_by": [
+        "設問と正答の対応確認",
+        "計算・定義の根拠確認"
+      ],
+      "notes": "独自作成。解答・解説を確認済み。公開承認ではなくreview。"
+    },
+    "created_at": "2026-11-08"
+  },
+  {
+    "id": "daily-20261108-c-s-011",
+    "subject": "science",
+    "unit": "化学・酸化還元",
+    "grade": "中学1〜3年・高校基礎",
+    "difficulty": 3,
+    "prompt": "酸化銅と炭素を加熱すると銅ができる。このとき酸化銅から取り除かれる元素は何か。",
+    "answer": "酸素",
+    "explanation": "炭素が酸化銅から酸素を奪い、銅が生じる。酸化銅は還元される。",
+    "scoring": "正答に加え、計算問題は式・単位、説明問題は現象の因果関係を示すこと。",
+    "status": "review",
+    "verification": {
+      "answer_status": "independently_verified",
+      "checked_by": [
+        "設問と正答の対応確認",
+        "計算・定義の根拠確認"
+      ],
+      "notes": "独自作成。解答・解説を確認済み。公開承認ではなくreview。"
+    },
+    "created_at": "2026-11-08"
+  },
+  {
+    "id": "daily-20261108-c-s-012",
+    "subject": "science",
+    "unit": "生物・遺伝",
+    "grade": "中学1〜3年・高校基礎",
+    "difficulty": 4,
+    "prompt": "Aaの個体どうしを交配し、Aが優性であるとき、子に現れる表現型の優性：劣性の比を求めなさい。",
+    "answer": "3：1",
+    "explanation": "遺伝子型はAA:Aa:aa=1:2:1。優性形質はAAとAaなので3、劣性はaaで1。",
+    "scoring": "正答に加え、計算問題は式・単位、説明問題は現象の因果関係を示すこと。",
+    "status": "review",
+    "verification": {
+      "answer_status": "independently_verified",
+      "checked_by": [
+        "設問と正答の対応確認",
+        "計算・定義の根拠確認"
+      ],
+      "notes": "独自作成。解答・解説を確認済み。公開承認ではなくreview。"
+    },
+    "created_at": "2026-11-08"
+  },
+  {
+    "id": "daily-20261108-c-s-013",
+    "subject": "science",
+    "unit": "生物・細胞",
+    "grade": "中学1〜3年・高校基礎",
+    "difficulty": 3,
+    "prompt": "真核細胞で、呼吸によってATPを多くつくる細胞小器官は何か。",
+    "answer": "ミトコンドリア",
+    "explanation": "ミトコンドリアでは有機物を酸化してエネルギーを取り出し、ATP合成に利用する。",
+    "scoring": "正答に加え、計算問題は式・単位、説明問題は現象の因果関係を示すこと。",
+    "status": "review",
+    "verification": {
+      "answer_status": "independently_verified",
+      "checked_by": [
+        "設問と正答の対応確認",
+        "計算・定義の根拠確認"
+      ],
+      "notes": "独自作成。解答・解説を確認済み。公開承認ではなくreview。"
+    },
+    "created_at": "2026-11-08"
+  },
+  {
+    "id": "daily-20261108-c-s-014",
+    "subject": "science",
+    "unit": "地学・地震",
+    "grade": "中学1〜3年・高校基礎",
+    "difficulty": 2,
+    "prompt": "P波が到着してからS波が到着するまでの時間を何というか。",
+    "answer": "初期微動継続時間",
+    "explanation": "P波とS波の到着時刻の差で、震源から遠いほど一般に長くなる。",
+    "scoring": "正答に加え、計算問題は式・単位、説明問題は現象の因果関係を示すこと。",
+    "status": "review",
+    "verification": {
+      "answer_status": "independently_verified",
+      "checked_by": [
+        "設問と正答の対応確認",
+        "計算・定義の根拠確認"
+      ],
+      "notes": "独自作成。解答・解説を確認済み。公開承認ではなくreview。"
+    },
+    "created_at": "2026-11-08"
+  },
+  {
+    "id": "daily-20261108-c-s-015",
+    "subject": "science",
+    "unit": "地学・天体",
+    "grade": "中学1〜3年・高校基礎",
+    "difficulty": 2,
+    "prompt": "地球が太陽のまわりを1周する運動を何というか。",
+    "answer": "公転",
+    "explanation": "地球の公転周期は約1年。地軸の傾きと公転により季節が生じる。",
+    "scoring": "正答に加え、計算問題は式・単位、説明問題は現象の因果関係を示すこと。",
+    "status": "review",
+    "verification": {
+      "answer_status": "independently_verified",
+      "checked_by": [
+        "設問と正答の対応確認",
+        "計算・定義の根拠確認"
+      ],
+      "notes": "独自作成。解答・解説を確認済み。公開承認ではなくreview。"
+    },
+    "created_at": "2026-11-08"
+  },
+  {
+    "id": "daily-20261108-c-c-001",
+    "subject": "social",
+    "unit": "地理・人口構造",
+    "grade": "中学1〜3年",
+    "difficulty": 2,
+    "prompt": "人口に占める65歳以上の割合を表す指標を何というか。",
+    "answer": "高齢化率",
+    "explanation": "高齢化率は総人口に占める65歳以上人口の割合。人口構造の比較に使う。",
+    "scoring": "正答と、その根拠となる制度・用語・歴史的背景を簡潔に示すこと。",
+    "status": "review",
+    "verification": {
+      "answer_status": "independently_verified",
+      "checked_by": [
+        "設問と正答の対応確認",
+        "用語・制度・年代の根拠確認"
+      ],
+      "notes": "独自作成。解答・解説を確認済み。公開承認ではなくreview。"
+    },
+    "created_at": "2026-11-08"
+  },
+  {
+    "id": "daily-20261108-c-c-002",
+    "subject": "social",
+    "unit": "地理・貿易",
+    "grade": "中学1〜3年",
+    "difficulty": 2,
+    "prompt": "輸出額から輸入額を引いた値を何というか。",
+    "answer": "貿易収支",
+    "explanation": "輸出額が輸入額を上回れば貿易黒字、下回れば貿易赤字。",
+    "scoring": "正答と、その根拠となる制度・用語・歴史的背景を簡潔に示すこと。",
+    "status": "review",
+    "verification": {
+      "answer_status": "independently_verified",
+      "checked_by": [
+        "設問と正答の対応確認",
+        "用語・制度・年代の根拠確認"
+      ],
+      "notes": "独自作成。解答・解説を確認済み。公開承認ではなくreview。"
+    },
+    "created_at": "2026-11-08"
+  },
+  {
+    "id": "daily-20261108-c-c-003",
+    "subject": "social",
+    "unit": "地理・気候",
+    "grade": "中学1〜3年",
+    "difficulty": 3,
+    "prompt": "夏に乾燥し、冬に雨が多い地中海沿岸に代表される気候を何というか。",
+    "answer": "地中海性気候",
+    "explanation": "夏は亜熱帯高圧帯の影響で乾燥し、冬は偏西風帯の影響で降水が多い。",
+    "scoring": "正答と、その根拠となる制度・用語・歴史的背景を簡潔に示すこと。",
+    "status": "review",
+    "verification": {
+      "answer_status": "independently_verified",
+      "checked_by": [
+        "設問と正答の対応確認",
+        "用語・制度・年代の根拠確認"
+      ],
+      "notes": "独自作成。解答・解説を確認済み。公開承認ではなくreview。"
+    },
+    "created_at": "2026-11-08"
+  },
+  {
+    "id": "daily-20261108-c-c-004",
+    "subject": "social",
+    "unit": "地理・工業立地",
+    "grade": "中学1〜3年",
+    "difficulty": 3,
+    "prompt": "原料を輸入し、製品を輸出するため港湾付近に発達しやすい工業地域の例を一つ挙げなさい。",
+    "answer": "京浜工業地帯（など）",
+    "explanation": "臨海部は原料・燃料の輸入や製品の輸送に便利で、重化学工業が発達した。",
+    "scoring": "正答と、その根拠となる制度・用語・歴史的背景を簡潔に示すこと。",
+    "status": "review",
+    "verification": {
+      "answer_status": "independently_verified",
+      "checked_by": [
+        "設問と正答の対応確認",
+        "用語・制度・年代の根拠確認"
+      ],
+      "notes": "独自作成。解答・解説を確認済み。公開承認ではなくreview。"
+    },
+    "created_at": "2026-11-08"
+  },
+  {
+    "id": "daily-20261108-c-c-005",
+    "subject": "social",
+    "unit": "地理・地形図",
+    "grade": "中学1〜3年",
+    "difficulty": 2,
+    "prompt": "地形図で等高線の間隔が狭い場所は、一般にどのような地形か。",
+    "answer": "傾斜が急な地形",
+    "explanation": "等高線の間隔が狭いほど、短い水平距離で標高が大きく変化する。",
+    "scoring": "正答と、その根拠となる制度・用語・歴史的背景を簡潔に示すこと。",
+    "status": "review",
+    "verification": {
+      "answer_status": "independently_verified",
+      "checked_by": [
+        "設問と正答の対応確認",
+        "用語・制度・年代の根拠確認"
+      ],
+      "notes": "独自作成。解答・解説を確認済み。公開承認ではなくreview。"
+    },
+    "created_at": "2026-11-08"
+  },
+  {
+    "id": "daily-20261108-c-c-006",
+    "subject": "social",
+    "unit": "歴史・鎌倉幕府",
+    "grade": "中学1〜3年",
+    "difficulty": 2,
+    "prompt": "鎌倉幕府で、将軍を補佐して政治の実権を握った北条氏の役職は何か。",
+    "answer": "執権",
+    "explanation": "北条氏は執権として幕府政治を主導し、承久の乱後に支配を強めた。",
+    "scoring": "正答と、その根拠となる制度・用語・歴史的背景を簡潔に示すこと。",
+    "status": "review",
+    "verification": {
+      "answer_status": "independently_verified",
+      "checked_by": [
+        "設問と正答の対応確認",
+        "用語・制度・年代の根拠確認"
+      ],
+      "notes": "独自作成。解答・解説を確認済み。公開承認ではなくreview。"
+    },
+    "created_at": "2026-11-08"
+  },
+  {
+    "id": "daily-20261108-c-c-007",
+    "subject": "social",
+    "unit": "歴史・室町文化",
+    "grade": "中学1〜3年",
+    "difficulty": 2,
+    "prompt": "金閣に代表される、足利義満の時代に栄えた文化を何というか。",
+    "answer": "北山文化",
+    "explanation": "北山文化は公家文化と武家文化、中国文化などが融合した文化。",
+    "scoring": "正答と、その根拠となる制度・用語・歴史的背景を簡潔に示すこと。",
+    "status": "review",
+    "verification": {
+      "answer_status": "independently_verified",
+      "checked_by": [
+        "設問と正答の対応確認",
+        "用語・制度・年代の根拠確認"
+      ],
+      "notes": "独自作成。解答・解説を確認済み。公開承認ではなくreview。"
+    },
+    "created_at": "2026-11-08"
+  },
+  {
+    "id": "daily-20261108-c-c-008",
+    "subject": "social",
+    "unit": "歴史・江戸時代",
+    "grade": "中学1〜3年",
+    "difficulty": 2,
+    "prompt": "江戸幕府が大名を統制するため、領地と江戸への往復を制度化した仕組みは何か。",
+    "answer": "参勤交代",
+    "explanation": "大名に江戸と領地を往復させ、経済的負担を負わせることで統制した。",
+    "scoring": "正答と、その根拠となる制度・用語・歴史的背景を簡潔に示すこと。",
+    "status": "review",
+    "verification": {
+      "answer_status": "independently_verified",
+      "checked_by": [
+        "設問と正答の対応確認",
+        "用語・制度・年代の根拠確認"
+      ],
+      "notes": "独自作成。解答・解説を確認済み。公開承認ではなくreview。"
+    },
+    "created_at": "2026-11-08"
+  },
+  {
+    "id": "daily-20261108-c-c-009",
+    "subject": "social",
+    "unit": "歴史・明治維新",
+    "grade": "中学1〜3年",
+    "difficulty": 2,
+    "prompt": "1871年に藩を廃止して府県を置いた改革を何というか。",
+    "answer": "廃藩置県",
+    "explanation": "中央政府が地方を直接統治する体制を整え、近代国家の基礎を築いた。",
+    "scoring": "正答と、その根拠となる制度・用語・歴史的背景を簡潔に示すこと。",
+    "status": "review",
+    "verification": {
+      "answer_status": "independently_verified",
+      "checked_by": [
+        "設問と正答の対応確認",
+        "用語・制度・年代の根拠確認"
+      ],
+      "notes": "独自作成。解答・解説を確認済み。公開承認ではなくreview。"
+    },
+    "created_at": "2026-11-08"
+  },
+  {
+    "id": "daily-20261108-c-c-010",
+    "subject": "social",
+    "unit": "歴史・戦後改革",
+    "grade": "中学1〜3年",
+    "difficulty": 2,
+    "prompt": "第二次世界大戦後、日本国憲法が施行された年を西暦で答えなさい。",
+    "answer": "1947年",
+    "explanation": "日本国憲法は1946年に公布され、1947年5月3日に施行された。",
+    "scoring": "正答と、その根拠となる制度・用語・歴史的背景を簡潔に示すこと。",
+    "status": "review",
+    "verification": {
+      "answer_status": "independently_verified",
+      "checked_by": [
+        "設問と正答の対応確認",
+        "用語・制度・年代の根拠確認"
+      ],
+      "notes": "独自作成。解答・解説を確認済み。公開承認ではなくreview。"
+    },
+    "created_at": "2026-11-08"
+  },
+  {
+    "id": "daily-20261108-c-c-011",
+    "subject": "social",
+    "unit": "公民・基本的人権",
+    "grade": "中学1〜3年",
+    "difficulty": 2,
+    "prompt": "日本国憲法第25条が保障する権利を何というか。",
+    "answer": "生存権",
+    "explanation": "健康で文化的な最低限度の生活を営む権利で、社会保障政策の根拠となる。",
+    "scoring": "正答と、その根拠となる制度・用語・歴史的背景を簡潔に示すこと。",
+    "status": "review",
+    "verification": {
+      "answer_status": "independently_verified",
+      "checked_by": [
+        "設問と正答の対応確認",
+        "用語・制度・年代の根拠確認"
+      ],
+      "notes": "独自作成。解答・解説を確認済み。公開承認ではなくreview。"
+    },
+    "created_at": "2026-11-08"
+  },
+  {
+    "id": "daily-20261108-c-c-012",
+    "subject": "social",
+    "unit": "公民・三権分立",
+    "grade": "中学1〜3年",
+    "difficulty": 3,
+    "prompt": "内閣が国会に対して連帯して責任を負う議院内閣制のもとで、国会が内閣に対して行える重要な決議は何か。",
+    "answer": "内閣不信任決議",
+    "explanation": "衆議院は内閣不信任決議を可決でき、内閣は10日以内に衆議院を解散しない限り総辞職する。",
+    "scoring": "正答と、その根拠となる制度・用語・歴史的背景を簡潔に示すこと。",
+    "status": "review",
+    "verification": {
+      "answer_status": "independently_verified",
+      "checked_by": [
+        "設問と正答の対応確認",
+        "用語・制度・年代の根拠確認"
+      ],
+      "notes": "独自作成。解答・解説を確認済み。公開承認ではなくreview。"
+    },
+    "created_at": "2026-11-08"
+  },
+  {
+    "id": "daily-20261108-c-c-013",
+    "subject": "social",
+    "unit": "公民・地方自治",
+    "grade": "中学1〜3年",
+    "difficulty": 2,
+    "prompt": "地方公共団体の長を住民が直接選挙で選ぶ制度を何というか。",
+    "answer": "首長の直接公選制",
+    "explanation": "知事や市町村長は住民が直接選挙で選ぶ。議会議員も住民が選挙する。",
+    "scoring": "正答と、その根拠となる制度・用語・歴史的背景を簡潔に示すこと。",
+    "status": "review",
+    "verification": {
+      "answer_status": "independently_verified",
+      "checked_by": [
+        "設問と正答の対応確認",
+        "用語・制度・年代の根拠確認"
+      ],
+      "notes": "独自作成。解答・解説を確認済み。公開承認ではなくreview。"
+    },
+    "created_at": "2026-11-08"
+  },
+  {
+    "id": "daily-20261108-c-c-014",
+    "subject": "social",
+    "unit": "公民・市場経済",
+    "grade": "中学1〜3年",
+    "difficulty": 3,
+    "prompt": "需要量が供給量を上回る状態を何というか。",
+    "answer": "超過需要（需要超過）",
+    "explanation": "その価格では買いたい量が売りたい量を上回る。価格上昇の圧力が生じやすい。",
+    "scoring": "正答と、その根拠となる制度・用語・歴史的背景を簡潔に示すこと。",
+    "status": "review",
+    "verification": {
+      "answer_status": "independently_verified",
+      "checked_by": [
+        "設問と正答の対応確認",
+        "用語・制度・年代の根拠確認"
+      ],
+      "notes": "独自作成。解答・解説を確認済み。公開承認ではなくreview。"
+    },
+    "created_at": "2026-11-08"
+  },
+  {
+    "id": "daily-20261108-c-c-015",
+    "subject": "social",
+    "unit": "公民・国際連合",
+    "grade": "中学1〜3年",
+    "difficulty": 2,
+    "prompt": "国際連合で、国際平和と安全の維持について主要な責任を負う機関は何か。",
+    "answer": "安全保障理事会",
+    "explanation": "安全保障理事会は平和と安全の維持に関する決定を行い、常任理事国5か国を含む。",
+    "scoring": "正答と、その根拠となる制度・用語・歴史的背景を簡潔に示すこと。",
+    "status": "review",
+    "verification": {
+      "answer_status": "independently_verified",
+      "checked_by": [
+        "設問と正答の対応確認",
+        "用語・制度・年代の根拠確認"
+      ],
+      "notes": "独自作成。解答・解説を確認済み。公開承認ではなくreview。"
+    },
+    "created_at": "2026-11-08"
+  }
+]
