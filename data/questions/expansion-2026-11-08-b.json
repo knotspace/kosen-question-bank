@@ -1,0 +1,1031 @@
+[
+  {
+    "id": "daily-20261108-m-001",
+    "subject": "math",
+    "unit": "一次関数・傾き",
+    "grade": "中学2〜3年",
+    "difficulty": 2,
+    "prompt": "直線 y=3x−2 で、xが4増加するときのyの増加量を求めなさい。",
+    "answer": "12",
+    "explanation": "変化の割合は3なので、yの増加量は3×4=12。",
+    "scoring": "正答を明確に示し、必要な式・根拠・単位を含めていること。",
+    "status": "review",
+    "verification": {
+      "answer_status": "independently_verified",
+      "checked_by": [
+        "設問と正答の対応確認",
+        "計算または用語・制度の根拠確認"
+      ],
+      "notes": "独自作成問題。解答・解説を確認済み。公開承認ではなくreview。"
+    },
+    "created_at": "2026-11-08"
+  },
+  {
+    "id": "daily-20261108-m-002",
+    "subject": "math",
+    "unit": "一次関数・切片",
+    "grade": "中学2〜3年",
+    "difficulty": 2,
+    "prompt": "直線 y=−2x+b が点(3,1)を通る。bを求めなさい。",
+    "answer": "7",
+    "explanation": "1=−2×3+b より b=7。",
+    "scoring": "正答を明確に示し、必要な式・根拠・単位を含めていること。",
+    "status": "review",
+    "verification": {
+      "answer_status": "independently_verified",
+      "checked_by": [
+        "設問と正答の対応確認",
+        "計算または用語・制度の根拠確認"
+      ],
+      "notes": "独自作成問題。解答・解説を確認済み。公開承認ではなくreview。"
+    },
+    "created_at": "2026-11-08"
+  },
+  {
+    "id": "daily-20261108-m-003",
+    "subject": "math",
+    "unit": "連立方程式・文章題",
+    "grade": "中学2〜3年",
+    "difficulty": 3,
+    "prompt": "りんご2個とみかん3個で440円、りんご1個とみかん2個で260円である。りんご1個の値段を求めなさい。",
+    "answer": "100円",
+    "explanation": "xをりんご、yをみかんの値段とすると2x+3y=440、x+2y=260。2つ目を2倍して差を取るとy=80、x=100。",
+    "scoring": "正答を明確に示し、必要な式・根拠・単位を含めていること。",
+    "status": "review",
+    "verification": {
+      "answer_status": "independently_verified",
+      "checked_by": [
+        "設問と正答の対応確認",
+        "計算または用語・制度の根拠確認"
+      ],
+      "notes": "独自作成問題。解答・解説を確認済み。公開承認ではなくreview。"
+    },
+    "created_at": "2026-11-08"
+  },
+  {
+    "id": "daily-20261108-m-004",
+    "subject": "math",
+    "unit": "平方根・乗除",
+    "grade": "中学2〜3年",
+    "difficulty": 2,
+    "prompt": "√12×√3 を簡単にしなさい。",
+    "answer": "6",
+    "explanation": "√12×√3=√36=6。",
+    "scoring": "正答を明確に示し、必要な式・根拠・単位を含めていること。",
+    "status": "review",
+    "verification": {
+      "answer_status": "independently_verified",
+      "checked_by": [
+        "設問と正答の対応確認",
+        "計算または用語・制度の根拠確認"
+      ],
+      "notes": "独自作成問題。解答・解説を確認済み。公開承認ではなくreview。"
+    },
+    "created_at": "2026-11-08"
+  },
+  {
+    "id": "daily-20261108-m-005",
+    "subject": "math",
+    "unit": "二次方程式・因数分解",
+    "grade": "中学2〜3年",
+    "difficulty": 2,
+    "prompt": "x²−7x+12=0 を解きなさい。",
+    "answer": "x=3,4",
+    "explanation": "(x−3)(x−4)=0 より x=3,4。",
+    "scoring": "正答を明確に示し、必要な式・根拠・単位を含めていること。",
+    "status": "review",
+    "verification": {
+      "answer_status": "independently_verified",
+      "checked_by": [
+        "設問と正答の対応確認",
+        "計算または用語・制度の根拠確認"
+      ],
+      "notes": "独自作成問題。解答・解説を確認済み。公開承認ではなくreview。"
+    },
+    "created_at": "2026-11-08"
+  },
+  {
+    "id": "daily-20261108-m-006",
+    "subject": "math",
+    "unit": "二次方程式・文章題",
+    "grade": "中学2〜3年",
+    "difficulty": 3,
+    "prompt": "縦がx cm、横が(x+3) cmの長方形の面積が40cm²である。xを求めなさい。",
+    "answer": "5cm",
+    "explanation": "x(x+3)=40 より x²+3x−40=0=(x+8)(x−5)。長さなのでx=5。",
+    "scoring": "正答を明確に示し、必要な式・根拠・単位を含めていること。",
+    "status": "review",
+    "verification": {
+      "answer_status": "independently_verified",
+      "checked_by": [
+        "設問と正答の対応確認",
+        "計算または用語・制度の根拠確認"
+      ],
+      "notes": "独自作成問題。解答・解説を確認済み。公開承認ではなくreview。"
+    },
+    "created_at": "2026-11-08"
+  },
+  {
+    "id": "daily-20261108-m-007",
+    "subject": "math",
+    "unit": "確率・さいころ",
+    "grade": "中学2〜3年",
+    "difficulty": 2,
+    "prompt": "大小2個のさいころを同時に投げる。出た目の和が9になる確率を求めなさい。",
+    "answer": "1/9",
+    "explanation": "全36通り。和が9は(3,6),(4,5),(5,4),(6,3)の4通り。4/36=1/9。",
+    "scoring": "正答を明確に示し、必要な式・根拠・単位を含めていること。",
+    "status": "review",
+    "verification": {
+      "answer_status": "independently_verified",
+      "checked_by": [
+        "設問と正答の対応確認",
+        "計算または用語・制度の根拠確認"
+      ],
+      "notes": "独自作成問題。解答・解説を確認済み。公開承認ではなくreview。"
+    },
+    "created_at": "2026-11-08"
+  },
+  {
+    "id": "daily-20261108-m-008",
+    "subject": "math",
+    "unit": "確率・カード",
+    "grade": "中学2〜3年",
+    "difficulty": 2,
+    "prompt": "1から8までの数字が1枚ずつ書かれたカードから1枚引く。素数が出る確率を求めなさい。",
+    "answer": "1/2",
+    "explanation": "素数は2,3,5,7の4枚。4/8=1/2。",
+    "scoring": "正答を明確に示し、必要な式・根拠・単位を含めていること。",
+    "status": "review",
+    "verification": {
+      "answer_status": "independently_verified",
+      "checked_by": [
+        "設問と正答の対応確認",
+        "計算または用語・制度の根拠確認"
+      ],
+      "notes": "独自作成問題。解答・解説を確認済み。公開承認ではなくreview。"
+    },
+    "created_at": "2026-11-08"
+  },
+  {
+    "id": "daily-20261108-m-009",
+    "subject": "math",
+    "unit": "データの活用・中央値",
+    "grade": "中学2〜3年",
+    "difficulty": 2,
+    "prompt": "データ 4, 7, 2, 9, 5, 8, 3 の中央値を求めなさい。",
+    "answer": "5",
+    "explanation": "小さい順に2,3,4,5,7,8,9と並べる。中央の4番目は5。",
+    "scoring": "正答を明確に示し、必要な式・根拠・単位を含めていること。",
+    "status": "review",
+    "verification": {
+      "answer_status": "independently_verified",
+      "checked_by": [
+        "設問と正答の対応確認",
+        "計算または用語・制度の根拠確認"
+      ],
+      "notes": "独自作成問題。解答・解説を確認済み。公開承認ではなくreview。"
+    },
+    "created_at": "2026-11-08"
+  },
+  {
+    "id": "daily-20261108-m-010",
+    "subject": "math",
+    "unit": "データの活用・平均値",
+    "grade": "中学2〜3年",
+    "difficulty": 1,
+    "prompt": "5回の小テストの得点が6,8,7,9,10点である。平均点を求めなさい。",
+    "answer": "8点",
+    "explanation": "合計40点を5回で割ると8点。",
+    "scoring": "正答を明確に示し、必要な式・根拠・単位を含めていること。",
+    "status": "review",
+    "verification": {
+      "answer_status": "independently_verified",
+      "checked_by": [
+        "設問と正答の対応確認",
+        "計算または用語・制度の根拠確認"
+      ],
+      "notes": "独自作成問題。解答・解説を確認済み。公開承認ではなくreview。"
+    },
+    "created_at": "2026-11-08"
+  },
+  {
+    "id": "daily-20261108-m-011",
+    "subject": "math",
+    "unit": "相似・面積比",
+    "grade": "中学2〜3年",
+    "difficulty": 3,
+    "prompt": "相似比が3:4の2つの三角形について、小さい方の面積が27cm²である。大きい方の面積を求めなさい。",
+    "answer": "48cm²",
+    "explanation": "面積比は3²:4²=9:16。27×16/9=48cm²。",
+    "scoring": "正答を明確に示し、必要な式・根拠・単位を含めていること。",
+    "status": "review",
+    "verification": {
+      "answer_status": "independently_verified",
+      "checked_by": [
+        "設問と正答の対応確認",
+        "計算または用語・制度の根拠確認"
+      ],
+      "notes": "独自作成問題。解答・解説を確認済み。公開承認ではなくreview。"
+    },
+    "created_at": "2026-11-08"
+  },
+  {
+    "id": "daily-20261108-m-012",
+    "subject": "math",
+    "unit": "円周角・円周角",
+    "grade": "中学2〜3年",
+    "difficulty": 2,
+    "prompt": "同じ弧に対する円周角の一つが52°である。もう一つの円周角を求めなさい。",
+    "answer": "52°",
+    "explanation": "同じ弧に対する円周角は等しいため52°。",
+    "scoring": "正答を明確に示し、必要な式・根拠・単位を含めていること。",
+    "status": "review",
+    "verification": {
+      "answer_status": "independently_verified",
+      "checked_by": [
+        "設問と正答の対応確認",
+        "計算または用語・制度の根拠確認"
+      ],
+      "notes": "独自作成問題。解答・解説を確認済み。公開承認ではなくreview。"
+    },
+    "created_at": "2026-11-08"
+  },
+  {
+    "id": "daily-20261108-m-013",
+    "subject": "math",
+    "unit": "三平方の定理・平面図形",
+    "grade": "中学2〜3年",
+    "difficulty": 2,
+    "prompt": "直角三角形の斜辺が13cm、一方の直角をはさむ辺が5cmである。他方の辺を求めなさい。",
+    "answer": "12cm",
+    "explanation": "他方をxとするとx²+5²=13²。x²=144よりx=12。",
+    "scoring": "正答を明確に示し、必要な式・根拠・単位を含めていること。",
+    "status": "review",
+    "verification": {
+      "answer_status": "independently_verified",
+      "checked_by": [
+        "設問と正答の対応確認",
+        "計算または用語・制度の根拠確認"
+      ],
+      "notes": "独自作成問題。解答・解説を確認済み。公開承認ではなくreview。"
+    },
+    "created_at": "2026-11-08"
+  },
+  {
+    "id": "daily-20261108-m-014",
+    "subject": "math",
+    "unit": "関数 y=ax²・変化の割合",
+    "grade": "中学2〜3年",
+    "difficulty": 2,
+    "prompt": "y=ax²が点(2,12)を通る。aを求めなさい。",
+    "answer": "3",
+    "explanation": "12=4aよりa=3。",
+    "scoring": "正答を明確に示し、必要な式・根拠・単位を含めていること。",
+    "status": "review",
+    "verification": {
+      "answer_status": "independently_verified",
+      "checked_by": [
+        "設問と正答の対応確認",
+        "計算または用語・制度の根拠確認"
+      ],
+      "notes": "独自作成問題。解答・解説を確認済み。公開承認ではなくreview。"
+    },
+    "created_at": "2026-11-08"
+  },
+  {
+    "id": "daily-20261108-m-015",
+    "subject": "math",
+    "unit": "規則性・数列",
+    "grade": "中学2〜3年",
+    "difficulty": 2,
+    "prompt": "ある規則で 4, 7, 10, 13,… と並ぶ。初めから20番目の数を求めなさい。",
+    "answer": "61",
+    "explanation": "初項4、公差3なので20番目は4+19×3=61。",
+    "scoring": "正答を明確に示し、必要な式・根拠・単位を含めていること。",
+    "status": "review",
+    "verification": {
+      "answer_status": "independently_verified",
+      "checked_by": [
+        "設問と正答の対応確認",
+        "計算または用語・制度の根拠確認"
+      ],
+      "notes": "独自作成問題。解答・解説を確認済み。公開承認ではなくreview。"
+    },
+    "created_at": "2026-11-08"
+  },
+  {
+    "id": "daily-20261108-m-016",
+    "subject": "math",
+    "unit": "図形・角度",
+    "grade": "中学2〜3年",
+    "difficulty": 1,
+    "prompt": "三角形の内角のうち2つが47°と68°である。残りの角を求めなさい。",
+    "answer": "65°",
+    "explanation": "三角形の内角の和は180°。180−47−68=65°。",
+    "scoring": "正答を明確に示し、必要な式・根拠・単位を含めていること。",
+    "status": "review",
+    "verification": {
+      "answer_status": "independently_verified",
+      "checked_by": [
+        "設問と正答の対応確認",
+        "計算または用語・制度の根拠確認"
+      ],
+      "notes": "独自作成問題。解答・解説を確認済み。公開承認ではなくreview。"
+    },
+    "created_at": "2026-11-08"
+  },
+  {
+    "id": "daily-20261108-m-017",
+    "subject": "math",
+    "unit": "図形・多角形",
+    "grade": "中学2〜3年",
+    "difficulty": 3,
+    "prompt": "正十二角形の1つの内角の大きさを求めなさい。",
+    "answer": "150°",
+    "explanation": "内角の和は(12−2)×180=1800°。1つ分は1800÷12=150°。",
+    "scoring": "正答を明確に示し、必要な式・根拠・単位を含めていること。",
+    "status": "review",
+    "verification": {
+      "answer_status": "independently_verified",
+      "checked_by": [
+        "設問と正答の対応確認",
+        "計算または用語・制度の根拠確認"
+      ],
+      "notes": "独自作成問題。解答・解説を確認済み。公開承認ではなくreview。"
+    },
+    "created_at": "2026-11-08"
+  },
+  {
+    "id": "daily-20261108-m-018",
+    "subject": "math",
+    "unit": "式の計算・展開",
+    "grade": "中学2〜3年",
+    "difficulty": 2,
+    "prompt": "(2x−3)(x+4) を展開しなさい。",
+    "answer": "2x²+5x−12",
+    "explanation": "2x²+8x−3x−12をまとめて2x²+5x−12。",
+    "scoring": "正答を明確に示し、必要な式・根拠・単位を含めていること。",
+    "status": "review",
+    "verification": {
+      "answer_status": "independently_verified",
+      "checked_by": [
+        "設問と正答の対応確認",
+        "計算または用語・制度の根拠確認"
+      ],
+      "notes": "独自作成問題。解答・解説を確認済み。公開承認ではなくreview。"
+    },
+    "created_at": "2026-11-08"
+  },
+  {
+    "id": "daily-20261108-m-019",
+    "subject": "math",
+    "unit": "式の計算・因数分解",
+    "grade": "中学2〜3年",
+    "difficulty": 1,
+    "prompt": "x²−16 を因数分解しなさい。",
+    "answer": "(x−4)(x+4)",
+    "explanation": "平方の差 a²−b²=(a−b)(a+b) を使う。",
+    "scoring": "正答を明確に示し、必要な式・根拠・単位を含めていること。",
+    "status": "review",
+    "verification": {
+      "answer_status": "independently_verified",
+      "checked_by": [
+        "設問と正答の対応確認",
+        "計算または用語・制度の根拠確認"
+      ],
+      "notes": "独自作成問題。解答・解説を確認済み。公開承認ではなくreview。"
+    },
+    "created_at": "2026-11-08"
+  },
+  {
+    "id": "daily-20261108-m-020",
+    "subject": "math",
+    "unit": "比例・反比例",
+    "grade": "中学2〜3年",
+    "difficulty": 2,
+    "prompt": "yはxに反比例し、x=4のときy=6である。x=8のときのyを求めなさい。",
+    "answer": "3",
+    "explanation": "反比例の式はy=a/x。a=4×6=24なので、y=24/8=3。",
+    "scoring": "正答を明確に示し、必要な式・根拠・単位を含めていること。",
+    "status": "review",
+    "verification": {
+      "answer_status": "independently_verified",
+      "checked_by": [
+        "設問と正答の対応確認",
+        "計算または用語・制度の根拠確認"
+      ],
+      "notes": "独自作成問題。解答・解説を確認済み。公開承認ではなくreview。"
+    },
+    "created_at": "2026-11-08"
+  },
+  {
+    "id": "daily-20261108-s-021",
+    "subject": "science",
+    "unit": "物理・圧力",
+    "grade": "中学1〜3年",
+    "difficulty": 2,
+    "prompt": "面積0.02m²の面に100Nの力が垂直にはたらく。圧力を求めなさい。",
+    "answer": "5000Pa",
+    "explanation": "圧力=力÷面積=100÷0.02=5000Pa。",
+    "scoring": "正答を明確に示し、必要な式・根拠・単位を含めていること。",
+    "status": "review",
+    "verification": {
+      "answer_status": "independently_verified",
+      "checked_by": [
+        "設問と正答の対応確認",
+        "計算または用語・制度の根拠確認"
+      ],
+      "notes": "独自作成問題。解答・解説を確認済み。公開承認ではなくreview。"
+    },
+    "created_at": "2026-11-08"
+  },
+  {
+    "id": "daily-20261108-s-022",
+    "subject": "science",
+    "unit": "物理・電力",
+    "grade": "中学1〜3年",
+    "difficulty": 2,
+    "prompt": "電圧12V、電流0.5Aの電熱線の電力を求めなさい。",
+    "answer": "6W",
+    "explanation": "電力P=VI=12×0.5=6W。",
+    "scoring": "正答を明確に示し、必要な式・根拠・単位を含めていること。",
+    "status": "review",
+    "verification": {
+      "answer_status": "independently_verified",
+      "checked_by": [
+        "設問と正答の対応確認",
+        "計算または用語・制度の根拠確認"
+      ],
+      "notes": "独自作成問題。解答・解説を確認済み。公開承認ではなくreview。"
+    },
+    "created_at": "2026-11-08"
+  },
+  {
+    "id": "daily-20261108-s-023",
+    "subject": "science",
+    "unit": "物理・直列回路",
+    "grade": "中学1〜3年",
+    "difficulty": 1,
+    "prompt": "抵抗2Ωと4Ωを直列につなぐ。合成抵抗を求めなさい。",
+    "answer": "6Ω",
+    "explanation": "直列回路の合成抵抗は各抵抗の和なので2+4=6Ω。",
+    "scoring": "正答を明確に示し、必要な式・根拠・単位を含めていること。",
+    "status": "review",
+    "verification": {
+      "answer_status": "independently_verified",
+      "checked_by": [
+        "設問と正答の対応確認",
+        "計算または用語・制度の根拠確認"
+      ],
+      "notes": "独自作成問題。解答・解説を確認済み。公開承認ではなくreview。"
+    },
+    "created_at": "2026-11-08"
+  },
+  {
+    "id": "daily-20261108-s-024",
+    "subject": "science",
+    "unit": "物理・浮力",
+    "grade": "中学1〜3年",
+    "difficulty": 2,
+    "prompt": "水中で物体にはたらく浮力の大きさは、物体が押しのけた水の何に等しいか。",
+    "answer": "重さ",
+    "explanation": "浮力は物体が押しのけた液体の重さに等しい。",
+    "scoring": "正答を明確に示し、必要な式・根拠・単位を含めていること。",
+    "status": "review",
+    "verification": {
+      "answer_status": "independently_verified",
+      "checked_by": [
+        "設問と正答の対応確認",
+        "計算または用語・制度の根拠確認"
+      ],
+      "notes": "独自作成問題。解答・解説を確認済み。公開承認ではなくreview。"
+    },
+    "created_at": "2026-11-08"
+  },
+  {
+    "id": "daily-20261108-s-025",
+    "subject": "science",
+    "unit": "化学・質量保存",
+    "grade": "中学1〜3年",
+    "difficulty": 2,
+    "prompt": "密閉容器内で炭酸水素ナトリウムを加熱した。加熱前の容器全体が85gなら、加熱後の容器全体の質量は何gか。",
+    "answer": "85g",
+    "explanation": "気体が容器外へ出ない密閉系では、化学変化の前後で全体の質量は保存される。",
+    "scoring": "正答を明確に示し、必要な式・根拠・単位を含めていること。",
+    "status": "review",
+    "verification": {
+      "answer_status": "independently_verified",
+      "checked_by": [
+        "設問と正答の対応確認",
+        "計算または用語・制度の根拠確認"
+      ],
+      "notes": "独自作成問題。解答・解説を確認済み。公開承認ではなくreview。"
+    },
+    "created_at": "2026-11-08"
+  },
+  {
+    "id": "daily-20261108-s-026",
+    "subject": "science",
+    "unit": "化学・中和",
+    "grade": "中学1〜3年",
+    "difficulty": 2,
+    "prompt": "塩酸と水酸化ナトリウム水溶液を過不足なく反応させたとき、酸の性質を示す水素イオンとアルカリの性質を示す何イオンが結びつくか。",
+    "answer": "水酸化物イオン",
+    "explanation": "水素イオンと水酸化物イオンが結びついて水ができる。",
+    "scoring": "正答を明確に示し、必要な式・根拠・単位を含めていること。",
+    "status": "review",
+    "verification": {
+      "answer_status": "independently_verified",
+      "checked_by": [
+        "設問と正答の対応確認",
+        "計算または用語・制度の根拠確認"
+      ],
+      "notes": "独自作成問題。解答・解説を確認済み。公開承認ではなくreview。"
+    },
+    "created_at": "2026-11-08"
+  },
+  {
+    "id": "daily-20261108-s-027",
+    "subject": "science",
+    "unit": "化学・気体",
+    "grade": "中学1〜3年",
+    "difficulty": 1,
+    "prompt": "石灰水を白くにごらせる気体は何か。",
+    "answer": "二酸化炭素",
+    "explanation": "二酸化炭素を石灰水に通すと炭酸カルシウムが生じ、白くにごる。",
+    "scoring": "正答を明確に示し、必要な式・根拠・単位を含めていること。",
+    "status": "review",
+    "verification": {
+      "answer_status": "independently_verified",
+      "checked_by": [
+        "設問と正答の対応確認",
+        "計算または用語・制度の根拠確認"
+      ],
+      "notes": "独自作成問題。解答・解説を確認済み。公開承認ではなくreview。"
+    },
+    "created_at": "2026-11-08"
+  },
+  {
+    "id": "daily-20261108-s-028",
+    "subject": "science",
+    "unit": "生物・光合成",
+    "grade": "中学1〜3年",
+    "difficulty": 1,
+    "prompt": "植物が光合成で二酸化炭素と水からつくる養分は何か。",
+    "answer": "デンプンなどの有機物",
+    "explanation": "光合成では光エネルギーを利用して二酸化炭素と水から有機物をつくり、酸素を放出する。",
+    "scoring": "正答を明確に示し、必要な式・根拠・単位を含めていること。",
+    "status": "review",
+    "verification": {
+      "answer_status": "independently_verified",
+      "checked_by": [
+        "設問と正答の対応確認",
+        "計算または用語・制度の根拠確認"
+      ],
+      "notes": "独自作成問題。解答・解説を確認済み。公開承認ではなくreview。"
+    },
+    "created_at": "2026-11-08"
+  },
+  {
+    "id": "daily-20261108-s-029",
+    "subject": "science",
+    "unit": "生物・遺伝",
+    "grade": "中学1〜3年",
+    "difficulty": 2,
+    "prompt": "親の形質を子に伝える遺伝情報を担う物質は何か。",
+    "answer": "DNA",
+    "explanation": "DNAは遺伝情報を担う物質で、染色体を構成する。",
+    "scoring": "正答を明確に示し、必要な式・根拠・単位を含めていること。",
+    "status": "review",
+    "verification": {
+      "answer_status": "independently_verified",
+      "checked_by": [
+        "設問と正答の対応確認",
+        "計算または用語・制度の根拠確認"
+      ],
+      "notes": "独自作成問題。解答・解説を確認済み。公開承認ではなくreview。"
+    },
+    "created_at": "2026-11-08"
+  },
+  {
+    "id": "daily-20261108-s-030",
+    "subject": "science",
+    "unit": "生物・血液循環",
+    "grade": "中学1〜3年",
+    "difficulty": 2,
+    "prompt": "肺で酸素を受け取った血液が心臓へ戻るときに通る血管は何か。",
+    "answer": "肺静脈",
+    "explanation": "肺で酸素を多く含んだ血液は肺静脈を通って左心房へ戻る。",
+    "scoring": "正答を明確に示し、必要な式・根拠・単位を含めていること。",
+    "status": "review",
+    "verification": {
+      "answer_status": "independently_verified",
+      "checked_by": [
+        "設問と正答の対応確認",
+        "計算または用語・制度の根拠確認"
+      ],
+      "notes": "独自作成問題。解答・解説を確認済み。公開承認ではなくreview。"
+    },
+    "created_at": "2026-11-08"
+  },
+  {
+    "id": "daily-20261108-s-031",
+    "subject": "science",
+    "unit": "地学・湿度",
+    "grade": "中学1〜3年",
+    "difficulty": 3,
+    "prompt": "気温20℃の空気1m³に水蒸気が8g含まれ、飽和水蒸気量が17g/m³である。湿度を整数で求めなさい。",
+    "answer": "約47％",
+    "explanation": "湿度=8÷17×100=約47.1％なので約47％。",
+    "scoring": "正答を明確に示し、必要な式・根拠・単位を含めていること。",
+    "status": "review",
+    "verification": {
+      "answer_status": "independently_verified",
+      "checked_by": [
+        "設問と正答の対応確認",
+        "計算または用語・制度の根拠確認"
+      ],
+      "notes": "独自作成問題。解答・解説を確認済み。公開承認ではなくreview。"
+    },
+    "created_at": "2026-11-08"
+  },
+  {
+    "id": "daily-20261108-s-032",
+    "subject": "science",
+    "unit": "地学・地震",
+    "grade": "中学1〜3年",
+    "difficulty": 2,
+    "prompt": "P波の速さが6km/s、震源からの距離が72kmの地点にP波が届くまで何秒か。",
+    "answer": "12秒",
+    "explanation": "時間=距離÷速さ=72÷6=12秒。",
+    "scoring": "正答を明確に示し、必要な式・根拠・単位を含めていること。",
+    "status": "review",
+    "verification": {
+      "answer_status": "independently_verified",
+      "checked_by": [
+        "設問と正答の対応確認",
+        "計算または用語・制度の根拠確認"
+      ],
+      "notes": "独自作成問題。解答・解説を確認済み。公開承認ではなくreview。"
+    },
+    "created_at": "2026-11-08"
+  },
+  {
+    "id": "daily-20261108-s-033",
+    "subject": "science",
+    "unit": "地学・前線",
+    "grade": "中学1〜3年",
+    "difficulty": 2,
+    "prompt": "寒冷前線が通過するときに起こりやすい天気の変化を一つ答えなさい。",
+    "answer": "短時間の強い雨の後、気温が下がる",
+    "explanation": "寒気が暖気の下にもぐりこみ、積乱雲が発達して強い雨を降らせることがある。通過後は気温が下がりやすい。",
+    "scoring": "正答を明確に示し、必要な式・根拠・単位を含めていること。",
+    "status": "review",
+    "verification": {
+      "answer_status": "independently_verified",
+      "checked_by": [
+        "設問と正答の対応確認",
+        "計算または用語・制度の根拠確認"
+      ],
+      "notes": "独自作成問題。解答・解説を確認済み。公開承認ではなくreview。"
+    },
+    "created_at": "2026-11-08"
+  },
+  {
+    "id": "daily-20261108-s-034",
+    "subject": "science",
+    "unit": "物理・音",
+    "grade": "中学1〜3年",
+    "difficulty": 1,
+    "prompt": "音源の振動数を2倍にすると、音の高さはどうなるか。",
+    "answer": "高くなる",
+    "explanation": "振動数が大きいほど音は高くなる。",
+    "scoring": "正答を明確に示し、必要な式・根拠・単位を含めていること。",
+    "status": "review",
+    "verification": {
+      "answer_status": "independently_verified",
+      "checked_by": [
+        "設問と正答の対応確認",
+        "計算または用語・制度の根拠確認"
+      ],
+      "notes": "独自作成問題。解答・解説を確認済み。公開承認ではなくreview。"
+    },
+    "created_at": "2026-11-08"
+  },
+  {
+    "id": "daily-20261108-s-035",
+    "subject": "science",
+    "unit": "化学・イオン",
+    "grade": "中学1〜3年",
+    "difficulty": 2,
+    "prompt": "塩化銅水溶液に電流を流すと、陰極に付着する物質は何か。",
+    "answer": "銅",
+    "explanation": "銅イオンは陽イオンなので陰極へ移動し、電子を受け取って銅になる。",
+    "scoring": "正答を明確に示し、必要な式・根拠・単位を含めていること。",
+    "status": "review",
+    "verification": {
+      "answer_status": "independently_verified",
+      "checked_by": [
+        "設問と正答の対応確認",
+        "計算または用語・制度の根拠確認"
+      ],
+      "notes": "独自作成問題。解答・解説を確認済み。公開承認ではなくreview。"
+    },
+    "created_at": "2026-11-08"
+  },
+  {
+    "id": "daily-20261108-c-036",
+    "subject": "social",
+    "unit": "地理・地形図",
+    "grade": "中学2〜3年",
+    "difficulty": 1,
+    "prompt": "地形図で等高線の間隔が狭い場所は、一般にどのような地形か。",
+    "answer": "傾斜が急な地形",
+    "explanation": "等高線の間隔が狭いほど、短い水平距離で標高が大きく変化するため傾斜が急である。",
+    "scoring": "正答を明確に示し、必要な式・根拠・単位を含めていること。",
+    "status": "review",
+    "verification": {
+      "answer_status": "independently_verified",
+      "checked_by": [
+        "設問と正答の対応確認",
+        "計算または用語・制度の根拠確認"
+      ],
+      "notes": "独自作成問題。解答・解説を確認済み。公開承認ではなくreview。"
+    },
+    "created_at": "2026-11-08"
+  },
+  {
+    "id": "daily-20261108-c-037",
+    "subject": "social",
+    "unit": "地理・雨温図",
+    "grade": "中学2〜3年",
+    "difficulty": 2,
+    "prompt": "一年を通して降水量が少なく、夏と冬の気温差が大きい地域に見られやすい気候は何か。",
+    "answer": "内陸性の気候",
+    "explanation": "海から離れた内陸部では海の影響が小さく、年較差が大きくなりやすい。",
+    "scoring": "正答を明確に示し、必要な式・根拠・単位を含めていること。",
+    "status": "review",
+    "verification": {
+      "answer_status": "independently_verified",
+      "checked_by": [
+        "設問と正答の対応確認",
+        "計算または用語・制度の根拠確認"
+      ],
+      "notes": "独自作成問題。解答・解説を確認済み。公開承認ではなくreview。"
+    },
+    "created_at": "2026-11-08"
+  },
+  {
+    "id": "daily-20261108-c-038",
+    "subject": "social",
+    "unit": "地理・農業",
+    "grade": "中学2〜3年",
+    "difficulty": 2,
+    "prompt": "北海道で大規模な畑作や酪農が発達している主な理由を一つ答えなさい。",
+    "answer": "広い土地を利用できるため",
+    "explanation": "北海道には広い農地を確保しやすい地域があり、大規模な畑作・酪農が行われる。",
+    "scoring": "正答を明確に示し、必要な式・根拠・単位を含めていること。",
+    "status": "review",
+    "verification": {
+      "answer_status": "independently_verified",
+      "checked_by": [
+        "設問と正答の対応確認",
+        "計算または用語・制度の根拠確認"
+      ],
+      "notes": "独自作成問題。解答・解説を確認済み。公開承認ではなくreview。"
+    },
+    "created_at": "2026-11-08"
+  },
+  {
+    "id": "daily-20261108-c-039",
+    "subject": "social",
+    "unit": "地理・人口",
+    "grade": "中学2〜3年",
+    "difficulty": 1,
+    "prompt": "人口が都市部へ集中し、農村部の人口が減少する現象を何というか。",
+    "answer": "過疎化（農村部の過疎化）",
+    "explanation": "人口が流出して地域の人口が減少することを過疎化という。",
+    "scoring": "正答を明確に示し、必要な式・根拠・単位を含めていること。",
+    "status": "review",
+    "verification": {
+      "answer_status": "independently_verified",
+      "checked_by": [
+        "設問と正答の対応確認",
+        "計算または用語・制度の根拠確認"
+      ],
+      "notes": "独自作成問題。解答・解説を確認済み。公開承認ではなくreview。"
+    },
+    "created_at": "2026-11-08"
+  },
+  {
+    "id": "daily-20261108-c-040",
+    "subject": "social",
+    "unit": "歴史・室町文化",
+    "grade": "中学2〜3年",
+    "difficulty": 1,
+    "prompt": "金閣を建てた室町幕府の将軍は誰か。",
+    "answer": "足利義満",
+    "explanation": "足利義満は北山文化を代表し、京都に金閣を建てた。",
+    "scoring": "正答を明確に示し、必要な式・根拠・単位を含めていること。",
+    "status": "review",
+    "verification": {
+      "answer_status": "independently_verified",
+      "checked_by": [
+        "設問と正答の対応確認",
+        "計算または用語・制度の根拠確認"
+      ],
+      "notes": "独自作成問題。解答・解説を確認済み。公開承認ではなくreview。"
+    },
+    "created_at": "2026-11-08"
+  },
+  {
+    "id": "daily-20261108-c-041",
+    "subject": "social",
+    "unit": "歴史・江戸改革",
+    "grade": "中学2〜3年",
+    "difficulty": 1,
+    "prompt": "享保の改革を行った江戸幕府の将軍は誰か。",
+    "answer": "徳川吉宗",
+    "explanation": "徳川吉宗は享保の改革を行い、財政再建や新田開発などを進めた。",
+    "scoring": "正答を明確に示し、必要な式・根拠・単位を含めていること。",
+    "status": "review",
+    "verification": {
+      "answer_status": "independently_verified",
+      "checked_by": [
+        "設問と正答の対応確認",
+        "計算または用語・制度の根拠確認"
+      ],
+      "notes": "独自作成問題。解答・解説を確認済み。公開承認ではなくreview。"
+    },
+    "created_at": "2026-11-08"
+  },
+  {
+    "id": "daily-20261108-c-042",
+    "subject": "social",
+    "unit": "歴史・明治維新",
+    "grade": "中学2〜3年",
+    "difficulty": 1,
+    "prompt": "明治政府が藩を廃止して府県を置いた改革を何というか。",
+    "answer": "廃藩置県",
+    "explanation": "1871年に藩を廃止し、府県を置いて中央集権化を進めた。",
+    "scoring": "正答を明確に示し、必要な式・根拠・単位を含めていること。",
+    "status": "review",
+    "verification": {
+      "answer_status": "independently_verified",
+      "checked_by": [
+        "設問と正答の対応確認",
+        "計算または用語・制度の根拠確認"
+      ],
+      "notes": "独自作成問題。解答・解説を確認済み。公開承認ではなくreview。"
+    },
+    "created_at": "2026-11-08"
+  },
+  {
+    "id": "daily-20261108-c-043",
+    "subject": "social",
+    "unit": "歴史・近代日本",
+    "grade": "中学2〜3年",
+    "difficulty": 2,
+    "prompt": "日清戦争後、日本が清から割譲された台湾などを定めた講和条約は何か。",
+    "answer": "下関条約",
+    "explanation": "1895年に結ばれた下関条約で、清は台湾・澎湖諸島などを日本に割譲した。",
+    "scoring": "正答を明確に示し、必要な式・根拠・単位を含めていること。",
+    "status": "review",
+    "verification": {
+      "answer_status": "independently_verified",
+      "checked_by": [
+        "設問と正答の対応確認",
+        "計算または用語・制度の根拠確認"
+      ],
+      "notes": "独自作成問題。解答・解説を確認済み。公開承認ではなくreview。"
+    },
+    "created_at": "2026-11-08"
+  },
+  {
+    "id": "daily-20261108-c-044",
+    "subject": "social",
+    "unit": "歴史・戦後改革",
+    "grade": "中学2〜3年",
+    "difficulty": 2,
+    "prompt": "第二次世界大戦後、日本で農地改革が行われた主な目的は何か。",
+    "answer": "地主制を解体し、自作農を増やすため",
+    "explanation": "政府が地主の農地を買い上げて小作人に売り渡し、自作農を増やした。",
+    "scoring": "正答を明確に示し、必要な式・根拠・単位を含めていること。",
+    "status": "review",
+    "verification": {
+      "answer_status": "independently_verified",
+      "checked_by": [
+        "設問と正答の対応確認",
+        "計算または用語・制度の根拠確認"
+      ],
+      "notes": "独自作成問題。解答・解説を確認済み。公開承認ではなくreview。"
+    },
+    "created_at": "2026-11-08"
+  },
+  {
+    "id": "daily-20261108-c-045",
+    "subject": "social",
+    "unit": "公民・国会",
+    "grade": "中学2〜3年",
+    "difficulty": 1,
+    "prompt": "衆議院と参議院の両方で可決されることを原則とする国の意思決定機関は何か。",
+    "answer": "国会",
+    "explanation": "国会は国権の最高機関で、国の唯一の立法機関である。",
+    "scoring": "正答を明確に示し、必要な式・根拠・単位を含めていること。",
+    "status": "review",
+    "verification": {
+      "answer_status": "independently_verified",
+      "checked_by": [
+        "設問と正答の対応確認",
+        "計算または用語・制度の根拠確認"
+      ],
+      "notes": "独自作成問題。解答・解説を確認済み。公開承認ではなくreview。"
+    },
+    "created_at": "2026-11-08"
+  },
+  {
+    "id": "daily-20261108-c-046",
+    "subject": "social",
+    "unit": "公民・選挙",
+    "grade": "中学2〜3年",
+    "difficulty": 1,
+    "prompt": "選挙で、投票した内容が他人に知られないようにする原則を何というか。",
+    "answer": "秘密選挙",
+    "explanation": "秘密選挙は、投票内容を他人に知られず自由に意思表示できるようにする原則。",
+    "scoring": "正答を明確に示し、必要な式・根拠・単位を含めていること。",
+    "status": "review",
+    "verification": {
+      "answer_status": "independently_verified",
+      "checked_by": [
+        "設問と正答の対応確認",
+        "計算または用語・制度の根拠確認"
+      ],
+      "notes": "独自作成問題。解答・解説を確認済み。公開承認ではなくreview。"
+    },
+    "created_at": "2026-11-08"
+  },
+  {
+    "id": "daily-20261108-c-047",
+    "subject": "social",
+    "unit": "公民・地方自治",
+    "grade": "中学2〜3年",
+    "difficulty": 2,
+    "prompt": "住民が条例の制定・改廃などを地方公共団体に求める制度を何というか。",
+    "answer": "直接請求",
+    "explanation": "一定数の署名を集め、条例の制定・改廃などを請求できる制度を直接請求という。",
+    "scoring": "正答を明確に示し、必要な式・根拠・単位を含めていること。",
+    "status": "review",
+    "verification": {
+      "answer_status": "independently_verified",
+      "checked_by": [
+        "設問と正答の対応確認",
+        "計算または用語・制度の根拠確認"
+      ],
+      "notes": "独自作成問題。解答・解説を確認済み。公開承認ではなくreview。"
+    },
+    "created_at": "2026-11-08"
+  },
+  {
+    "id": "daily-20261108-c-048",
+    "subject": "social",
+    "unit": "公民・経済",
+    "grade": "中学2〜3年",
+    "difficulty": 2,
+    "prompt": "企業が商品やサービスを生産・販売し、家計がそれを購入する経済の仕組みを何というか。",
+    "answer": "市場経済",
+    "explanation": "市場経済では、需要と供給を通じて価格や生産量が調整される。",
+    "scoring": "正答を明確に示し、必要な式・根拠・単位を含めていること。",
+    "status": "review",
+    "verification": {
+      "answer_status": "independently_verified",
+      "checked_by": [
+        "設問と正答の対応確認",
+        "計算または用語・制度の根拠確認"
+      ],
+      "notes": "独自作成問題。解答・解説を確認済み。公開承認ではなくreview。"
+    },
+    "created_at": "2026-11-08"
+  },
+  {
+    "id": "daily-20261108-c-049",
+    "subject": "social",
+    "unit": "公民・国際連合",
+    "grade": "中学2〜3年",
+    "difficulty": 2,
+    "prompt": "国際連合で、国際平和と安全の維持について大きな責任を持つ機関は何か。",
+    "answer": "安全保障理事会",
+    "explanation": "安全保障理事会は国際平和と安全の維持について主要な責任を負う。",
+    "scoring": "正答を明確に示し、必要な式・根拠・単位を含めていること。",
+    "status": "review",
+    "verification": {
+      "answer_status": "independently_verified",
+      "checked_by": [
+        "設問と正答の対応確認",
+        "計算または用語・制度の根拠確認"
+      ],
+      "notes": "独自作成問題。解答・解説を確認済み。公開承認ではなくreview。"
+    },
+    "created_at": "2026-11-08"
+  }
+]
