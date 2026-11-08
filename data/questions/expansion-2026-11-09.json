@@ -1,0 +1,508 @@
+[
+  {
+    "id": "math-exp-20261108-linear-002",
+    "subject": "math",
+    "unit": "一次関数・式の決定",
+    "grade": "中学2年",
+    "difficulty": 2,
+    "prompt": "一次関数 y=ax−4 のグラフが点 (3,5) を通る。aの値を求めなさい。",
+    "answer": "a=3",
+    "explanation": "5=3a−4 より 3a=9、a=3。",
+    "scoring": "式への代入と計算を示す。",
+    "status": "review",
+    "verification": {
+      "answer_status": "independently_verified",
+      "checked_by": [
+        "点の座標を代入",
+        "一次方程式を解く"
+      ],
+      "notes": "新規作成問題。解答・説明を独立確認。"
+    },
+    "created_at": "2026-11-08"
+  },
+  {
+    "id": "math-exp-20261108-linear-003",
+    "subject": "math",
+    "unit": "一次関数・交点",
+    "grade": "中学2年",
+    "difficulty": 3,
+    "prompt": "直線 y=2x+1 と y=−x+7 の交点の座標を求めなさい。",
+    "answer": "(2,5)",
+    "explanation": "2x+1=−x+7 より 3x=6、x=2。y=2×2+1=5。",
+    "scoring": "xとyの両方を答える。",
+    "status": "review",
+    "verification": {
+      "answer_status": "independently_verified",
+      "checked_by": [
+        "連立方程式で交点を計算"
+      ],
+      "notes": "新規作成問題。解答・説明を独立確認。"
+    },
+    "created_at": "2026-11-08"
+  },
+  {
+    "id": "math-exp-20261108-square-002",
+    "subject": "math",
+    "unit": "平方根・計算",
+    "grade": "中学3年",
+    "difficulty": 2,
+    "prompt": "√50−2√8 を簡単にしなさい。",
+    "answer": "√2",
+    "explanation": "√50=5√2、2√8=4√2。したがって5√2−4√2=√2。",
+    "scoring": "根号を含む式を正しく整理する。",
+    "status": "review",
+    "verification": {
+      "answer_status": "independently_verified",
+      "checked_by": [
+        "根号を簡単にする",
+        "同類項をまとめる"
+      ],
+      "notes": "新規作成問題。解答・説明を独立確認。"
+    },
+    "created_at": "2026-11-08"
+  },
+  {
+    "id": "math-exp-20261108-equation-002",
+    "subject": "math",
+    "unit": "二次方程式・解の公式",
+    "grade": "中学3年",
+    "difficulty": 3,
+    "prompt": "二次方程式 x²−4x−1=0 を解きなさい。",
+    "answer": "x=2±√5",
+    "explanation": "解の公式より x=(4±√(16+4))/2=(4±√20)/2=2±√5。",
+    "scoring": "2つの解を正しく答える。",
+    "status": "review",
+    "verification": {
+      "answer_status": "independently_verified",
+      "checked_by": [
+        "解の公式に代入",
+        "根号を整理"
+      ],
+      "notes": "新規作成問題。解答・説明を独立確認。"
+    },
+    "created_at": "2026-11-08"
+  },
+  {
+    "id": "math-exp-20261108-probability-002",
+    "subject": "math",
+    "unit": "確率・玉の取り出し",
+    "grade": "中学2年",
+    "difficulty": 3,
+    "prompt": "赤玉3個、白玉2個が入った袋から、続けて玉を2個取り出す。戻さないとき、2個とも赤玉である確率を求めなさい。",
+    "answer": "3/10",
+    "explanation": "1個目が赤である確率は3/5。続けて赤を引く確率は2/4。よって3/5×2/4=3/10。",
+    "scoring": "分数を約分して答える。",
+    "status": "review",
+    "verification": {
+      "answer_status": "independently_verified",
+      "checked_by": [
+        "順に取り出す確率を乗算"
+      ],
+      "notes": "新規作成問題。解答・説明を独立確認。"
+    },
+    "created_at": "2026-11-08"
+  },
+  {
+    "id": "math-exp-20261108-statistics-002",
+    "subject": "math",
+    "unit": "データの活用・相対度数",
+    "grade": "中学1年",
+    "difficulty": 2,
+    "prompt": "ある階級の度数が8、全体の度数が40である。この階級の相対度数を求めなさい。",
+    "answer": "0.2",
+    "explanation": "相対度数=階級の度数÷全体の度数=8÷40=0.2。",
+    "scoring": "相対度数を小数で答える。",
+    "status": "review",
+    "verification": {
+      "answer_status": "independently_verified",
+      "checked_by": [
+        "相対度数の定義で計算"
+      ],
+      "notes": "新規作成問題。解答・説明を独立確認。"
+    },
+    "created_at": "2026-11-08"
+  },
+  {
+    "id": "math-exp-20261108-geometry-001",
+    "subject": "math",
+    "unit": "円周角・中心角",
+    "grade": "中学3年",
+    "difficulty": 2,
+    "prompt": "同じ弧に対する円周角が38°である。この弧に対する中心角を求めなさい。",
+    "answer": "76°",
+    "explanation": "同じ弧に対する中心角は円周角の2倍なので、38×2=76°。",
+    "scoring": "角度と単位を答える。",
+    "status": "review",
+    "verification": {
+      "answer_status": "independently_verified",
+      "checked_by": [
+        "円周角の定理を適用"
+      ],
+      "notes": "新規作成問題。解答・説明を独立確認。"
+    },
+    "created_at": "2026-11-08"
+  },
+  {
+    "id": "math-exp-20261108-similarity-002",
+    "subject": "math",
+    "unit": "相似・辺の長さ",
+    "grade": "中学3年",
+    "difficulty": 3,
+    "prompt": "相似比が小さい図形：大きい図形=2:5である。小さい図形の対応する辺が6cmのとき、大きい図形の辺の長さを求めなさい。",
+    "answer": "15cm",
+    "explanation": "対応する辺の比も2:5。6:x=2:5 より x=15。",
+    "scoring": "比例式と単位を正しく示す。",
+    "status": "review",
+    "verification": {
+      "answer_status": "independently_verified",
+      "checked_by": [
+        "相似比から比例式を立てる"
+      ],
+      "notes": "新規作成問題。解答・説明を独立確認。"
+    },
+    "created_at": "2026-11-08"
+  },
+  {
+    "id": "math-exp-20261108-pythagorean-001",
+    "subject": "math",
+    "unit": "三平方の定理",
+    "grade": "中学3年",
+    "difficulty": 2,
+    "prompt": "直角をはさむ2辺が6cmと8cmの直角三角形について、斜辺の長さを求めなさい。",
+    "answer": "10cm",
+    "explanation": "三平方の定理より斜辺²=6²+8²=36+64=100。斜辺は10cm。",
+    "scoring": "正の長さを単位付きで答える。",
+    "status": "review",
+    "verification": {
+      "answer_status": "independently_verified",
+      "checked_by": [
+        "三平方の定理で計算"
+      ],
+      "notes": "新規作成問題。解答・説明を独立確認。"
+    },
+    "created_at": "2026-11-08"
+  },
+  {
+    "id": "math-exp-20261108-function-001",
+    "subject": "math",
+    "unit": "関数 y=ax²・変化",
+    "grade": "中学3年",
+    "difficulty": 3,
+    "prompt": "関数 y=2x² で、xが1から3まで増加するときの変化の割合を求めなさい。",
+    "answer": "8",
+    "explanation": "変化の割合=(yの増加量)/(xの増加量)=(18−2)/(3−1)=16/2=8。",
+    "scoring": "式と答えを示す。",
+    "status": "review",
+    "verification": {
+      "answer_status": "independently_verified",
+      "checked_by": [
+        "両端のyの値を計算",
+        "変化の割合を求める"
+      ],
+      "notes": "新規作成問題。解答・説明を独立確認。"
+    },
+    "created_at": "2026-11-08"
+  },
+  {
+    "id": "sci-exp-20261108-force-002",
+    "subject": "science",
+    "unit": "力・フックの法則",
+    "grade": "中学1年",
+    "difficulty": 2,
+    "prompt": "ばねに2Nの力を加えると4cm伸びた。比例関係が成り立つ範囲で5Nの力を加えると何cm伸びるか。",
+    "answer": "10cm",
+    "explanation": "力が2Nから5Nへ2.5倍になるので、伸びも4×2.5=10cm。",
+    "scoring": "比例関係を使って答える。",
+    "status": "review",
+    "verification": {
+      "answer_status": "independently_verified",
+      "checked_by": [
+        "比例関係で計算"
+      ],
+      "notes": "新規作成問題。解答・説明を独立確認。"
+    },
+    "created_at": "2026-11-08"
+  },
+  {
+    "id": "sci-exp-20261108-circuit-001",
+    "subject": "science",
+    "unit": "電流・直列回路",
+    "grade": "中学2年",
+    "difficulty": 2,
+    "prompt": "抵抗4Ωと6Ωを直列につなぎ、全体に20Vを加えた。回路に流れる電流を求めなさい。",
+    "answer": "2A",
+    "explanation": "直列の合成抵抗は4+6=10Ω。オームの法則より I=20÷10=2A。",
+    "scoring": "単位Aを付ける。",
+    "status": "review",
+    "verification": {
+      "answer_status": "independently_verified",
+      "checked_by": [
+        "合成抵抗を計算",
+        "オームの法則で計算"
+      ],
+      "notes": "新規作成問題。解答・説明を独立確認。"
+    },
+    "created_at": "2026-11-08"
+  },
+  {
+    "id": "sci-exp-20261108-chem-001",
+    "subject": "science",
+    "unit": "化学変化・質量保存",
+    "grade": "中学2年",
+    "difficulty": 2,
+    "prompt": "密閉容器内で物質AとBを反応させた。反応前の全質量が120gだったとき、反応後の容器内全体の質量は何gか。",
+    "answer": "120g",
+    "explanation": "化学変化の前後で、密閉した容器全体の質量は変わらない。",
+    "scoring": "質量保存の法則を用いる。",
+    "status": "review",
+    "verification": {
+      "answer_status": "independently_verified",
+      "checked_by": [
+        "質量保存の法則を確認"
+      ],
+      "notes": "新規作成問題。解答・説明を独立確認。"
+    },
+    "created_at": "2026-11-08"
+  },
+  {
+    "id": "sci-exp-20261108-biology-001",
+    "subject": "science",
+    "unit": "生物・消化",
+    "grade": "中学2年",
+    "difficulty": 2,
+    "prompt": "デンプンを分解して麦芽糖などにする、だ液に含まれる消化酵素を何というか。",
+    "answer": "アミラーゼ",
+    "explanation": "だ液に含まれるアミラーゼは、デンプンを麦芽糖などに分解する。",
+    "scoring": "酵素名を正しく答える。",
+    "status": "review",
+    "verification": {
+      "answer_status": "independently_verified",
+      "checked_by": [
+        "消化酵素のはたらきを確認"
+      ],
+      "notes": "新規作成問題。解答・説明を独立確認。"
+    },
+    "created_at": "2026-11-08"
+  },
+  {
+    "id": "sci-exp-20261108-earth-001",
+    "subject": "science",
+    "unit": "地学・火山",
+    "grade": "中学1年",
+    "difficulty": 2,
+    "prompt": "火山灰に含まれる、穴が多く軽い鉱物で、水に浮くこともあるものを何というか。",
+    "answer": "軽石",
+    "explanation": "軽石はマグマが急に冷えてできた多孔質の火山噴出物で、内部に気泡が多く軽い。",
+    "scoring": "名称を答える。",
+    "status": "review",
+    "verification": {
+      "answer_status": "independently_verified",
+      "checked_by": [
+        "火山噴出物の特徴を確認"
+      ],
+      "notes": "新規作成問題。解答・説明を独立確認。"
+    },
+    "created_at": "2026-11-08"
+  },
+  {
+    "id": "sci-exp-20261108-weather-001",
+    "subject": "science",
+    "unit": "地学・湿度",
+    "grade": "中学2年",
+    "difficulty": 3,
+    "prompt": "飽和水蒸気量が20g/m³、実際に含まれる水蒸気量が15g/m³のとき、湿度は何％か。",
+    "answer": "75％",
+    "explanation": "湿度=15÷20×100=75％。",
+    "scoring": "％を付ける。",
+    "status": "review",
+    "verification": {
+      "answer_status": "independently_verified",
+      "checked_by": [
+        "湿度の公式で計算"
+      ],
+      "notes": "新規作成問題。解答・説明を独立確認。"
+    },
+    "created_at": "2026-11-08"
+  },
+  {
+    "id": "sci-exp-20261108-optics-001",
+    "subject": "science",
+    "unit": "光・凸レンズ",
+    "grade": "中学1年",
+    "difficulty": 2,
+    "prompt": "凸レンズで、物体を焦点距離の2倍より外側に置いたとき、スクリーンにできる像はどのような像か。",
+    "answer": "倒立で縮小した実像",
+    "explanation": "物体を2fより外側に置くと、像はレンズの反対側のfと2fの間にでき、倒立で縮小した実像となる。",
+    "scoring": "向き・大きさ・実像の3点を含める。",
+    "status": "review",
+    "verification": {
+      "answer_status": "independently_verified",
+      "checked_by": [
+        "凸レンズの作図規則を確認"
+      ],
+      "notes": "新規作成問題。解答・説明を独立確認。"
+    },
+    "created_at": "2026-11-08"
+  },
+  {
+    "id": "sci-exp-20261108-chem-002",
+    "subject": "science",
+    "unit": "化学・酸とアルカリ",
+    "grade": "中学3年",
+    "difficulty": 2,
+    "prompt": "青色リトマス紙を赤色に変える水溶液の性質を何というか。",
+    "answer": "酸性",
+    "explanation": "酸性の水溶液は青色リトマス紙を赤色に変える。",
+    "scoring": "性質を答える。",
+    "status": "review",
+    "verification": {
+      "answer_status": "independently_verified",
+      "checked_by": [
+        "指示薬の変化を確認"
+      ],
+      "notes": "新規作成問題。解答・説明を独立確認。"
+    },
+    "created_at": "2026-11-08"
+  },
+  {
+    "id": "sci-exp-20261108-electricity-002",
+    "subject": "science",
+    "unit": "電力量・電力",
+    "grade": "中学2年",
+    "difficulty": 3,
+    "prompt": "消費電力600Wの電気器具を2時間使用した。電力量をkWhで求めなさい。",
+    "answer": "1.2kWh",
+    "explanation": "600W=0.6kW。電力量=0.6kW×2h=1.2kWh。",
+    "scoring": "単位kWhを付ける。",
+    "status": "review",
+    "verification": {
+      "answer_status": "independently_verified",
+      "checked_by": [
+        "WをkWに換算",
+        "電力量を計算"
+      ],
+      "notes": "新規作成問題。解答・説明を独立確認。"
+    },
+    "created_at": "2026-11-08"
+  },
+  {
+    "id": "sci-exp-20261108-earthquake-002",
+    "subject": "science",
+    "unit": "地震・震源距離",
+    "grade": "中学1年",
+    "difficulty": 3,
+    "prompt": "ある地点でP波が到着してからS波が到着するまでの時間が8秒だった。この時間を何というか。",
+    "answer": "初期微動継続時間",
+    "explanation": "P波による初期微動の開始から、S波による主要動の開始までの時間を初期微動継続時間という。",
+    "scoring": "用語を正確に答える。",
+    "status": "review",
+    "verification": {
+      "answer_status": "independently_verified",
+      "checked_by": [
+        "地震の揺れの用語を確認"
+      ],
+      "notes": "新規作成問題。解答・説明を独立確認。"
+    },
+    "created_at": "2026-11-08"
+  },
+  {
+    "id": "soc-exp-20261108-history-001",
+    "subject": "social",
+    "unit": "歴史・鎌倉幕府",
+    "grade": "中学2年",
+    "difficulty": 2,
+    "prompt": "鎌倉幕府で、将軍を補佐して政治の実権を握った役職を何というか。",
+    "answer": "執権",
+    "explanation": "鎌倉幕府では北条氏が執権となり、将軍を補佐しながら政治の実権を握った。",
+    "scoring": "役職名を答える。",
+    "status": "review",
+    "verification": {
+      "answer_status": "independently_verified",
+      "checked_by": [
+        "鎌倉幕府の政治制度を確認"
+      ],
+      "notes": "新規作成問題。解答・説明を独立確認。"
+    },
+    "created_at": "2026-11-08"
+  },
+  {
+    "id": "soc-exp-20261108-geography-001",
+    "subject": "social",
+    "unit": "地理・日本の工業",
+    "grade": "中学2年",
+    "difficulty": 2,
+    "prompt": "中京工業地帯で特に生産がさかんな工業として代表的なものを答えなさい。",
+    "answer": "自動車工業",
+    "explanation": "愛知県を中心とする中京工業地帯では、自動車を中心とした機械工業が発達している。",
+    "scoring": "代表的な工業を答える。",
+    "status": "review",
+    "verification": {
+      "answer_status": "independently_verified",
+      "checked_by": [
+        "日本の工業地域の特色を確認"
+      ],
+      "notes": "新規作成問題。解答・説明を独立確認。"
+    },
+    "created_at": "2026-11-08"
+  },
+  {
+    "id": "soc-exp-20261108-civics-001",
+    "subject": "social",
+    "unit": "公民・基本的人権",
+    "grade": "中学3年",
+    "difficulty": 2,
+    "prompt": "日本国憲法第25条で保障されている権利を何というか。",
+    "answer": "生存権",
+    "explanation": "憲法第25条は、健康で文化的な最低限度の生活を営む権利を定めている。",
+    "scoring": "権利名を答える。",
+    "status": "review",
+    "verification": {
+      "answer_status": "independently_verified",
+      "checked_by": [
+        "日本国憲法第25条を確認"
+      ],
+      "notes": "新規作成問題。解答・説明を独立確認。"
+    },
+    "created_at": "2026-11-08"
+  },
+  {
+    "id": "soc-exp-20261108-history-002",
+    "subject": "social",
+    "unit": "歴史・江戸時代",
+    "grade": "中学2年",
+    "difficulty": 2,
+    "prompt": "江戸幕府が大名を統制するために定めた法令を何というか。",
+    "answer": "武家諸法度",
+    "explanation": "武家諸法度は大名の行動や統制に関する規定で、江戸幕府が大名統制に用いた。",
+    "scoring": "法令名を答える。",
+    "status": "review",
+    "verification": {
+      "answer_status": "independently_verified",
+      "checked_by": [
+        "江戸幕府の大名統制策を確認"
+      ],
+      "notes": "新規作成問題。解答・説明を独立確認。"
+    },
+    "created_at": "2026-11-08"
+  },
+  {
+    "id": "soc-exp-20261108-geography-002",
+    "subject": "social",
+    "unit": "地理・人口",
+    "grade": "中学2年",
+    "difficulty": 3,
+    "prompt": "人口が大都市へ集中する一方、地方の人口が減少し、地域社会の維持が難しくなる問題を何というか。",
+    "answer": "過疎化",
+    "explanation": "人口が減少し、一定の人口密度や生活サービスの維持が難しくなる地域の問題を過疎化という。",
+    "scoring": "用語を答える。",
+    "status": "review",
+    "verification": {
+      "answer_status": "independently_verified",
+      "checked_by": [
+        "人口問題の用語を確認"
+      ],
+      "notes": "新規作成問題。解答・説明を独立確認。"
+    },
+    "created_at": "2026-11-08"
+  }
+]
