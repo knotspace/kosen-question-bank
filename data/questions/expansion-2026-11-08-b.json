@@ -1027,5 +1027,25 @@
       "notes": "独自作成問題。解答・解説を確認済み。公開承認ではなくreview。"
     },
     "created_at": "2026-11-08"
+  },
+  {
+    "id": "daily-20261108-c-050",
+    "subject": "social",
+    "unit": "歴史・江戸時代の外交",
+    "grade": "中学2年",
+    "difficulty": 2,
+    "prompt": "江戸幕府がオランダ商館を置き、貿易を行った長崎の人工島は何か。",
+    "answer": "出島",
+    "explanation": "江戸時代、幕府は長崎の出島にオランダ商館を置き、限られた形で貿易を続けた。",
+    "scoring": "地名を正確に答える。",
+    "status": "review",
+    "verification": {
+      "answer_status": "independently_verified",
+      "checked_by": [
+        "江戸時代の対外関係を確認"
+      ],
+      "notes": "独自作成問題。解答・解説を確認済み。公開承認ではなくreview。"
+    },
+    "created_at": "2026-11-08"
   }
 ]
