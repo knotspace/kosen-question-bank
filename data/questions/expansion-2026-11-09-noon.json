@@ -1,0 +1,1052 @@
+[
+  {
+    "id": "noon-20261109-math-001",
+    "subject": "math",
+    "unit": "一次関数・値の計算",
+    "grade": "中学2年",
+    "difficulty": 2,
+    "prompt": "一次関数 y=2x+1 で、x=3のときのyを求めなさい。",
+    "answer": "7",
+    "explanation": "y=2×(3)+1=7。",
+    "scoring": "正答を単位・途中式または根拠とともに示す。",
+    "status": "review",
+    "verification": {
+      "answer_status": "independently_verified",
+      "checked_by": [
+        "設問条件と答えを照合",
+        "計算・年号・用語を再確認"
+      ],
+      "notes": "2026-11-09昼の新規オリジナル問題。公開承認前のレビュー対象。"
+    },
+    "created_at": "2026-11-09"
+  },
+  {
+    "id": "noon-20261109-math-002",
+    "subject": "math",
+    "unit": "一次関数・値の計算",
+    "grade": "中学2年",
+    "difficulty": 2,
+    "prompt": "一次関数 y=3x-2 で、x=-2のときのyを求めなさい。",
+    "answer": "-8",
+    "explanation": "y=3×(-2)-2=-8。",
+    "scoring": "正答を単位・途中式または根拠とともに示す。",
+    "status": "review",
+    "verification": {
+      "answer_status": "independently_verified",
+      "checked_by": [
+        "設問条件と答えを照合",
+        "計算・年号・用語を再確認"
+      ],
+      "notes": "2026-11-09昼の新規オリジナル問題。公開承認前のレビュー対象。"
+    },
+    "created_at": "2026-11-09"
+  },
+  {
+    "id": "noon-20261109-math-003",
+    "subject": "math",
+    "unit": "一次関数・値の計算",
+    "grade": "中学2年",
+    "difficulty": 2,
+    "prompt": "一次関数 y=4x+3 で、x=4のときのyを求めなさい。",
+    "answer": "19",
+    "explanation": "y=4×(4)+3=19。",
+    "scoring": "正答を単位・途中式または根拠とともに示す。",
+    "status": "review",
+    "verification": {
+      "answer_status": "independently_verified",
+      "checked_by": [
+        "設問条件と答えを照合",
+        "計算・年号・用語を再確認"
+      ],
+      "notes": "2026-11-09昼の新規オリジナル問題。公開承認前のレビュー対象。"
+    },
+    "created_at": "2026-11-09"
+  },
+  {
+    "id": "noon-20261109-math-004",
+    "subject": "math",
+    "unit": "一次関数・値の計算",
+    "grade": "中学2年",
+    "difficulty": 2,
+    "prompt": "一次関数 y=5x-4 で、x=1のときのyを求めなさい。",
+    "answer": "1",
+    "explanation": "y=5×(1)-4=1。",
+    "scoring": "正答を単位・途中式または根拠とともに示す。",
+    "status": "review",
+    "verification": {
+      "answer_status": "independently_verified",
+      "checked_by": [
+        "設問条件と答えを照合",
+        "計算・年号・用語を再確認"
+      ],
+      "notes": "2026-11-09昼の新規オリジナル問題。公開承認前のレビュー対象。"
+    },
+    "created_at": "2026-11-09"
+  },
+  {
+    "id": "noon-20261109-math-005",
+    "subject": "math",
+    "unit": "一次方程式",
+    "grade": "中学2年",
+    "difficulty": 2,
+    "prompt": "2x+3=11を解きなさい。",
+    "answer": "x=4",
+    "explanation": "2x=8よりx=4。",
+    "scoring": "正答を単位・途中式または根拠とともに示す。",
+    "status": "review",
+    "verification": {
+      "answer_status": "independently_verified",
+      "checked_by": [
+        "設問条件と答えを照合",
+        "計算・年号・用語を再確認"
+      ],
+      "notes": "2026-11-09昼の新規オリジナル問題。公開承認前のレビュー対象。"
+    },
+    "created_at": "2026-11-09"
+  },
+  {
+    "id": "noon-20261109-math-006",
+    "subject": "math",
+    "unit": "一次方程式",
+    "grade": "中学2年",
+    "difficulty": 2,
+    "prompt": "3x-1=14を解きなさい。",
+    "answer": "x=5",
+    "explanation": "3x=15よりx=5。",
+    "scoring": "正答を単位・途中式または根拠とともに示す。",
+    "status": "review",
+    "verification": {
+      "answer_status": "independently_verified",
+      "checked_by": [
+        "設問条件と答えを照合",
+        "計算・年号・用語を再確認"
+      ],
+      "notes": "2026-11-09昼の新規オリジナル問題。公開承認前のレビュー対象。"
+    },
+    "created_at": "2026-11-09"
+  },
+  {
+    "id": "noon-20261109-math-007",
+    "subject": "math",
+    "unit": "一次方程式",
+    "grade": "中学2年",
+    "difficulty": 2,
+    "prompt": "4x+2=14を解きなさい。",
+    "answer": "x=3",
+    "explanation": "4x=12よりx=3。",
+    "scoring": "正答を単位・途中式または根拠とともに示す。",
+    "status": "review",
+    "verification": {
+      "answer_status": "independently_verified",
+      "checked_by": [
+        "設問条件と答えを照合",
+        "計算・年号・用語を再確認"
+      ],
+      "notes": "2026-11-09昼の新規オリジナル問題。公開承認前のレビュー対象。"
+    },
+    "created_at": "2026-11-09"
+  },
+  {
+    "id": "noon-20261109-math-008",
+    "subject": "math",
+    "unit": "一次方程式",
+    "grade": "中学2年",
+    "difficulty": 2,
+    "prompt": "5x-4=26を解きなさい。",
+    "answer": "x=6",
+    "explanation": "5x=30よりx=6。",
+    "scoring": "正答を単位・途中式または根拠とともに示す。",
+    "status": "review",
+    "verification": {
+      "answer_status": "independently_verified",
+      "checked_by": [
+        "設問条件と答えを照合",
+        "計算・年号・用語を再確認"
+      ],
+      "notes": "2026-11-09昼の新規オリジナル問題。公開承認前のレビュー対象。"
+    },
+    "created_at": "2026-11-09"
+  },
+  {
+    "id": "noon-20261109-math-009",
+    "subject": "math",
+    "unit": "確率",
+    "grade": "中学2年",
+    "difficulty": 2,
+    "prompt": "赤玉2個、白玉6個が入った袋から1個取り出す。赤玉が出る確率を求めなさい。",
+    "answer": "2/8",
+    "explanation": "赤玉は2個、全体は8個なので2/8。",
+    "scoring": "正答を単位・途中式または根拠とともに示す。",
+    "status": "review",
+    "verification": {
+      "answer_status": "independently_verified",
+      "checked_by": [
+        "設問条件と答えを照合",
+        "計算・年号・用語を再確認"
+      ],
+      "notes": "2026-11-09昼の新規オリジナル問題。公開承認前のレビュー対象。"
+    },
+    "created_at": "2026-11-09"
+  },
+  {
+    "id": "noon-20261109-math-010",
+    "subject": "math",
+    "unit": "確率",
+    "grade": "中学2年",
+    "difficulty": 2,
+    "prompt": "赤玉3個、白玉5個が入った袋から1個取り出す。赤玉が出る確率を求めなさい。",
+    "answer": "3/8",
+    "explanation": "赤玉は3個、全体は8個なので3/8。",
+    "scoring": "正答を単位・途中式または根拠とともに示す。",
+    "status": "review",
+    "verification": {
+      "answer_status": "independently_verified",
+      "checked_by": [
+        "設問条件と答えを照合",
+        "計算・年号・用語を再確認"
+      ],
+      "notes": "2026-11-09昼の新規オリジナル問題。公開承認前のレビュー対象。"
+    },
+    "created_at": "2026-11-09"
+  },
+  {
+    "id": "noon-20261109-math-011",
+    "subject": "math",
+    "unit": "確率",
+    "grade": "中学2年",
+    "difficulty": 2,
+    "prompt": "赤玉4個、白玉4個が入った袋から1個取り出す。赤玉が出る確率を求めなさい。",
+    "answer": "4/8",
+    "explanation": "赤玉は4個、全体は8個なので4/8。",
+    "scoring": "正答を単位・途中式または根拠とともに示す。",
+    "status": "review",
+    "verification": {
+      "answer_status": "independently_verified",
+      "checked_by": [
+        "設問条件と答えを照合",
+        "計算・年号・用語を再確認"
+      ],
+      "notes": "2026-11-09昼の新規オリジナル問題。公開承認前のレビュー対象。"
+    },
+    "created_at": "2026-11-09"
+  },
+  {
+    "id": "noon-20261109-math-012",
+    "subject": "math",
+    "unit": "確率",
+    "grade": "中学2年",
+    "difficulty": 2,
+    "prompt": "赤玉5個、白玉3個が入った袋から1個取り出す。赤玉が出る確率を求めなさい。",
+    "answer": "5/8",
+    "explanation": "赤玉は5個、全体は8個なので5/8。",
+    "scoring": "正答を単位・途中式または根拠とともに示す。",
+    "status": "review",
+    "verification": {
+      "answer_status": "independently_verified",
+      "checked_by": [
+        "設問条件と答えを照合",
+        "計算・年号・用語を再確認"
+      ],
+      "notes": "2026-11-09昼の新規オリジナル問題。公開承認前のレビュー対象。"
+    },
+    "created_at": "2026-11-09"
+  },
+  {
+    "id": "noon-20261109-math-013",
+    "subject": "math",
+    "unit": "割合・百分率",
+    "grade": "中学1年",
+    "difficulty": 2,
+    "prompt": "80の10%はいくつか。",
+    "answer": "8",
+    "explanation": "80×10/100=8。",
+    "scoring": "正答を単位・途中式または根拠とともに示す。",
+    "status": "review",
+    "verification": {
+      "answer_status": "independently_verified",
+      "checked_by": [
+        "設問条件と答えを照合",
+        "計算・年号・用語を再確認"
+      ],
+      "notes": "2026-11-09昼の新規オリジナル問題。公開承認前のレビュー対象。"
+    },
+    "created_at": "2026-11-09"
+  },
+  {
+    "id": "noon-20261109-math-014",
+    "subject": "math",
+    "unit": "割合・百分率",
+    "grade": "中学1年",
+    "difficulty": 2,
+    "prompt": "120の15%はいくつか。",
+    "answer": "18",
+    "explanation": "120×15/100=18。",
+    "scoring": "正答を単位・途中式または根拠とともに示す。",
+    "status": "review",
+    "verification": {
+      "answer_status": "independently_verified",
+      "checked_by": [
+        "設問条件と答えを照合",
+        "計算・年号・用語を再確認"
+      ],
+      "notes": "2026-11-09昼の新規オリジナル問題。公開承認前のレビュー対象。"
+    },
+    "created_at": "2026-11-09"
+  },
+  {
+    "id": "noon-20261109-math-015",
+    "subject": "math",
+    "unit": "割合・百分率",
+    "grade": "中学1年",
+    "difficulty": 2,
+    "prompt": "150の20%はいくつか。",
+    "answer": "30",
+    "explanation": "150×20/100=30。",
+    "scoring": "正答を単位・途中式または根拠とともに示す。",
+    "status": "review",
+    "verification": {
+      "answer_status": "independently_verified",
+      "checked_by": [
+        "設問条件と答えを照合",
+        "計算・年号・用語を再確認"
+      ],
+      "notes": "2026-11-09昼の新規オリジナル問題。公開承認前のレビュー対象。"
+    },
+    "created_at": "2026-11-09"
+  },
+  {
+    "id": "noon-20261109-math-016",
+    "subject": "math",
+    "unit": "割合・百分率",
+    "grade": "中学1年",
+    "difficulty": 2,
+    "prompt": "240の25%はいくつか。",
+    "answer": "60",
+    "explanation": "240×25/100=60。",
+    "scoring": "正答を単位・途中式または根拠とともに示す。",
+    "status": "review",
+    "verification": {
+      "answer_status": "independently_verified",
+      "checked_by": [
+        "設問条件と答えを照合",
+        "計算・年号・用語を再確認"
+      ],
+      "notes": "2026-11-09昼の新規オリジナル問題。公開承認前のレビュー対象。"
+    },
+    "created_at": "2026-11-09"
+  },
+  {
+    "id": "noon-20261109-math-017",
+    "subject": "math",
+    "unit": "平面図形・面積",
+    "grade": "中学1年",
+    "difficulty": 2,
+    "prompt": "縦5cm、横8cmの長方形の面積を求めなさい。",
+    "answer": "40cm²",
+    "explanation": "8×5=40cm²。",
+    "scoring": "正答を単位・途中式または根拠とともに示す。",
+    "status": "review",
+    "verification": {
+      "answer_status": "independently_verified",
+      "checked_by": [
+        "設問条件と答えを照合",
+        "計算・年号・用語を再確認"
+      ],
+      "notes": "2026-11-09昼の新規オリジナル問題。公開承認前のレビュー対象。"
+    },
+    "created_at": "2026-11-09"
+  },
+  {
+    "id": "noon-20261109-math-018",
+    "subject": "math",
+    "unit": "平面図形・面積",
+    "grade": "中学1年",
+    "difficulty": 2,
+    "prompt": "縦4cm、横9cmの長方形の面積を求めなさい。",
+    "answer": "36cm²",
+    "explanation": "9×4=36cm²。",
+    "scoring": "正答を単位・途中式または根拠とともに示す。",
+    "status": "review",
+    "verification": {
+      "answer_status": "independently_verified",
+      "checked_by": [
+        "設問条件と答えを照合",
+        "計算・年号・用語を再確認"
+      ],
+      "notes": "2026-11-09昼の新規オリジナル問題。公開承認前のレビュー対象。"
+    },
+    "created_at": "2026-11-09"
+  },
+  {
+    "id": "noon-20261109-math-019",
+    "subject": "math",
+    "unit": "平面図形・面積",
+    "grade": "中学1年",
+    "difficulty": 2,
+    "prompt": "縦7cm、横12cmの長方形の面積を求めなさい。",
+    "answer": "84cm²",
+    "explanation": "12×7=84cm²。",
+    "scoring": "正答を単位・途中式または根拠とともに示す。",
+    "status": "review",
+    "verification": {
+      "answer_status": "independently_verified",
+      "checked_by": [
+        "設問条件と答えを照合",
+        "計算・年号・用語を再確認"
+      ],
+      "notes": "2026-11-09昼の新規オリジナル問題。公開承認前のレビュー対象。"
+    },
+    "created_at": "2026-11-09"
+  },
+  {
+    "id": "noon-20261109-math-020",
+    "subject": "math",
+    "unit": "平面図形・面積",
+    "grade": "中学1年",
+    "difficulty": 2,
+    "prompt": "縦6cm、横15cmの長方形の面積を求めなさい。",
+    "answer": "90cm²",
+    "explanation": "15×6=90cm²。",
+    "scoring": "正答を単位・途中式または根拠とともに示す。",
+    "status": "review",
+    "verification": {
+      "answer_status": "independently_verified",
+      "checked_by": [
+        "設問条件と答えを照合",
+        "計算・年号・用語を再確認"
+      ],
+      "notes": "2026-11-09昼の新規オリジナル問題。公開承認前のレビュー対象。"
+    },
+    "created_at": "2026-11-09"
+  },
+  {
+    "id": "noon-20261109-science-021",
+    "subject": "science",
+    "unit": "運動・速さ",
+    "grade": "中学1年",
+    "difficulty": 2,
+    "prompt": "物体が150mを30秒で進んだ。平均の速さを求めなさい。",
+    "answer": "5m/s",
+    "explanation": "150÷30=5m/s。",
+    "scoring": "正答を単位・途中式または根拠とともに示す。",
+    "status": "review",
+    "verification": {
+      "answer_status": "independently_verified",
+      "checked_by": [
+        "設問条件と答えを照合",
+        "計算・年号・用語を再確認"
+      ],
+      "notes": "2026-11-09昼の新規オリジナル問題。公開承認前のレビュー対象。"
+    },
+    "created_at": "2026-11-09"
+  },
+  {
+    "id": "noon-20261109-science-022",
+    "subject": "science",
+    "unit": "運動・速さ",
+    "grade": "中学1年",
+    "difficulty": 2,
+    "prompt": "物体が240mを40秒で進んだ。平均の速さを求めなさい。",
+    "answer": "6m/s",
+    "explanation": "240÷40=6m/s。",
+    "scoring": "正答を単位・途中式または根拠とともに示す。",
+    "status": "review",
+    "verification": {
+      "answer_status": "independently_verified",
+      "checked_by": [
+        "設問条件と答えを照合",
+        "計算・年号・用語を再確認"
+      ],
+      "notes": "2026-11-09昼の新規オリジナル問題。公開承認前のレビュー対象。"
+    },
+    "created_at": "2026-11-09"
+  },
+  {
+    "id": "noon-20261109-science-023",
+    "subject": "science",
+    "unit": "運動・速さ",
+    "grade": "中学1年",
+    "difficulty": 2,
+    "prompt": "物体が360mを60秒で進んだ。平均の速さを求めなさい。",
+    "answer": "6m/s",
+    "explanation": "360÷60=6m/s。",
+    "scoring": "正答を単位・途中式または根拠とともに示す。",
+    "status": "review",
+    "verification": {
+      "answer_status": "independently_verified",
+      "checked_by": [
+        "設問条件と答えを照合",
+        "計算・年号・用語を再確認"
+      ],
+      "notes": "2026-11-09昼の新規オリジナル問題。公開承認前のレビュー対象。"
+    },
+    "created_at": "2026-11-09"
+  },
+  {
+    "id": "noon-20261109-science-024",
+    "subject": "science",
+    "unit": "運動・速さ",
+    "grade": "中学1年",
+    "difficulty": 2,
+    "prompt": "物体が420mを70秒で進んだ。平均の速さを求めなさい。",
+    "answer": "6m/s",
+    "explanation": "420÷70=6m/s。",
+    "scoring": "正答を単位・途中式または根拠とともに示す。",
+    "status": "review",
+    "verification": {
+      "answer_status": "independently_verified",
+      "checked_by": [
+        "設問条件と答えを照合",
+        "計算・年号・用語を再確認"
+      ],
+      "notes": "2026-11-09昼の新規オリジナル問題。公開承認前のレビュー対象。"
+    },
+    "created_at": "2026-11-09"
+  },
+  {
+    "id": "noon-20261109-science-025",
+    "subject": "science",
+    "unit": "電流・オームの法則",
+    "grade": "中学2年",
+    "difficulty": 2,
+    "prompt": "抵抗3Ωに6Vの電圧を加えた。電流を求めなさい。",
+    "answer": "2A",
+    "explanation": "I=V/R=6/3=2A。",
+    "scoring": "正答を単位・途中式または根拠とともに示す。",
+    "status": "review",
+    "verification": {
+      "answer_status": "independently_verified",
+      "checked_by": [
+        "設問条件と答えを照合",
+        "計算・年号・用語を再確認"
+      ],
+      "notes": "2026-11-09昼の新規オリジナル問題。公開承認前のレビュー対象。"
+    },
+    "created_at": "2026-11-09"
+  },
+  {
+    "id": "noon-20261109-science-026",
+    "subject": "science",
+    "unit": "電流・オームの法則",
+    "grade": "中学2年",
+    "difficulty": 2,
+    "prompt": "抵抗3Ωに9Vの電圧を加えた。電流を求めなさい。",
+    "answer": "3A",
+    "explanation": "I=V/R=9/3=3A。",
+    "scoring": "正答を単位・途中式または根拠とともに示す。",
+    "status": "review",
+    "verification": {
+      "answer_status": "independently_verified",
+      "checked_by": [
+        "設問条件と答えを照合",
+        "計算・年号・用語を再確認"
+      ],
+      "notes": "2026-11-09昼の新規オリジナル問題。公開承認前のレビュー対象。"
+    },
+    "created_at": "2026-11-09"
+  },
+  {
+    "id": "noon-20261109-science-027",
+    "subject": "science",
+    "unit": "電流・オームの法則",
+    "grade": "中学2年",
+    "difficulty": 2,
+    "prompt": "抵抗4Ωに12Vの電圧を加えた。電流を求めなさい。",
+    "answer": "3A",
+    "explanation": "I=V/R=12/4=3A。",
+    "scoring": "正答を単位・途中式または根拠とともに示す。",
+    "status": "review",
+    "verification": {
+      "answer_status": "independently_verified",
+      "checked_by": [
+        "設問条件と答えを照合",
+        "計算・年号・用語を再確認"
+      ],
+      "notes": "2026-11-09昼の新規オリジナル問題。公開承認前のレビュー対象。"
+    },
+    "created_at": "2026-11-09"
+  },
+  {
+    "id": "noon-20261109-science-028",
+    "subject": "science",
+    "unit": "電流・オームの法則",
+    "grade": "中学2年",
+    "difficulty": 2,
+    "prompt": "抵抗5Ωに15Vの電圧を加えた。電流を求めなさい。",
+    "answer": "3A",
+    "explanation": "I=V/R=15/5=3A。",
+    "scoring": "正答を単位・途中式または根拠とともに示す。",
+    "status": "review",
+    "verification": {
+      "answer_status": "independently_verified",
+      "checked_by": [
+        "設問条件と答えを照合",
+        "計算・年号・用語を再確認"
+      ],
+      "notes": "2026-11-09昼の新規オリジナル問題。公開承認前のレビュー対象。"
+    },
+    "created_at": "2026-11-09"
+  },
+  {
+    "id": "noon-20261109-science-029",
+    "subject": "science",
+    "unit": "電力",
+    "grade": "中学2年",
+    "difficulty": 2,
+    "prompt": "100Vで1Aの電流が流れる器具の電力を求めなさい。",
+    "answer": "100W",
+    "explanation": "P=VI=100×1=100W。",
+    "scoring": "正答を単位・途中式または根拠とともに示す。",
+    "status": "review",
+    "verification": {
+      "answer_status": "independently_verified",
+      "checked_by": [
+        "設問条件と答えを照合",
+        "計算・年号・用語を再確認"
+      ],
+      "notes": "2026-11-09昼の新規オリジナル問題。公開承認前のレビュー対象。"
+    },
+    "created_at": "2026-11-09"
+  },
+  {
+    "id": "noon-20261109-science-030",
+    "subject": "science",
+    "unit": "電力",
+    "grade": "中学2年",
+    "difficulty": 2,
+    "prompt": "200Vで0.5Aの電流が流れる器具の電力を求めなさい。",
+    "answer": "100W",
+    "explanation": "P=VI=200×0.5=100W。",
+    "scoring": "正答を単位・途中式または根拠とともに示す。",
+    "status": "review",
+    "verification": {
+      "answer_status": "independently_verified",
+      "checked_by": [
+        "設問条件と答えを照合",
+        "計算・年号・用語を再確認"
+      ],
+      "notes": "2026-11-09昼の新規オリジナル問題。公開承認前のレビュー対象。"
+    },
+    "created_at": "2026-11-09"
+  },
+  {
+    "id": "noon-20261109-science-031",
+    "subject": "science",
+    "unit": "電力",
+    "grade": "中学2年",
+    "difficulty": 2,
+    "prompt": "100Vで2Aの電流が流れる器具の電力を求めなさい。",
+    "answer": "200W",
+    "explanation": "P=VI=100×2=200W。",
+    "scoring": "正答を単位・途中式または根拠とともに示す。",
+    "status": "review",
+    "verification": {
+      "answer_status": "independently_verified",
+      "checked_by": [
+        "設問条件と答えを照合",
+        "計算・年号・用語を再確認"
+      ],
+      "notes": "2026-11-09昼の新規オリジナル問題。公開承認前のレビュー対象。"
+    },
+    "created_at": "2026-11-09"
+  },
+  {
+    "id": "noon-20261109-science-032",
+    "subject": "science",
+    "unit": "電力",
+    "grade": "中学2年",
+    "difficulty": 2,
+    "prompt": "120Vで1.5Aの電流が流れる器具の電力を求めなさい。",
+    "answer": "180W",
+    "explanation": "P=VI=120×1.5=180W。",
+    "scoring": "正答を単位・途中式または根拠とともに示す。",
+    "status": "review",
+    "verification": {
+      "answer_status": "independently_verified",
+      "checked_by": [
+        "設問条件と答えを照合",
+        "計算・年号・用語を再確認"
+      ],
+      "notes": "2026-11-09昼の新規オリジナル問題。公開承認前のレビュー対象。"
+    },
+    "created_at": "2026-11-09"
+  },
+  {
+    "id": "noon-20261109-science-033",
+    "subject": "science",
+    "unit": "密度",
+    "grade": "中学1年",
+    "difficulty": 2,
+    "prompt": "質量60g、体積20cm³の物質の密度を求めなさい。",
+    "answer": "3g/cm³",
+    "explanation": "密度=質量÷体積=60÷20=3g/cm³。",
+    "scoring": "正答を単位・途中式または根拠とともに示す。",
+    "status": "review",
+    "verification": {
+      "answer_status": "independently_verified",
+      "checked_by": [
+        "設問条件と答えを照合",
+        "計算・年号・用語を再確認"
+      ],
+      "notes": "2026-11-09昼の新規オリジナル問題。公開承認前のレビュー対象。"
+    },
+    "created_at": "2026-11-09"
+  },
+  {
+    "id": "noon-20261109-science-034",
+    "subject": "science",
+    "unit": "密度",
+    "grade": "中学1年",
+    "difficulty": 2,
+    "prompt": "質量90g、体積30cm³の物質の密度を求めなさい。",
+    "answer": "3g/cm³",
+    "explanation": "密度=質量÷体積=90÷30=3g/cm³。",
+    "scoring": "正答を単位・途中式または根拠とともに示す。",
+    "status": "review",
+    "verification": {
+      "answer_status": "independently_verified",
+      "checked_by": [
+        "設問条件と答えを照合",
+        "計算・年号・用語を再確認"
+      ],
+      "notes": "2026-11-09昼の新規オリジナル問題。公開承認前のレビュー対象。"
+    },
+    "created_at": "2026-11-09"
+  },
+  {
+    "id": "noon-20261109-science-035",
+    "subject": "science",
+    "unit": "密度",
+    "grade": "中学1年",
+    "difficulty": 2,
+    "prompt": "質量120g、体積40cm³の物質の密度を求めなさい。",
+    "answer": "3g/cm³",
+    "explanation": "密度=質量÷体積=120÷40=3g/cm³。",
+    "scoring": "正答を単位・途中式または根拠とともに示す。",
+    "status": "review",
+    "verification": {
+      "answer_status": "independently_verified",
+      "checked_by": [
+        "設問条件と答えを照合",
+        "計算・年号・用語を再確認"
+      ],
+      "notes": "2026-11-09昼の新規オリジナル問題。公開承認前のレビュー対象。"
+    },
+    "created_at": "2026-11-09"
+  },
+  {
+    "id": "noon-20261109-science-036",
+    "subject": "science",
+    "unit": "密度",
+    "grade": "中学1年",
+    "difficulty": 2,
+    "prompt": "質量150g、体積50cm³の物質の密度を求めなさい。",
+    "answer": "3g/cm³",
+    "explanation": "密度=質量÷体積=150÷50=3g/cm³。",
+    "scoring": "正答を単位・途中式または根拠とともに示す。",
+    "status": "review",
+    "verification": {
+      "answer_status": "independently_verified",
+      "checked_by": [
+        "設問条件と答えを照合",
+        "計算・年号・用語を再確認"
+      ],
+      "notes": "2026-11-09昼の新規オリジナル問題。公開承認前のレビュー対象。"
+    },
+    "created_at": "2026-11-09"
+  },
+  {
+    "id": "noon-20261109-science-037",
+    "subject": "science",
+    "unit": "水溶液・濃度",
+    "grade": "中学1年",
+    "difficulty": 2,
+    "prompt": "水90gに食塩10gを溶かした。質量パーセント濃度を求めなさい。",
+    "answer": "10%",
+    "explanation": "溶液は100g。10÷100×100=10%。",
+    "scoring": "正答を単位・途中式または根拠とともに示す。",
+    "status": "review",
+    "verification": {
+      "answer_status": "independently_verified",
+      "checked_by": [
+        "設問条件と答えを照合",
+        "計算・年号・用語を再確認"
+      ],
+      "notes": "2026-11-09昼の新規オリジナル問題。公開承認前のレビュー対象。"
+    },
+    "created_at": "2026-11-09"
+  },
+  {
+    "id": "noon-20261109-science-038",
+    "subject": "science",
+    "unit": "水溶液・濃度",
+    "grade": "中学1年",
+    "difficulty": 2,
+    "prompt": "水85gに食塩15gを溶かした。質量パーセント濃度を求めなさい。",
+    "answer": "15%",
+    "explanation": "溶液は100g。15÷100×100=15%。",
+    "scoring": "正答を単位・途中式または根拠とともに示す。",
+    "status": "review",
+    "verification": {
+      "answer_status": "independently_verified",
+      "checked_by": [
+        "設問条件と答えを照合",
+        "計算・年号・用語を再確認"
+      ],
+      "notes": "2026-11-09昼の新規オリジナル問題。公開承認前のレビュー対象。"
+    },
+    "created_at": "2026-11-09"
+  },
+  {
+    "id": "noon-20261109-science-039",
+    "subject": "science",
+    "unit": "水溶液・濃度",
+    "grade": "中学1年",
+    "difficulty": 2,
+    "prompt": "水80gに食塩20gを溶かした。質量パーセント濃度を求めなさい。",
+    "answer": "20%",
+    "explanation": "溶液は100g。20÷100×100=20%。",
+    "scoring": "正答を単位・途中式または根拠とともに示す。",
+    "status": "review",
+    "verification": {
+      "answer_status": "independently_verified",
+      "checked_by": [
+        "設問条件と答えを照合",
+        "計算・年号・用語を再確認"
+      ],
+      "notes": "2026-11-09昼の新規オリジナル問題。公開承認前のレビュー対象。"
+    },
+    "created_at": "2026-11-09"
+  },
+  {
+    "id": "noon-20261109-science-040",
+    "subject": "science",
+    "unit": "水溶液・濃度",
+    "grade": "中学1年",
+    "difficulty": 2,
+    "prompt": "水75gに食塩25gを溶かした。質量パーセント濃度を求めなさい。",
+    "answer": "25%",
+    "explanation": "溶液は100g。25÷100×100=25%。",
+    "scoring": "正答を単位・途中式または根拠とともに示す。",
+    "status": "review",
+    "verification": {
+      "answer_status": "independently_verified",
+      "checked_by": [
+        "設問条件と答えを照合",
+        "計算・年号・用語を再確認"
+      ],
+      "notes": "2026-11-09昼の新規オリジナル問題。公開承認前のレビュー対象。"
+    },
+    "created_at": "2026-11-09"
+  },
+  {
+    "id": "noon-20261109-social-041",
+    "subject": "social",
+    "unit": "歴史・近代",
+    "grade": "中学3年",
+    "difficulty": 2,
+    "prompt": "明治政府が藩を廃止して府県を置いた改革を何というか。",
+    "answer": "廃藩置県",
+    "explanation": "1871年に藩を廃止し、府県を置いて中央集権化を進めた。",
+    "scoring": "正答を単位・途中式または根拠とともに示す。",
+    "status": "review",
+    "verification": {
+      "answer_status": "independently_verified",
+      "checked_by": [
+        "設問条件と答えを照合",
+        "計算・年号・用語を再確認"
+      ],
+      "notes": "2026-11-09昼の新規オリジナル問題。公開承認前のレビュー対象。"
+    },
+    "created_at": "2026-11-09"
+  },
+  {
+    "id": "noon-20261109-social-042",
+    "subject": "social",
+    "unit": "歴史・古代",
+    "grade": "中学3年",
+    "difficulty": 2,
+    "prompt": "大化の改新のきっかけとなった645年の政変を何というか。",
+    "answer": "乙巳の変",
+    "explanation": "645年に中大兄皇子らが蘇我入鹿を倒した政変。",
+    "scoring": "正答を単位・途中式または根拠とともに示す。",
+    "status": "review",
+    "verification": {
+      "answer_status": "independently_verified",
+      "checked_by": [
+        "設問条件と答えを照合",
+        "計算・年号・用語を再確認"
+      ],
+      "notes": "2026-11-09昼の新規オリジナル問題。公開承認前のレビュー対象。"
+    },
+    "created_at": "2026-11-09"
+  },
+  {
+    "id": "noon-20261109-social-043",
+    "subject": "social",
+    "unit": "歴史・古代",
+    "grade": "中学3年",
+    "difficulty": 2,
+    "prompt": "平安京に都が移された年を西暦で答えなさい。",
+    "answer": "794年",
+    "explanation": "桓武天皇が794年に平安京へ遷都した。",
+    "scoring": "正答を単位・途中式または根拠とともに示す。",
+    "status": "review",
+    "verification": {
+      "answer_status": "independently_verified",
+      "checked_by": [
+        "設問条件と答えを照合",
+        "計算・年号・用語を再確認"
+      ],
+      "notes": "2026-11-09昼の新規オリジナル問題。公開承認前のレビュー対象。"
+    },
+    "created_at": "2026-11-09"
+  },
+  {
+    "id": "noon-20261109-social-044",
+    "subject": "social",
+    "unit": "歴史・近世",
+    "grade": "中学3年",
+    "difficulty": 2,
+    "prompt": "江戸幕府を開いた人物は誰か。",
+    "answer": "徳川家康",
+    "explanation": "1603年に徳川家康が征夷大将軍となり江戸幕府を開いた。",
+    "scoring": "正答を単位・途中式または根拠とともに示す。",
+    "status": "review",
+    "verification": {
+      "answer_status": "independently_verified",
+      "checked_by": [
+        "設問条件と答えを照合",
+        "計算・年号・用語を再確認"
+      ],
+      "notes": "2026-11-09昼の新規オリジナル問題。公開承認前のレビュー対象。"
+    },
+    "created_at": "2026-11-09"
+  },
+  {
+    "id": "noon-20261109-social-045",
+    "subject": "social",
+    "unit": "歴史・近代",
+    "grade": "中学3年",
+    "difficulty": 2,
+    "prompt": "ペリーが浦賀に来航した年を西暦で答えなさい。",
+    "answer": "1853年",
+    "explanation": "1853年にペリーが艦隊を率いて浦賀に来航した。",
+    "scoring": "正答を単位・途中式または根拠とともに示す。",
+    "status": "review",
+    "verification": {
+      "answer_status": "independently_verified",
+      "checked_by": [
+        "設問条件と答えを照合",
+        "計算・年号・用語を再確認"
+      ],
+      "notes": "2026-11-09昼の新規オリジナル問題。公開承認前のレビュー対象。"
+    },
+    "created_at": "2026-11-09"
+  },
+  {
+    "id": "noon-20261109-social-046",
+    "subject": "social",
+    "unit": "歴史・近代",
+    "grade": "中学3年",
+    "difficulty": 2,
+    "prompt": "大日本帝国憲法が発布された年を西暦で答えなさい。",
+    "answer": "1889年",
+    "explanation": "大日本帝国憲法は1889年2月11日に発布された。",
+    "scoring": "正答を単位・途中式または根拠とともに示す。",
+    "status": "review",
+    "verification": {
+      "answer_status": "independently_verified",
+      "checked_by": [
+        "設問条件と答えを照合",
+        "計算・年号・用語を再確認"
+      ],
+      "notes": "2026-11-09昼の新規オリジナル問題。公開承認前のレビュー対象。"
+    },
+    "created_at": "2026-11-09"
+  },
+  {
+    "id": "noon-20261109-social-047",
+    "subject": "social",
+    "unit": "歴史・現代",
+    "grade": "中学3年",
+    "difficulty": 2,
+    "prompt": "第一次世界大戦が始まった年を西暦で答えなさい。",
+    "answer": "1914年",
+    "explanation": "第一次世界大戦は1914年に始まった。",
+    "scoring": "正答を単位・途中式または根拠とともに示す。",
+    "status": "review",
+    "verification": {
+      "answer_status": "independently_verified",
+      "checked_by": [
+        "設問条件と答えを照合",
+        "計算・年号・用語を再確認"
+      ],
+      "notes": "2026-11-09昼の新規オリジナル問題。公開承認前のレビュー対象。"
+    },
+    "created_at": "2026-11-09"
+  },
+  {
+    "id": "noon-20261109-social-048",
+    "subject": "social",
+    "unit": "歴史・現代",
+    "grade": "中学3年",
+    "difficulty": 2,
+    "prompt": "第二次世界大戦が終結した年を西暦で答えなさい。",
+    "answer": "1945年",
+    "explanation": "日本の降伏などにより第二次世界大戦は1945年に終結した。",
+    "scoring": "正答を単位・途中式または根拠とともに示す。",
+    "status": "review",
+    "verification": {
+      "answer_status": "independently_verified",
+      "checked_by": [
+        "設問条件と答えを照合",
+        "計算・年号・用語を再確認"
+      ],
+      "notes": "2026-11-09昼の新規オリジナル問題。公開承認前のレビュー対象。"
+    },
+    "created_at": "2026-11-09"
+  },
+  {
+    "id": "noon-20261109-social-049",
+    "subject": "social",
+    "unit": "公民・憲法",
+    "grade": "中学3年",
+    "difficulty": 2,
+    "prompt": "日本国憲法が施行された日を答えなさい。",
+    "answer": "1947年5月3日",
+    "explanation": "日本国憲法は1946年11月3日に公布され、1947年5月3日に施行された。",
+    "scoring": "正答を単位・途中式または根拠とともに示す。",
+    "status": "review",
+    "verification": {
+      "answer_status": "independently_verified",
+      "checked_by": [
+        "設問条件と答えを照合",
+        "計算・年号・用語を再確認"
+      ],
+      "notes": "2026-11-09昼の新規オリジナル問題。公開承認前のレビュー対象。"
+    },
+    "created_at": "2026-11-09"
+  },
+  {
+    "id": "noon-20261109-social-050",
+    "subject": "social",
+    "unit": "公民・国際",
+    "grade": "中学3年",
+    "difficulty": 2,
+    "prompt": "国際連合が発足した年を西暦で答えなさい。",
+    "answer": "1945年",
+    "explanation": "国際連合は1945年10月に発足した。",
+    "scoring": "正答を単位・途中式または根拠とともに示す。",
+    "status": "review",
+    "verification": {
+      "answer_status": "independently_verified",
+      "checked_by": [
+        "設問条件と答えを照合",
+        "計算・年号・用語を再確認"
+      ],
+      "notes": "2026-11-09昼の新規オリジナル問題。公開承認前のレビュー対象。"
+    },
+    "created_at": "2026-11-09"
+  }
+]
