@@ -54,7 +54,7 @@ def main():
             if not isinstance(prompt, str) or not prompt.strip():
                 errors.append(f"{where}: prompt must be a non-empty string")
             else:
-                prompt_key = (str(item["subject"]), re.sub(r"\\s+", " ", prompt).strip())
+                prompt_key = (str(item["subject"]), re.sub(r"\s+", " ", prompt).strip())
                 if prompt_key in seen_prompts:
                     errors.append(f"{where}: duplicate prompt (first at {seen_prompts[prompt_key]})")
                 else:
