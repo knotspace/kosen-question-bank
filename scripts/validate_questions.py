@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """Validate basic structure and publication status of KOSEN question datasets."""
 import json
+import re
 from pathlib import Path
 import sys
 
@@ -25,6 +26,7 @@ VALID_ANSWER = {"official", "independently_verified", "provisional", "unresolved
 def main():
     errors = []
     seen = set()
+    seen_prompts = {}
     count = 0
     for path in FILES:
         try:
@@ -48,6 +50,15 @@ def main():
             if item["id"] in seen:
                 errors.append(f"{where}: duplicate id {item['id']}")
             seen.add(item["id"])
+            prompt = item["prompt"]
+            if not isinstance(prompt, str) or not prompt.strip():
+                errors.append(f"{where}: prompt must be a non-empty string")
+            else:
+                prompt_key = (str(item["subject"]), re.sub(r"\\s+", " ", prompt).strip())
+                if prompt_key in seen_prompts:
+                    errors.append(f"{where}: duplicate prompt (first at {seen_prompts[prompt_key]})")
+                else:
+                    seen_prompts[prompt_key] = where
             if item["subject"] not in VALID_SUBJECTS:
                 errors.append(f"{where}: invalid subject")
             if item["status"] not in VALID_STATUSES:
