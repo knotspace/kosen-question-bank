@@ -16,6 +16,7 @@ FILES = [
     ROOT / "data/questions/expansion-2026-11-08-b.json",
     ROOT / "data/questions/expansion-2026-11-08-c.json",
     ROOT / "data/questions/expansion-2026-11-09-noon.json",
+    ROOT / "data/questions/expansion-2026-11-13.json",
 ]
 REQUIRED = {"id", "subject", "unit", "prompt", "answer", "explanation",
             "status", "verification", "created_at"}
